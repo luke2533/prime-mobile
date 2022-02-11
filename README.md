@@ -99,6 +99,16 @@ Additions:
 - Home app view added
 - Created home urls.py
 
+### 6.5 Home page CSS, reponsive breakpoints and static directory
+
+Additions:
+
+- Fixed home page issues
+- Added static directory
+- Added Nav, Footer and home page CSS
+- Added responsive breakpoints for home page
+- Added media file and background image
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
