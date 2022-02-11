@@ -109,6 +109,13 @@ Additions:
 - Added responsive breakpoints for home page
 - Added media file and background image
 
+### 6.6 Log in, log out and sign up pages work
+
+Additions:
+
+- Users can log in and out
+- Users can sign up
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
