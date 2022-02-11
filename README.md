@@ -70,6 +70,14 @@ Additions:
 - README Template
 - Created admin account
 
+### 6.2 Allauth setup and authentication 
+
+Additions: 
+
+- Installed and setup allauth
+- Added requirements.txt
+- Added templates file directory
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
