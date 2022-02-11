@@ -78,6 +78,18 @@ Additions:
 - Added requirements.txt
 - Added templates file directory
 
+### 6.3 Base template and allauth files
+
+Additions:
+
+- Allauth files
+- Base.html template
+- Nav bar
+- Footer
+- Bootstrap
+- jQuery
+- Fontawesome
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
