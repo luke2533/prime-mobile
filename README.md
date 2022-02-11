@@ -90,6 +90,15 @@ Additions:
 - jQuery
 - Fontawesome
 
+### 6.4 Home app / page created
+
+Additions:
+
+- Created home app
+- Home page html added
+- Home app view added
+- Created home urls.py
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
