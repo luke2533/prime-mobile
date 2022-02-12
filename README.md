@@ -116,6 +116,15 @@ Additions:
 - Users can log in and out
 - Users can sign up
 
+### 6.7 Store app and files
+
+Additions:
+
+- Store app
+- Store urls
+- Basic store views
+- store.html
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
