@@ -125,6 +125,15 @@ Additions:
 - Basic store views
 - store.html
 
+### 6.8 Store page structure and styling
+
+Additions:
+
+- store.html content
+- Store page CSS
+- Product images
+- Fixtures file
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
