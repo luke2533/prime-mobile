@@ -1,0 +1,3242 @@
+[
+    {
+        "pk": 1,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 1,
+            "sku": "IP-001-M-BLU",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#377ea3",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 2,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 2,
+            "sku": "IP-002-M-MID",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#2a3139",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 3,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 3,
+            "sku": "IP-003-M-RED",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c71c2c",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 4,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 4,
+            "sku": "IP-004-M-STA",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fcf9f6",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 5,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 5,
+            "sku": "IP-005-L-BLU",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 879.99
+        }
+    },
+    {
+        "pk": 6,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 6,
+            "sku": "IP-006-L-MID",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#2a3139",
+            "cost": 879.99
+        }
+    },
+    {
+        "pk": 7,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 7,
+            "sku": "IP-007-L-RED",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c71c2c",
+            "cost": 879.99
+        }
+    },
+    {
+        "pk": 8,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 8,
+            "sku": "IP-008-L-STA",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#fcf9f6",
+            "cost": 879.99
+        }
+    },
+    {
+        "pk": 9,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 9,
+            "sku": "IP-009-XL-BLU",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#377ea3",
+            "cost": 1079.99
+        }
+    },
+    {
+        "pk": 10,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 10,
+            "sku": "IP-010-XL-MID",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#2a3139",
+            "cost": 1079.99
+        } 
+    },
+    {
+        "pk": 11,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 11,
+            "sku": "IP-011-XL-RED",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#c71c2c",
+            "cost": 1079.99
+        }
+    },
+    {
+        "pk": 12,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 12,
+            "sku": "IP-012-XL-STA",
+            "name": "iPhone 13",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13",
+            "img_2": "i13-1",
+            "img_3": "i13-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#fcf9f6",
+            "cost": 1079.99
+        }
+    },
+    {
+        "pk": 13,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 13,
+            "sku": "IP-013-M-BLU",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#377ea3",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 14,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 14,
+            "sku": "IP-014-M-MID",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#2a3139",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 15,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 15,
+            "sku": "IP-015-M-RED",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c71c2c",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 16,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 16,
+            "sku": "IP-016-M-STA",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fcf9f6",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 17,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 17,
+            "sku": "IP-017-L-BLU",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 18,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 18,
+            "sku": "IP-018-L-MID",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#2a3139",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 19,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 19,
+            "sku": "IP-019-L-RED",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c71c2c",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 20,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 20,
+            "sku": "IP-020-L-STA",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#fcf9f6",
+            "cost": 779.99
+        }
+    },
+    {
+        "pk": 21,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 21,
+            "sku": "IP-021-XL-BLU",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#377ea3",
+            "cost": 979.99
+        }
+    },
+    {
+        "pk": 22,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 22,
+            "sku": "IP-022-XL-MID",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#2a3139",
+            "cost": 979.99
+        }
+    },
+    {
+        "pk": 23,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 23,
+            "sku": "IP-023-XL-RED",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#c71c2c",
+            "cost": 979.99
+        }
+    },
+    {
+        "pk": 24,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 24,
+            "sku": "IP-024-XL-STA",
+            "name": "iPhone 13 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini",
+            "img_2": "i13-mini-1",
+            "img_3": "i13-mini-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#fcf9f6",
+            "cost": 979.99
+        }
+    },
+    {
+        "pk": 25,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 25,
+            "sku": "IP-025-M-GOL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#d4b38e",
+            "cost": 949.99
+        }
+    },
+    {
+        "pk": 26,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 26,
+            "sku": "IP-026-M-GRA",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#4e5355",
+            "cost": 949.99
+        }
+    },
+    {
+        "pk": 27,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 27,
+            "sku": "IP-027-M-LIE",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#a0bcd6",
+            "cost": 949.99
+        }
+    },
+    {
+        "pk": 28,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 28,
+            "sku": "IP-028-M-SIL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c0c0c0",
+            "cost": 949.99
+        }
+    },
+    {
+        "pk": 29,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 29,
+            "sku": "IP-029-L-GOL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#d4b38e",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 30,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 30,
+            "sku": "IP-030-L-GRA",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#4e5355",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 31,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 31,
+            "sku": "IP-031-L-LIE",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#a0bcd6",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 32,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 32,
+            "sku": "IP-032-L-SIL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 33,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 33,
+            "sku": "IP-033-XL-GOL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#d4b38e",
+            "cost": 1249.99
+        }
+    },
+    {
+        "pk": 34,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 34,
+            "sku": "IP-034-XL-GRA",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#4e5355",
+            "cost": 1249.99
+        }
+    },
+    {
+        "pk": 35,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 35,
+            "sku": "IP-035-XL-LIE",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#a0bcd6",
+            "cost": 1249.99
+        }
+    },
+    {
+        "pk": 36,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 36,
+            "sku": "IP-036-XL-SIL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#c0c0c0",
+            "cost": 1249.99
+        }
+    },
+    {
+        "pk": 37,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 37,
+            "sku": "IP-037-XXL-GOL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#d4b38e",
+            "cost": 1449.99
+        }
+    },
+    {
+        "pk": 38,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 38,
+            "sku": "IP-038-XXL-GRA",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#4e5355",
+            "cost": 1449.99
+        }
+    },
+    {
+        "pk": 39,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 39,
+            "sku": "IP-039-XXL-LIE",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#a0bcd6",
+            "cost": 1449.99
+        }
+    },
+    {
+        "pk": 40,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 40,
+            "sku": "IP-040-XXL-SIL",
+            "name": "iPhone 13 Pro",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#c0c0c0",
+            "cost": 1449.99
+        }
+    },
+    {
+        "pk": 41,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 41,
+            "sku": "IP-041-M-GOL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#d4b38e",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 42,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 42,
+            "sku": "IP-042-M-GRA",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#4e5355",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 43,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 43,
+            "sku": "IP-043-M-LIE",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#a0bcd6",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 44,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 44,
+            "sku": "IP-044-M-SIL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c0c0c0",
+            "cost": 1049.99
+        }
+    },
+    {
+        "pk": 45,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 45,
+            "sku": "IP-045-L-GOL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#d4b38e",
+            "cost": 1149.99
+        }
+    },
+    {
+        "pk": 46,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 46,
+            "sku": "IP-046-L-GRA",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#4e5355",
+            "cost": 1149.99
+        }
+    },
+    {
+        "pk": 47,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 47,
+            "sku": "IP-047-L-LIE",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#a0bcd6",
+            "cost": 1149.99
+        }
+    },
+    {
+        "pk": 48,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 48,
+            "sku": "IP-048-L-SIL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 1149.99
+        }
+    },
+    {
+        "pk": 49,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 49,
+            "sku": "IP-049-XL-GOL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#d4b38e",
+            "cost": 1349.99
+        }
+    },
+    {
+        "pk": 50,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 50,
+            "sku": "IP-050-XL-GRA",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#4e5355",
+            "cost": 1349.99
+        }
+    },
+    {
+        "pk": 51,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 51,
+            "sku": "IP-051-XL-LIE",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#a0bcd6",
+            "cost": 1349.99
+        }
+    },
+    {
+        "pk": 52,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 52,
+            "sku": "IP-052-XL-SIL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#c0c0c0",
+            "cost": 1349.99
+        }
+    },
+    {
+        "pk": 53,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 53,
+            "sku": "IP-053-XXL-GOL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#d4b38e",
+            "cost": 1549.99
+        }
+    },
+    {
+        "pk": 54,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 54,
+            "sku": "IP-054-XXL-GRA",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#4e5355",
+            "cost": 1549.99
+        }
+    },
+    {
+        "pk": 55,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 55,
+            "sku": "IP-055-XXL-LIE",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#a0bcd6",
+            "cost": 1549.99
+        }
+    },
+    {
+        "pk": 56,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 56,
+            "sku": "IP-056-XXL-SIL",
+            "name": "iPhone 13 Pro Max",
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro",
+            "img_2": "i13-pro-1",
+            "img_3": "i13-pro-2",
+            "category": 1,
+            "storage": 1024,
+            "color": "#c0c0c0",
+            "cost": 1549.99
+        }
+    },
+    {
+        "pk": 57,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 57,
+            "sku": "IP-057-S-WHI",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#fff",
+            "cost": 559.99
+        }
+    },
+    {
+        "pk": 58,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 58,
+            "sku": "IP-058-S-RED",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#c71c2c",
+            "cost": 559.99
+        }
+    },
+    {
+        "pk": 59,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 59,
+            "sku": "IP-059-S-BLU",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#377ea3",
+            "cost": 559.99
+        }
+    },
+    {
+        "pk": 60,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 60,
+            "sku": "IP-060-S-BLK",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#000",
+            "cost": 559.99
+        }
+    },
+    {
+        "pk": 61,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 61,
+            "sku": "IP-061-M-WHI",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fff",
+            "cost": 609.99
+        }
+    },
+    {
+        "pk": 62,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 62,
+            "sku": "IP-062-M-RED",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c71c2c",
+            "cost": 609.99
+        }
+    },
+    {
+        "pk": 63,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 63,
+            "sku": "IP-063-M-BLU",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#377ea3",
+            "cost": 609.99
+        }
+    },
+    {
+        "pk": 64,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 64,
+            "sku": "IP-064-M-BLK",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 609.99
+        }
+    },
+    {
+        "pk": 65,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 65,
+            "sku": "IP-065-L-WHI",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#fff",
+            "cost": 709.99
+        }
+    },
+    {
+        "pk": 66,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 66,
+            "sku": "IP-066-L-RED",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c71c2c",
+            "cost": 709.99
+        }
+    },
+    {
+        "pk": 67,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 67,
+            "sku": "IP-067-L-BLU",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 709.99
+        }
+    },
+    {
+        "pk": 68,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 68,
+            "sku": "IP-068-L-BLK",
+            "name": "iPhone 12 Mini",
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini",
+            "img_2": "i12-mini-1",
+            "img_3": "i12-mini-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 709.99
+        }
+    },
+    {
+        "pk": 69,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 69,
+            "sku": "IP-069-S-WHI",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#fff",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 70,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 70,
+            "sku": "IP-070-S-RED",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#c71c2c",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 71,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 71,
+            "sku": "IP-071-S-BLU",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#377ea3",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 72,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 72,
+            "sku": "IP-072-S-BLK",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#000",
+            "cost": 679.99
+        }
+    },
+    {
+        "pk": 73,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 73,
+            "sku": "IP-073-M-WHI",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fff",
+            "cost": 729.99
+        }
+    },
+    {
+        "pk": 74,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 74,
+            "sku": "IP-074-M-RED",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c71c2c",
+            "cost": 729.99
+        }
+    },
+    {
+        "pk": 75,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 75,
+            "sku": "IP-075-M-BLU",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#377ea3",
+            "cost": 729.99
+        }
+    },
+    {
+        "pk": 76,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 76,
+            "sku": "IP-076-M-BLK",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 729.99
+        }
+    },
+    {
+        "pk": 77,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 77,
+            "sku": "IP-077-L-WHI",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#fff",
+            "cost": 829.99
+        }
+    },
+    {
+        "pk": 78,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 78,
+            "sku": "IP-078-L-RED",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c71c2c",
+            "cost": 829.99
+        }
+    },
+    {
+        "pk": 79,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 79,
+            "sku": "IP-079-L-BLU",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 829.99
+        }
+    },
+    {
+        "pk": 80,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 80,
+            "sku": "IP-080-L-BLK",
+            "name": "iPhone 12",
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12",
+            "img_2": "i12-1",
+            "img_3": "i12-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 829.99
+        }
+    },
+    {
+        "pk": 81,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 81,
+            "sku": "SA-081-M-SIL",
+            "name": "Samsung S21 Ultra",
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "108MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21-ultra",
+            "img_2": "s21-ultra-1",
+            "img_3": "s21-ultra-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c0c0c0",
+            "cost": 969.99
+        }
+    },
+    {
+        "pk": 82,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 82,
+            "sku": "SA-082-M-BLK",
+            "name": "Samsung S21 Ultra",
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "108MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21-ultra",
+            "img_2": "s21-ultra-1",
+            "img_3": "s21-ultra-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 969.99
+        }
+    },
+    {
+        "pk": 83,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 83,
+            "sku": "SA-083-L-SIL",
+            "name": "Samsung S21 Ultra",
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "108MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21-ultra",
+            "img_2": "s21-ultra-1",
+            "img_3": "s21-ultra-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 999.99
+        }
+    },
+    {
+        "pk": 84,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 84,
+            "sku": "SA-084-L-BLK",
+            "name": "Samsung S21 Ultra",
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "108MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21-ultra",
+            "img_2": "s21-ultra-1",
+            "img_3": "s21-ultra-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 999.99
+        }
+    },
+    {
+        "pk": 85,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 85,
+            "sku": "SA-085-M-VIO",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#6c204f",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 86,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 86,
+            "sku": "SA-086-M-WHI",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fff",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 87,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 87,
+            "sku": "SA-087-M-PIN",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#ffc0cb",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 88,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 88,
+            "sku": "SA-088-M-GRY",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#808080",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 89,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 89,
+            "sku": "SA-089-L-VIO",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#6c204f",
+            "cost": 699.99
+        }
+    },
+    {
+        "pk": 90,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 90,
+            "sku": "SA-090-L-WHI",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#fff",
+            "cost": 699.99
+        }
+    },
+    {
+        "pk": 91,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 91,
+            "sku": "SA-091-L-PIN",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#ffc0cb",
+            "cost": 699.99
+        }
+    },
+    {
+        "pk": 92,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 92,
+            "sku": "SA-092-L-GRY",
+            "name": "Samsung S21",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21",
+            "img_2": "s21-1",
+            "img_3": "s21-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#808080",
+            "cost": 699.99
+        }
+    },
+    {
+        "pk": 93,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 93,
+            "sku": "SA-093-L-BLK",
+            "name": "Samsung Galaxy Z Fold3 5G",
+            "os": "Andriod 11",
+            "screen": "7.6 / 6.2",
+            "camera": "12MP",
+            "capacity": "256 - 512GB",
+            "img_1": "fold",
+            "img_2": "fold-1",
+            "img_3": "fold-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 1599.99
+        }
+    },
+    {
+        "pk": 94,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 94,
+            "sku": "SA-094-L-SIL",
+            "name": "Samsung Galaxy Z Fold3 5G",
+            "os": "Andriod 11",
+            "screen": "7.6 / 6.2",
+            "camera": "12MP",
+            "capacity": "256 - 512GB",
+            "img_1": "fold",
+            "img_2": "fold-1",
+            "img_3": "fold-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 1599.99
+        }
+    },
+    {
+        "pk": 95,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 95,
+            "sku": "SA-095-L-GRE",
+            "name": "Samsung Galaxy Z Fold3 5G",
+            "os": "Andriod 11",
+            "screen": "7.6 / 6.2",
+            "camera": "12MP",
+            "capacity": "256 - 512GB",
+            "img_1": "fold",
+            "img_2": "fold-1",
+            "img_3": "fold-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#46c77e",
+            "cost": 1599.99
+        }
+    },
+    {
+        "pk": 96,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 96,
+            "sku": "SA-096-XL-BLK",
+            "name": "Samsung Galaxy Z Fold3 5G",
+            "os": "Andriod 11",
+            "screen": "7.6 / 6.2",
+            "camera": "12MP",
+            "capacity": "256 - 512GB",
+            "img_1": "fold",
+            "img_2": "fold-1",
+            "img_3": "fold-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#000",
+            "cost": 1699.99
+        }
+    },
+    {
+        "pk": 97,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 97,
+            "sku": "SA-097-XL-SIL",
+            "name": "Samsung Galaxy Z Fold3 5G",
+            "os": "Andriod 11",
+            "screen": "7.6 / 6.2",
+            "camera": "12MP",
+            "capacity": "256 - 512GB",
+            "img_1": "fold",
+            "img_2": "fold-1",
+            "img_3": "fold-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#c0c0c0",
+            "cost": 1699.99
+        }
+    },
+    {
+        "pk": 98,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 98,
+            "sku": "SA-098-XL-GRE",
+            "name": "Samsung Galaxy Z Fold3 5G",
+            "os": "Andriod 11",
+            "screen": "7.6 / 6.2",
+            "camera": "12MP",
+            "capacity": "256 - 512GB",
+            "img_1": "fold",
+            "img_2": "fold-1",
+            "img_3": "fold-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#46c77e",
+            "cost": 1699.99
+        }
+    },
+    {
+        "pk": 99,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 99,
+            "sku": "SA-099-M-BLK",
+            "name": "Samsung Galaxy A52s",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "64MP",
+            "capacity": "128GB",
+            "img_1": "a52s",
+            "img_2": "a52s-1",
+            "img_3": "a52s",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 349.99
+        }
+    },
+    {
+        "pk": 100,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 100,
+            "sku": "SA-100-M-WHI",
+            "name": "Samsung Galaxy A52s",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "64MP",
+            "capacity": "128GB",
+            "img_1": "a52s",
+            "img_2": "a52s-1",
+            "img_3": "a52s",
+            "category": 1,
+            "storage": 128,
+            "color": "#fff",
+            "cost": 349.99
+        }
+    },
+    {
+        "pk": 101,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 101,
+            "sku": "SA-101-M-VIO",
+            "name": "Samsung Galaxy A52s",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "64MP",
+            "capacity": "128GB",
+            "img_1": "a52s",
+            "img_2": "a52s-1",
+            "img_3": "a52s",
+            "category": 1,
+            "storage": 128,
+            "color": "#6c204f",
+            "cost": 349.99
+        }
+    },
+    {
+        "pk": 102,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 102,
+            "sku": "SA-102-M-LIM",
+            "name": "Samsung Galaxy A52s",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "64MP",
+            "capacity": "128GB",
+            "img_1": "a52s",
+            "img_2": "a52s-1",
+            "img_3": "a52s",
+            "category": 1,
+            "storage": 128,
+            "color": "#98ff98",
+            "cost": 349.99
+        }
+    },
+    {
+        "pk": 103,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 103,
+            "sku": "SA-103-S-BLK",
+            "name": "Samsung Galaxy A32",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "a32",
+            "img_2": "a32-1",
+            "img_3": "a32-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#000",
+            "cost": 249.99
+        }
+    },
+    {
+        "pk": 104,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 104,
+            "sku": "SA-104-S-WHI",
+            "name": "Samsung Galaxy A32",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "a32",
+            "img_2": "a32-1",
+            "img_3": "a32-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#fff",
+            "cost": 249.99
+        }
+    },
+    {
+        "pk": 105,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 105,
+            "sku": "SA-105-S-VIO",
+            "name": "Samsung Galaxy A32",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "a32",
+            "img_2": "a32-1",
+            "img_3": "a32-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#6c204f",
+            "cost": 249.99
+        }
+    },
+    {
+        "pk": 106,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 106,
+            "sku": "SA-106-S-BLU",
+            "name": "Samsung Galaxy A32",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "a32",
+            "img_2": "a32-1",
+            "img_3": "a32-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#377ea3",
+            "cost": 249.99
+        }
+    },
+    {
+        "pk": 107,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 107,
+            "sku": "SA-107-S-VIO",
+            "name": "Samsung Galaxy A22 5G",
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "a22",
+            "img_2": "a22-1",
+            "img_3": "a22-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#6c204f",
+            "cost": 199.99
+        }
+    },
+    {
+        "pk": 108,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 108,
+            "sku": "SA-108-S-WHI",
+            "name": "Samsung Galaxy A22 5G",
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "a22",
+            "img_2": "a22-1",
+            "img_3": "a22-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#fff",
+            "cost": 199.99
+        }
+    },
+    {
+        "pk": 109,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 109,
+            "sku": "SA-109-S-GRY",
+            "name": "Samsung Galaxy A22 5G",
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "a22",
+            "img_2": "a22-1",
+            "img_3": "a22-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#808080",
+            "cost": 199.99
+        }
+    },
+    {
+        "pk": 110,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 110,
+            "sku": "HO-110-M-GRE",
+            "name": "HONOR 50",
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "108MP",
+            "capacity": "128GB",
+            "img_1": "h50",
+            "img_2": "h50-1",
+            "img_3": "h50-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#46c77e",
+            "cost": 449.99
+        }
+    },
+    {
+        "pk": 111,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 111,
+            "sku": "HO-111-M-BLK",
+            "name": "HONOR 50",
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "108MP",
+            "capacity": "128GB",
+            "img_1": "h50",
+            "img_2": "h50-1",
+            "img_3": "h50-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 449.99
+        }
+    },
+    {
+        "pk": 112,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 112,
+            "sku": "HO-112-M-WHI",
+            "name": "HONOR 50",
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "108MP",
+            "capacity": "128GB",
+            "img_1": "h50",
+            "img_2": "h50-1",
+            "img_3": "h50-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fff",
+            "cost": 449.99
+        }
+    },
+    {
+        "pk": 113,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 113,
+            "sku": "OP-113-S-VIO",
+            "name": "OPPO A54",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "oppo-a54",
+            "img_2": "oppo-a54-1",
+            "img_3": "oppo-a54-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#90538f",
+            "cost": 219.99
+        }
+    },
+    {
+        "pk": 114,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 114,
+            "sku": "OP-114-S-BLK",
+            "name": "OPPO A54",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": "64GB",
+            "img_1": "oppo-a54",
+            "img_2": "oppo-a54-1",
+            "img_3": "oppo-a54-2",
+            "category": 1,
+            "storage": 64,
+            "color": "#000",
+            "cost": 219.99
+        }
+    },
+    {
+        "pk": 115,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 115,
+            "sku": "OP-115-M-BLK",
+            "name": "OPPO A72",
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": "128GB",
+            "img_1": "oppo-a72",
+            "img_2": "oppo-a72-1",
+            "img_3": "oppo-a72-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 199.99
+        }
+    },
+    {
+        "pk": 116,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 116,
+            "sku": "OP-116-XL-ORA",
+            "name": "OPPO Find X2 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "48MP",
+            "capacity": "512GB",
+            "img_1": "x2-pro",
+            "img_2": "x2-pro-1",
+            "img_3": "x2-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#ff8a40",
+            "cost": 799.99
+        }
+    },
+    {
+        "pk": 117,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 117,
+            "sku": "OP-117-XL-GRE",
+            "name": "OPPO Find X2 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "48MP",
+            "capacity": "512GB",
+            "img_1": "x2-pro",
+            "img_2": "x2-pro-1",
+            "img_3": "x2-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#46c77e",
+            "cost": 799.99
+        }
+    },
+    {
+        "pk": 118,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 118,
+            "sku": "OP-118-XL-BLK",
+            "name": "OPPO Find X2 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "48MP",
+            "capacity": "512GB",
+            "img_1": "x2-pro",
+            "img_2": "x2-pro-1",
+            "img_3": "x2-pro-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#000",
+            "cost": 799.99
+        }
+    },
+    {
+        "pk": 119,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 119,
+            "sku": "OP-119-M-BLU",
+            "name": "OPPO Find X3 Lite 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128GB",
+            "img_1": "x3-lite",
+            "img_2": "x3-lite-1",
+            "img_3": "x3-lite-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#377ea3",
+            "cost": 379.99
+        }
+    },
+    {
+        "pk": 120,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 120,
+            "sku": "OP-120-M-BLK",
+            "name": "OPPO Find X3 Lite 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128GB",
+            "img_1": "x3-lite",
+            "img_2": "x3-lite-1",
+            "img_3": "x3-lite-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 379.99
+        }
+    },
+    {
+        "pk": 121,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 121,
+            "sku": "OP-121-M-SIL",
+            "name": "OPPO Find X3 Lite 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128GB",
+            "img_1": "x3-lite",
+            "img_2": "x3-lite-1",
+            "img_3": "x3-lite-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c0c0c0",
+            "cost": 379.99
+        }
+    },
+    {
+        "pk": 122,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 122,
+            "sku": "OP-122-L-BLK",
+            "name": "OPPO Find X3 Neo 5G",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "50MP",
+            "capacity": "256GB",
+            "img_1": "x3-neo",
+            "img_2": "x3-neo-1",
+            "img_3": "x3-neo-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 599.99
+        }
+    },
+    {
+        "pk": 123,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 123,
+            "sku": "OP-123-L-SIL",
+            "name": "OPPO Find X3 Neo 5G",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "50MP",
+            "capacity": "256GB",
+            "img_1": "x3-neo",
+            "img_2": "x3-neo-1",
+            "img_3": "x3-neo-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 599.99
+        }
+    },
+    {
+        "pk": 124,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 124,
+            "sku": "OP-124-L-BLU",
+            "name": "OPPO Find X3 Pro 5G",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "256GB",
+            "img_1": "x3-pro",
+            "img_2": "x3-pro-1",
+            "img_3": "x3-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 999.99
+        }
+    },
+    {
+        "pk": 125,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 125,
+            "sku": "OP-125-L-BLK",
+            "name": "OPPO Find X3 Pro 5G",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "256GB",
+            "img_1": "x3-pro",
+            "img_2": "x3-pro-1",
+            "img_3": "x3-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 999.99
+        }
+    },
+    {
+        "pk": 126,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 126,
+            "sku": "GO-126-M-PIN",
+            "name": "Google Pixel 6",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "50MP",
+            "capacity": "128GB",
+            "img_1": "pixel-6",
+            "img_2": "pixel-6-1",
+            "img_3": "pixel-6-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#ffc0cb",
+            "cost": 599.99
+        }
+    },
+    {
+        "pk": 127,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 127,
+            "sku": "GO-127-M-BLK",
+            "name": "Google Pixel 6",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "50MP",
+            "capacity": "128GB",
+            "img_1": "pixel-6",
+            "img_2": "pixel-6-1",
+            "img_3": "pixel-6-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 599.99
+        }
+    },
+    {
+        "pk": 128,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 128,
+            "sku": "GO-128-M-GRE",
+            "name": "Google Pixel 6",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "50MP",
+            "capacity": "128GB",
+            "img_1": "pixel-6",
+            "img_2": "pixel-6-1",
+            "img_3": "pixel-6-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#46c77e",
+            "cost": 599.99
+        }
+    },
+    {
+        "pk": 129,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 129,
+            "sku": "GO-129-M-GOL",
+            "name": "Google Pixel 6 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "128 - 256GB",
+            "img_1": "pixel-pro",
+            "img_2": "pixel-pro-1",
+            "img_3": "pixel-pro--2",
+            "category": 1,
+            "storage": 128,
+            "color": "#d4b38e",
+            "cost": 849.99
+        }
+    },
+    {
+        "pk": 130,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 130,
+            "sku": "GO-130-M-BLK",
+            "name": "Google Pixel 6 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "128 - 256GB",
+            "img_1": "pixel-pro",
+            "img_2": "pixel-pro-1",
+            "img_3": "pixel-pro--2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 849.99
+        }
+    },
+    {
+        "pk": 131,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 131,
+            "sku": "GO-131-M-WHI",
+            "name": "Google Pixel 6 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "128 - 256GB",
+            "img_1": "pixel-pro",
+            "img_2": "pixel-pro-1",
+            "img_3": "pixel-pro--2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fff",
+            "cost": 849.99
+        }
+    },
+    {
+        "pk": 132,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 132,
+            "sku": "GO-132-L-GOL",
+            "name": "Google Pixel 6 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "128 - 256GB",
+            "img_1": "pixel-pro",
+            "img_2": "pixel-pro-1",
+            "img_3": "pixel-pro--2",
+            "category": 1,
+            "storage": 256,
+            "color": "#d4b38e",
+            "cost": 949.99
+        }
+    },
+    {
+        "pk": 133,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 133,
+            "sku": "GO-133-L-BLK",
+            "name": "Google Pixel 6 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "128 - 256GB",
+            "img_1": "pixel-pro",
+            "img_2": "pixel-pro-1",
+            "img_3": "pixel-pro--2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 949.99
+        }
+    },
+    {
+        "pk": 134,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 134,
+            "sku": "GO-134-L-WHI",
+            "name": "Google Pixel 6 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "128 - 256GB",
+            "img_1": "pixel-pro",
+            "img_2": "pixel-pro-1",
+            "img_3": "pixel-pro--2",
+            "category": 1,
+            "storage": 256,
+            "color": "#fff",
+            "cost": 949.99
+        }
+    },
+    {
+        "pk": 135,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 135,
+            "sku": "HU-135-M-GRE",
+            "name": "Huawei P Smart",
+            "os": "Andriod 11",
+            "screen": 6.67,
+            "camera": "48MP",
+            "capacity": "128GB",
+            "img_1": "p-30",
+            "img_2": "p-30-1",
+            "img_3": "p-30-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#46c77e",
+            "cost": 199.99
+        }
+    },
+    {
+        "pk": 136,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 136,
+            "sku": "HU-136-M-GOL",
+            "name": "Huawei P Smart",
+            "os": "Andriod 11",
+            "screen": 6.67,
+            "camera": "48MP",
+            "capacity": "128GB",
+            "img_1": "p-30",
+            "img_2": "p-30-1",
+            "img_3": "p-30-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#d4b38e",
+            "cost": 199.99
+        }
+    },
+    {
+        "pk": 137,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 137,
+            "sku": "HU-137-M-BLK",
+            "name": "Huawei P Smart",
+            "os": "Andriod 11",
+            "screen": 6.67,
+            "camera": "48MP",
+            "capacity": "128GB",
+            "img_1": "p-30",
+            "img_2": "p-30-1",
+            "img_3": "p-30-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 199.99
+        }
+    },
+    {
+        "pk": 138,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 138,
+            "sku": "HU-138-XL-BLU",
+            "name": "Huawei Mate Xs 5G",
+            "os": "Andriod 11",
+            "screen": "8 / 6.6",
+            "camera": "40MP",
+            "capacity": "512GB",
+            "img_1": "mate-x",
+            "img_2": "mate-x-1",
+            "img_3": "mate-x-2",
+            "category": 1,
+            "storage": 512,
+            "color": "#377ea3",
+            "cost": 2299.99
+        }
+    },
+    {
+        "pk": 139,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 139,
+            "sku": "MO-139-M-GRE",
+            "name": "Motorola Edge 20 Lite",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": "128GB",
+            "img_1": "edge-lite",
+            "img_2": "edge-lite-1",
+            "img_3": "edge-lite-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#46c77e",
+            "cost": 299.99
+        }
+    },
+    {
+        "pk": 140,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 140,
+            "sku": "MO-140-M-BLK",
+            "name": "Motorola Edge 20 Lite",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": "128GB",
+            "img_1": "edge-lite",
+            "img_2": "edge-lite-1",
+            "img_3": "edge-lite-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 299.99
+        }
+    },
+    {
+        "pk": 141,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 141,
+            "sku": "MO-141-M-BLK",
+            "name": "Motorola Edge 2",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": "128GB",
+            "img_1": "edge",
+            "img_2": "edge-1",
+            "img_3": "edge-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 429.99
+        }
+    },
+    {
+        "pk": 142,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 142,
+            "sku": "MO-142-M-WHI",
+            "name": "Motorola Edge 2",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": "128GB",
+            "img_1": "edge",
+            "img_2": "edge-1",
+            "img_3": "edge-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#fff",
+            "cost": 429.99
+        }
+    },
+    {
+        "pk": 143,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 143,
+            "sku": "MO-143-L-DBL",
+            "name": "Motorola Edge 20 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": "256GB",
+            "img_1": "edge-pro",
+            "img_2": "edge-pro-1",
+            "img_3": "edge-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#0f4d6c",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 144,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 144,
+            "sku": "MO-144-L-BLU",
+            "name": "Motorola Edge 20 Pro",
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": "256GB",
+            "img_1": "edge-pro",
+            "img_2": "edge-pro-1",
+            "img_3": "edge-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 145,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 145,
+            "sku": "MO-145-L-GOL",
+            "name": "Motorola Razr 5G",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "48MP",
+            "capacity": "256GB",
+            "img_1": "razr",
+            "img_2": "razr-1",
+            "img_3": "razr-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#d4b38e",
+            "cost": 1399.99
+        }
+    },
+    {
+        "pk": 146,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 146,
+            "sku": "MO-146-L-SIL",
+            "name": "Motorola Razr 5G",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "48MP",
+            "capacity": "256GB",
+            "img_1": "razr",
+            "img_2": "razr-1",
+            "img_3": "razr-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 1399.99
+        }
+    },
+    {
+        "pk": 147,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 147,
+            "sku": "MO-147-L-BLK",
+            "name": "Motorola Razr 5G",
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "48MP",
+            "capacity": "256GB",
+            "img_1": "razr",
+            "img_2": "razr-1",
+            "img_3": "razr-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 1399.99
+        }
+    },
+    {
+        "pk": 148,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 148,
+            "sku": "ON-148-L-BLU",
+            "name": "OnePlus 8 Pro",
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "48MP",
+            "capacity": "256GB",
+            "img_1": "oneplus-pro",
+            "img_2": "oneplus-pro-1",
+            "img_3": "oneplus-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 899.99
+        }
+    },
+    {
+        "pk": 149,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 149,
+            "sku": "ON-149-L-GRE",
+            "name": "OnePlus 8 Pro",
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "48MP",
+            "capacity": "256GB",
+            "img_1": "oneplus-pro",
+            "img_2": "oneplus-pro-1",
+            "img_3": "oneplus-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#46c77e",
+            "cost": 899.99
+        }
+    },
+    {
+        "pk": 150,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 150,
+            "sku": "ON-150-L-BLK",
+            "name": "OnePlus 8 Pro",
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "48MP",
+            "capacity": "256GB",
+            "img_1": "oneplus-pro",
+            "img_2": "oneplus-pro-1",
+            "img_3": "oneplus-pro-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 899.99
+        }
+    },
+    {
+        "pk": 151,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 151,
+            "sku": "ON-151-M-GRE",
+            "name": "OnePlus 8 T",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-8t",
+            "img_2": "oneplus-8t-1",
+            "img_3": "oneplus-8t-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#46c77e",
+            "cost": 549.99
+        }
+    },
+    {
+        "pk": 152,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 152,
+            "sku": "ON-152-M-SIL",
+            "name": "OnePlus 8 T",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-8t",
+            "img_2": "oneplus-8t-1",
+            "img_3": "oneplus-8t-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c0c0c0",
+            "cost": 549.99
+        }
+    },
+    {
+        "pk": 153,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 153,
+            "sku": "ON-153-L-GRE",
+            "name": "OnePlus 8 T",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-8t",
+            "img_2": "oneplus-8t-1",
+            "img_3": "oneplus-8t-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#46c77e",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 154,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 154,
+            "sku": "ON-154-L-SIL",
+            "name": "OnePlus 8 T",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-8t",
+            "img_2": "oneplus-8t-1",
+            "img_3": "oneplus-8t-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 649.99
+        }
+    },
+    {
+        "pk": 155,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 155,
+            "sku": "ON-155-M-GRE",
+            "name": "OnePlus 8",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": "128GB",
+            "img_1": "oneplus-8",
+            "img_2": "oneplus-8-1",
+            "img_3": "oneplus-8-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#46c77e",
+            "cost": 449.99
+        }
+    },
+    {
+        "pk": 156,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 156,
+            "sku": "ON-156-M-BLK",
+            "name": "OnePlus 8",
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": "128GB",
+            "img_1": "oneplus-8",
+            "img_2": "oneplus-8-1",
+            "img_3": "oneplus-8-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 449.99
+        }
+    },
+    {
+        "pk": 157,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 157,
+            "sku": "ON-157-M-BLU",
+            "name": "OnePlus Nord CE 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-ce",
+            "img_2": "oneplus-ce-1",
+            "img_3": "oneplus-ce-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#377ea3",
+            "cost": 299.99
+        }
+    },
+    {
+        "pk": 158,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 158,
+            "sku": "ON-158-M-BLK",
+            "name": "OnePlus Nord CE 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-ce",
+            "img_2": "oneplus-ce-1",
+            "img_3": "oneplus-ce-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#000",
+            "cost": 299.99
+        }
+    },
+    {
+        "pk": 159,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 159,
+            "sku": "ON-159-M-SIL",
+            "name": "OnePlus Nord CE 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-ce",
+            "img_2": "oneplus-ce-1",
+            "img_3": "oneplus-ce-2",
+            "category": 1,
+            "storage": 128,
+            "color": "#c0c0c0",
+            "cost": 299.99
+        }
+    },
+    {
+        "pk": 160,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 160,
+            "sku": "ON-160-L-BLU",
+            "name": "OnePlus Nord CE 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-ce",
+            "img_2": "oneplus-ce-1",
+            "img_3": "oneplus-ce-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#377ea3",
+            "cost": 369.99
+        }
+    },
+    {
+        "pk": 161,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 161,
+            "sku": "ON-161-L-BLK",
+            "name": "OnePlus Nord CE 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-ce",
+            "img_2": "oneplus-ce-1",
+            "img_3": "oneplus-ce-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#000",
+            "cost": 369.99
+        }
+    },
+    {
+        "pk": 162,
+        "model": "store.sim_free",
+        "fields": {
+            "phone_id": 162,
+            "sku": "ON-162-L-SIL",
+            "name": "OnePlus Nord CE 5G",
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-ce",
+            "img_2": "oneplus-ce-1",
+            "img_3": "oneplus-ce-2",
+            "category": 1,
+            "storage": 256,
+            "color": "#c0c0c0",
+            "cost": 369.99
+        }
+    }
+]

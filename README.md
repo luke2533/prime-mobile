@@ -134,6 +134,13 @@ Additions:
 - Product images
 - Fixtures file
 
+### 6.9 Added phone fixtures files
+
+Additions:
+
+- Categories fixtures
+- Phone fixtures
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
