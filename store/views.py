@@ -5,7 +5,7 @@ from .models import SimFree
 def all_phones(request):
 
     phones = SimFree.objects.all()
-
+    
     context = {
         "phones": phones,
     }

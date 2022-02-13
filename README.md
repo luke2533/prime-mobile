@@ -163,6 +163,12 @@ Additions:
 - Store views
 - Products listed on phone page
 
+### 6.13 Product images appear on product card
+
+Additions:
+
+- Product images appear on product card
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

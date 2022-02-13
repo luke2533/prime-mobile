@@ -23,7 +23,6 @@ class SimFree(models.Model):
     class Meta:
         verbose_name_plural = "SIM Free"
 
-
     phone_id = models.IntegerField(blank=True, null=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
