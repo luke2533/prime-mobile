@@ -1,6 +1,26 @@
 from django.contrib import admin
-from .models import category, sim_free
+from .models import Category, SimFree
+
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = (
+        "freindly_name",
+        "name",
+    )
 
 
-admin.site.register(category)
-admin.site.register(sim_free)
+class SimFreeAdmin(admin.ModelAdmin):
+    list_display = (
+        "phone_id",
+        "sku",
+        "name",
+        "category",
+        "storage",
+        "color",
+        "cost",
+    )
+
+    ordering = ("phone_id",)
+
+
+admin.site.register(Category, CategoryAdmin)
+admin.site.register(SimFree, SimFreeAdmin)

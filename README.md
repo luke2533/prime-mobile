@@ -155,6 +155,14 @@ Additions:
 - Pillow installed
 - Fixtures migrated
 
+### 6.12 Products list on store page
+
+Additions: 
+
+- Updates to store admin
+- Store views
+- Products listed on phone page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

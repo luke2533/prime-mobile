@@ -2,18 +2,28 @@ from django.db import models
 
 # Create your models here.
 
-class category(models.Model):
+class Category(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Categories"
+
+
     name = models.CharField(max_length=254)
     freindly_name = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):
         return self.name
 
-    def get_friendly_name(self):
-        return self.friendly_name
+    def get_freindly_name(self):
+        return self.freindly_name
 
 
-class sim_free(models.Model):
+class SimFree(models.Model):
+
+    class Meta:
+        verbose_name_plural = "SIM Free"
+
+
     phone_id = models.IntegerField(blank=True, null=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
