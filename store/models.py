@@ -19,7 +19,7 @@ class sim_free(models.Model):
     name = models.CharField(max_length=254)
 
     os = models.CharField(max_length=254, null=True, blank=True)
-    screen = models.FloatField(blank=True, null=True)
+    screen = models.CharField(max_length=254, null=True, blank=True)
     camera = models.CharField(max_length=254, null=True, blank=True)
     capacity = models.CharField(max_length=254, null=True, blank=True)
     img_1 = models.ImageField(null=True, blank=True)

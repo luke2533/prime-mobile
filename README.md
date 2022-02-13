@@ -148,6 +148,13 @@ Additions:
 - Updates to sim_free json file
 - Store models
 
+### 6.11 Pillow installed and fixtures loaded successfully
+
+Additions:
+
+- Pillow installed
+- Fixtures migrated
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
