@@ -141,6 +141,13 @@ Additions:
 - Categories fixtures
 - Phone fixtures
 
+### 6.10 Store models and updates to sim_free json file
+
+Additions:
+
+- Updates to sim_free json file
+- Store models
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
