@@ -1,0 +1,343 @@
+[
+    {
+        "pk": 1,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 1,
+            "name": "iPhone 13",
+            "cost": 779.99,
+            "rating": 0,
+            "img_1": "i13"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 2,
+            "name": "iPhone 13 Mini",
+            "cost": 679.99,
+            "rating": 0,
+            "img_1": "i13-mini"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 3,
+            "name": "iPhone 13 Pro",
+            "cost": 949.99,
+            "rating": 0,
+            "img_1": "i13-pro"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 4,
+            "name": "iPhone 13 Pro Max",
+            "cost": 1049.99,
+            "rating": 0,
+            "img_1": "i13-pro"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 5,
+            "name": "iPhone 12 Mini",
+            "cost": 559.99,
+            "rating": 0,
+            "img_1": "i12-mini"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 6,
+            "name": "iPhone 12",
+            "cost": 679.99,
+            "rating": 0,
+            "img_1": "i12"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 7,
+            "name": "Samsung S21 Ultra",
+            "cost": 969.99,
+            "rating": 0,
+            "img_1": "s21-ultra"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 8,
+            "name": "Samsung S21",
+            "cost": 649.99,
+            "rating": 0,
+            "img_1": "s21"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 9,
+            "name": "Samsung Galaxy Z Fold3 5G",
+            "cost": 1599.99,
+            "rating": 0,
+            "img_1": "fold"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 10,
+            "name": "Samsung Galaxy A52s",
+            "cost": 349.99,
+            "rating": 0,
+            "img_1": "a52s"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 11,
+            "name": "Samsung Galaxy A32",
+            "cost": 249.99,
+            "rating": 0,
+            "img_1": "a32"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 12,
+            "name": "Samsung Galaxy A22 5G",
+            "cost": 199.99,
+            "rating": 0,
+            "img_1": "a22"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 13,
+            "name": "HONOR 50",
+            "cost": 449.99,
+            "rating": 0,
+            "img_1": "h50"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 14,
+            "name": "OPPO A54",
+            "cost": 219.99,
+            "rating": 0,
+            "img_1": "oppo-a54"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 15,
+            "name": "OPPO A72",
+            "cost": 199.99,
+            "rating": 0,
+            "img_1": "oppo-a72"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 16,
+            "name": "OPPO Find X2 Pro",
+            "cost": 799.99,
+            "rating": 0,
+            "img_1": "x2-pro"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 17,
+            "name": "OPPO Find X3 Lite 5G",
+            "cost": 379.99,
+            "rating": 0,
+            "img_1": "x3-lite"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 18,
+            "name": "OPPO Find X3 Neo 5G",
+            "cost": 599.99,
+            "rating": 0,
+            "img_1": "x3-neo"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 19,
+            "name": "OPPO Find X3 Pro 5G",
+            "cost": 999.99,
+            "rating": 0,
+            "img_1": "x3-pro"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 20,
+            "name": "Google Pixel 6",
+            "cost": 599.99,
+            "rating": 0,
+            "img_1": "pixel-6"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 21,
+            "name": "Google Pixel 6 Pro",
+            "cost": 849.99,
+            "rating": 0,
+            "img_1": "pixel-pro"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 22,
+            "name": "Huawei P Smart",
+            "cost": 199.99,
+            "rating": 0,
+            "img_1": "p-30"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 23,
+            "name": "Huawei Mate Xs 5G",
+            "cost": 2299.99,
+            "rating": 0,
+            "img_1": "mate-x"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 24,
+            "name": "Motorola Edge 20 Lite",
+            "cost": 299.99,
+            "rating": 0,
+            "img_1": "edge-lite"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 25,
+            "name": "Motorola Edge 2",
+            "cost": 429.99,
+            "rating": 0,
+            "img_1": "edge"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 26,
+            "name": "Motorola Edge 20 Pro",
+            "cost": 649.99,
+            "rating": 0,
+            "img_1": "edge-pro"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 27,
+            "name": "Motorola Razr 5G",
+            "cost": 1399.99,
+            "rating": 0,
+            "img_1": "razr"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 28,
+            "name": "OnePlus 8 Pro",
+            "cost": 899.99,
+            "rating": 0,
+            "img_1": "oneplus-pro"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 29,
+            "name": "OnePlus 8 T",
+            "cost": 549.99,
+            "rating": 0,
+            "img_1": "oneplus-8t"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 30,
+            "name": "OnePlus 8",
+            "cost": 449.99,
+            "rating": 0,
+            "img_1": "oneplus-8"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "store.Phone",
+        "fields": {
+            "phone_model": 31,
+            "name": "OnePlus Nord CE 5G",
+            "cost": 299.99,
+            "rating": 0,
+            "img_1": "oneplus-ce"
+        }
+    }
+]

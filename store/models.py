@@ -24,6 +24,7 @@ class SimFree(models.Model):
         verbose_name_plural = "SIM Free"
 
     phone_id = models.IntegerField(blank=True, null=True)
+    phone_model = models.IntegerField(blank=True, null=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
 
@@ -38,8 +39,23 @@ class SimFree(models.Model):
     category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
     storage = models.IntegerField(blank=True, null=True)
     color = models.CharField(max_length=254, null=True, blank=True)
-    # Come back to this one
+    # Come back to this one (might need freindly_color)
     cost = models.FloatField(blank=True, null=True)
 
+    def __str__(self):
+        return self.name
+
+
+class Phone(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Phone"
+
+    phone_model = models.IntegerField(blank=True, null=True)
+    name = models.CharField(max_length=254)
+    cost = models.FloatField(blank=True, null=True)
+    rating = models.FloatField(blank=True, null=True)
+    img_1 = models.ImageField(null=True, blank=True)
+    
     def __str__(self):
         return self.name

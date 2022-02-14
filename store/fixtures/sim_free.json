@@ -4,6 +4,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 1,
+            "phone_model": 1,
             "sku": "IP-001-M-BLU",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -24,6 +25,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 2,
+            "phone_model": 1,
             "sku": "IP-002-M-MID",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -44,6 +46,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 3,
+            "phone_model": 1,
             "sku": "IP-003-M-RED",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -64,6 +67,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 4,
+            "phone_model": 1,
             "sku": "IP-004-M-STA",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -84,6 +88,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 5,
+            "phone_model": 1,
             "sku": "IP-005-L-BLU",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -104,6 +109,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 6,
+            "phone_model": 1,
             "sku": "IP-006-L-MID",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -124,6 +130,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 7,
+            "phone_model": 1,
             "sku": "IP-007-L-RED",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -144,6 +151,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 8,
+            "phone_model": 1,
             "sku": "IP-008-L-STA",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -164,6 +172,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 9,
+            "phone_model": 1,
             "sku": "IP-009-XL-BLU",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -184,6 +193,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 10,
+            "phone_model": 1,
             "sku": "IP-010-XL-MID",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -204,6 +214,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 11,
+            "phone_model": 1,
             "sku": "IP-011-XL-RED",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -224,6 +235,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 12,
+            "phone_model": 1,
             "sku": "IP-012-XL-STA",
             "name": "iPhone 13",
             "os": "iOS 15",
@@ -244,6 +256,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 13,
+            "phone_model": 2,
             "sku": "IP-013-M-BLU",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -264,6 +277,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 14,
+            "phone_model": 2,
             "sku": "IP-014-M-MID",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -284,6 +298,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 15,
+            "phone_model": 2,
             "sku": "IP-015-M-RED",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -304,6 +319,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 16,
+            "phone_model": 2,
             "sku": "IP-016-M-STA",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -324,6 +340,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 17,
+            "phone_model": 2,
             "sku": "IP-017-L-BLU",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -344,6 +361,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 18,
+            "phone_model": 2,
             "sku": "IP-018-L-MID",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -364,6 +382,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 19,
+            "phone_model": 2,
             "sku": "IP-019-L-RED",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -384,6 +403,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 20,
+            "phone_model": 2,
             "sku": "IP-020-L-STA",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -404,6 +424,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 21,
+            "phone_model": 2,
             "sku": "IP-021-XL-BLU",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -424,6 +445,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 22,
+            "phone_model": 2,
             "sku": "IP-022-XL-MID",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -444,6 +466,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 23,
+            "phone_model": 2,
             "sku": "IP-023-XL-RED",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -464,6 +487,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 24,
+            "phone_model": 2,
             "sku": "IP-024-XL-STA",
             "name": "iPhone 13 Mini",
             "os": "iOS 15",
@@ -484,6 +508,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 25,
+            "phone_model": 3,
             "sku": "IP-025-M-GOL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -504,6 +529,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 26,
+            "phone_model": 3,
             "sku": "IP-026-M-GRA",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -524,6 +550,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 27,
+            "phone_model": 3,
             "sku": "IP-027-M-LIE",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -544,6 +571,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 28,
+            "phone_model": 3,
             "sku": "IP-028-M-SIL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -564,6 +592,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 29,
+            "phone_model": 3,
             "sku": "IP-029-L-GOL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -584,6 +613,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 30,
+            "phone_model": 3,
             "sku": "IP-030-L-GRA",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -604,6 +634,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 31,
+            "phone_model": 3,
             "sku": "IP-031-L-LIE",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -624,6 +655,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 32,
+            "phone_model": 3,
             "sku": "IP-032-L-SIL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -644,6 +676,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 33,
+            "phone_model": 3,
             "sku": "IP-033-XL-GOL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -664,6 +697,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 34,
+            "phone_model": 3,
             "sku": "IP-034-XL-GRA",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -684,6 +718,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 35,
+            "phone_model": 3,
             "sku": "IP-035-XL-LIE",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -704,6 +739,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 36,
+            "phone_model": 3,
             "sku": "IP-036-XL-SIL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -724,6 +760,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 37,
+            "phone_model": 3,
             "sku": "IP-037-XXL-GOL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -744,6 +781,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 38,
+            "phone_model": 3,
             "sku": "IP-038-XXL-GRA",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -764,6 +802,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 39,
+            "phone_model": 3,
             "sku": "IP-039-XXL-LIE",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -784,6 +823,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 40,
+            "phone_model": 3,
             "sku": "IP-040-XXL-SIL",
             "name": "iPhone 13 Pro",
             "os": "iOS 15",
@@ -804,6 +844,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 41,
+            "phone_model": 4,
             "sku": "IP-041-M-GOL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -824,6 +865,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 42,
+            "phone_model": 4,
             "sku": "IP-042-M-GRA",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -844,6 +886,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 43,
+            "phone_model": 4,
             "sku": "IP-043-M-LIE",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -864,6 +907,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 44,
+            "phone_model": 4,
             "sku": "IP-044-M-SIL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -884,6 +928,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 45,
+            "phone_model": 4,
             "sku": "IP-045-L-GOL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -904,6 +949,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 46,
+            "phone_model": 4,
             "sku": "IP-046-L-GRA",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -924,6 +970,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 47,
+            "phone_model": 4,
             "sku": "IP-047-L-LIE",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -944,6 +991,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 48,
+            "phone_model": 4,
             "sku": "IP-048-L-SIL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -964,6 +1012,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 49,
+            "phone_model": 4,
             "sku": "IP-049-XL-GOL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -984,6 +1033,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 50,
+            "phone_model": 4,
             "sku": "IP-050-XL-GRA",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -1004,6 +1054,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 51,
+            "phone_model": 4,
             "sku": "IP-051-XL-LIE",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -1024,6 +1075,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 52,
+            "phone_model": 4,
             "sku": "IP-052-XL-SIL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -1044,6 +1096,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 53,
+            "phone_model": 4,
             "sku": "IP-053-XXL-GOL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -1064,6 +1117,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 54,
+            "phone_model": 4,
             "sku": "IP-054-XXL-GRA",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -1084,6 +1138,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 55,
+            "phone_model": 4,
             "sku": "IP-055-XXL-LIE",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -1104,6 +1159,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 56,
+            "phone_model": 4,
             "sku": "IP-056-XXL-SIL",
             "name": "iPhone 13 Pro Max",
             "os": "iOS 15",
@@ -1124,6 +1180,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 57,
+            "phone_model": 5,
             "sku": "IP-057-S-WHI",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1144,6 +1201,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 58,
+            "phone_model": 5,
             "sku": "IP-058-S-RED",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1164,6 +1222,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 59,
+            "phone_model": 5,
             "sku": "IP-059-S-BLU",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1184,6 +1243,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 60,
+            "phone_model": 5,
             "sku": "IP-060-S-BLK",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1204,6 +1264,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 61,
+            "phone_model": 5,
             "sku": "IP-061-M-WHI",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1224,6 +1285,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 62,
+            "phone_model": 5,
             "sku": "IP-062-M-RED",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1244,6 +1306,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 63,
+            "phone_model": 5,
             "sku": "IP-063-M-BLU",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1264,6 +1327,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 64,
+            "phone_model": 5,
             "sku": "IP-064-M-BLK",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1284,6 +1348,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 65,
+            "phone_model": 5,
             "sku": "IP-065-L-WHI",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1304,6 +1369,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 66,
+            "phone_model": 5,
             "sku": "IP-066-L-RED",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1324,6 +1390,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 67,
+            "phone_model": 5,
             "sku": "IP-067-L-BLU",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1344,6 +1411,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 68,
+            "phone_model": 5,
             "sku": "IP-068-L-BLK",
             "name": "iPhone 12 Mini",
             "os": "iOS 15",
@@ -1364,6 +1432,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 69,
+            "phone_model": 6,
             "sku": "IP-069-S-WHI",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1384,6 +1453,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 70,
+            "phone_model": 6,
             "sku": "IP-070-S-RED",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1404,6 +1474,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 71,
+            "phone_model": 6,
             "sku": "IP-071-S-BLU",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1424,6 +1495,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 72,
+            "phone_model": 6,
             "sku": "IP-072-S-BLK",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1444,6 +1516,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 73,
+            "phone_model": 6,
             "sku": "IP-073-M-WHI",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1464,6 +1537,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 74,
+            "phone_model": 6,
             "sku": "IP-074-M-RED",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1484,6 +1558,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 75,
+            "phone_model": 6,
             "sku": "IP-075-M-BLU",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1504,6 +1579,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 76,
+            "phone_model": 6,
             "sku": "IP-076-M-BLK",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1524,6 +1600,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 77,
+            "phone_model": 6,
             "sku": "IP-077-L-WHI",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1544,6 +1621,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 78,
+            "phone_model": 6,
             "sku": "IP-078-L-RED",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1564,6 +1642,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 79,
+            "phone_model": 6,
             "sku": "IP-079-L-BLU",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1584,6 +1663,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 80,
+            "phone_model": 6,
             "sku": "IP-080-L-BLK",
             "name": "iPhone 12",
             "os": "iOS 15",
@@ -1604,6 +1684,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 81,
+            "phone_model": 7,
             "sku": "SA-081-M-SIL",
             "name": "Samsung S21 Ultra",
             "os": "Andriod 11",
@@ -1624,6 +1705,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 82,
+            "phone_model": 7,
             "sku": "SA-082-M-BLK",
             "name": "Samsung S21 Ultra",
             "os": "Andriod 11",
@@ -1644,6 +1726,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 83,
+            "phone_model": 7,
             "sku": "SA-083-L-SIL",
             "name": "Samsung S21 Ultra",
             "os": "Andriod 11",
@@ -1664,6 +1747,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 84,
+            "phone_model": 7,
             "sku": "SA-084-L-BLK",
             "name": "Samsung S21 Ultra",
             "os": "Andriod 11",
@@ -1684,6 +1768,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 85,
+            "phone_model": 8,
             "sku": "SA-085-M-VIO",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1704,6 +1789,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 86,
+            "phone_model": 8,
             "sku": "SA-086-M-WHI",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1724,6 +1810,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 87,
+            "phone_model": 8,
             "sku": "SA-087-M-PIN",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1744,6 +1831,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 88,
+            "phone_model": 8,
             "sku": "SA-088-M-GRY",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1764,6 +1852,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 89,
+            "phone_model": 8,
             "sku": "SA-089-L-VIO",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1784,6 +1873,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 90,
+            "phone_model": 8,
             "sku": "SA-090-L-WHI",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1804,6 +1894,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 91,
+            "phone_model": 8,
             "sku": "SA-091-L-PIN",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1824,6 +1915,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 92,
+            "phone_model": 8,
             "sku": "SA-092-L-GRY",
             "name": "Samsung S21",
             "os": "Andriod 11",
@@ -1844,6 +1936,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 93,
+            "phone_model": 9,
             "sku": "SA-093-L-BLK",
             "name": "Samsung Galaxy Z Fold3 5G",
             "os": "Andriod 11",
@@ -1864,6 +1957,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 94,
+            "phone_model": 9,
             "sku": "SA-094-L-SIL",
             "name": "Samsung Galaxy Z Fold3 5G",
             "os": "Andriod 11",
@@ -1884,6 +1978,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 95,
+            "phone_model": 9,
             "sku": "SA-095-L-GRE",
             "name": "Samsung Galaxy Z Fold3 5G",
             "os": "Andriod 11",
@@ -1904,6 +1999,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 96,
+            "phone_model": 9,
             "sku": "SA-096-XL-BLK",
             "name": "Samsung Galaxy Z Fold3 5G",
             "os": "Andriod 11",
@@ -1924,6 +2020,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 97,
+            "phone_model": 9,
             "sku": "SA-097-XL-SIL",
             "name": "Samsung Galaxy Z Fold3 5G",
             "os": "Andriod 11",
@@ -1944,6 +2041,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 98,
+            "phone_model": 9,
             "sku": "SA-098-XL-GRE",
             "name": "Samsung Galaxy Z Fold3 5G",
             "os": "Andriod 11",
@@ -1964,6 +2062,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 99,
+            "phone_model": 10,
             "sku": "SA-099-M-BLK",
             "name": "Samsung Galaxy A52s",
             "os": "Andriod 11",
@@ -1984,6 +2083,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 100,
+            "phone_model": 10,
             "sku": "SA-100-M-WHI",
             "name": "Samsung Galaxy A52s",
             "os": "Andriod 11",
@@ -2004,6 +2104,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 101,
+            "phone_model": 10,
             "sku": "SA-101-M-VIO",
             "name": "Samsung Galaxy A52s",
             "os": "Andriod 11",
@@ -2024,6 +2125,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 102,
+            "phone_model": 10,
             "sku": "SA-102-M-LIM",
             "name": "Samsung Galaxy A52s",
             "os": "Andriod 11",
@@ -2044,6 +2146,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 103,
+            "phone_model": 11,
             "sku": "SA-103-S-BLK",
             "name": "Samsung Galaxy A32",
             "os": "Andriod 11",
@@ -2064,6 +2167,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 104,
+            "phone_model": 11,
             "sku": "SA-104-S-WHI",
             "name": "Samsung Galaxy A32",
             "os": "Andriod 11",
@@ -2084,6 +2188,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 105,
+            "phone_model": 11,
             "sku": "SA-105-S-VIO",
             "name": "Samsung Galaxy A32",
             "os": "Andriod 11",
@@ -2104,6 +2209,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 106,
+            "phone_model": 11,
             "sku": "SA-106-S-BLU",
             "name": "Samsung Galaxy A32",
             "os": "Andriod 11",
@@ -2124,6 +2230,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 107,
+            "phone_model": 12,
             "sku": "SA-107-S-VIO",
             "name": "Samsung Galaxy A22 5G",
             "os": "Andriod 11",
@@ -2144,6 +2251,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 108,
+            "phone_model": 12,
             "sku": "SA-108-S-WHI",
             "name": "Samsung Galaxy A22 5G",
             "os": "Andriod 11",
@@ -2164,6 +2272,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 109,
+            "phone_model": 12,
             "sku": "SA-109-S-GRY",
             "name": "Samsung Galaxy A22 5G",
             "os": "Andriod 11",
@@ -2184,6 +2293,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 110,
+            "phone_model": 13,
             "sku": "HO-110-M-GRE",
             "name": "HONOR 50",
             "os": "Andriod 11",
@@ -2204,6 +2314,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 111,
+            "phone_model": 13,
             "sku": "HO-111-M-BLK",
             "name": "HONOR 50",
             "os": "Andriod 11",
@@ -2224,6 +2335,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 112,
+            "phone_model": 13,
             "sku": "HO-112-M-WHI",
             "name": "HONOR 50",
             "os": "Andriod 11",
@@ -2244,6 +2356,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 113,
+            "phone_model": 14,
             "sku": "OP-113-S-VIO",
             "name": "OPPO A54",
             "os": "Andriod 11",
@@ -2264,6 +2377,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 114,
+            "phone_model": 14,
             "sku": "OP-114-S-BLK",
             "name": "OPPO A54",
             "os": "Andriod 11",
@@ -2284,6 +2398,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 115,
+            "phone_model": 15,
             "sku": "OP-115-M-BLK",
             "name": "OPPO A72",
             "os": "Andriod 11",
@@ -2304,6 +2419,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 116,
+            "phone_model": 16,
             "sku": "OP-116-XL-ORA",
             "name": "OPPO Find X2 Pro",
             "os": "Andriod 11",
@@ -2324,6 +2440,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 117,
+            "phone_model": 16,
             "sku": "OP-117-XL-GRE",
             "name": "OPPO Find X2 Pro",
             "os": "Andriod 11",
@@ -2344,6 +2461,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 118,
+            "phone_model": 16,
             "sku": "OP-118-XL-BLK",
             "name": "OPPO Find X2 Pro",
             "os": "Andriod 11",
@@ -2364,6 +2482,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 119,
+            "phone_model": 17,
             "sku": "OP-119-M-BLU",
             "name": "OPPO Find X3 Lite 5G",
             "os": "Andriod 11",
@@ -2384,6 +2503,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 120,
+            "phone_model": 17,
             "sku": "OP-120-M-BLK",
             "name": "OPPO Find X3 Lite 5G",
             "os": "Andriod 11",
@@ -2404,6 +2524,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 121,
+            "phone_model": 17,
             "sku": "OP-121-M-SIL",
             "name": "OPPO Find X3 Lite 5G",
             "os": "Andriod 11",
@@ -2424,6 +2545,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 122,
+            "phone_model": 18,
             "sku": "OP-122-L-BLK",
             "name": "OPPO Find X3 Neo 5G",
             "os": "Andriod 11",
@@ -2444,6 +2566,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 123,
+            "phone_model": 18,
             "sku": "OP-123-L-SIL",
             "name": "OPPO Find X3 Neo 5G",
             "os": "Andriod 11",
@@ -2464,6 +2587,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 124,
+            "phone_model": 19,
             "sku": "OP-124-L-BLU",
             "name": "OPPO Find X3 Pro 5G",
             "os": "Andriod 11",
@@ -2484,6 +2608,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 125,
+            "phone_model": 19,
             "sku": "OP-125-L-BLK",
             "name": "OPPO Find X3 Pro 5G",
             "os": "Andriod 11",
@@ -2504,6 +2629,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 126,
+            "phone_model": 20,
             "sku": "GO-126-M-PIN",
             "name": "Google Pixel 6",
             "os": "Andriod 11",
@@ -2524,6 +2650,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 127,
+            "phone_model": 20,
             "sku": "GO-127-M-BLK",
             "name": "Google Pixel 6",
             "os": "Andriod 11",
@@ -2544,6 +2671,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 128,
+            "phone_model": 20,
             "sku": "GO-128-M-GRE",
             "name": "Google Pixel 6",
             "os": "Andriod 11",
@@ -2564,6 +2692,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 129,
+            "phone_model": 21,
             "sku": "GO-129-M-GOL",
             "name": "Google Pixel 6 Pro",
             "os": "Andriod 11",
@@ -2584,6 +2713,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 130,
+            "phone_model": 21,
             "sku": "GO-130-M-BLK",
             "name": "Google Pixel 6 Pro",
             "os": "Andriod 11",
@@ -2604,6 +2734,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 131,
+            "phone_model": 21,
             "sku": "GO-131-M-WHI",
             "name": "Google Pixel 6 Pro",
             "os": "Andriod 11",
@@ -2624,6 +2755,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 132,
+            "phone_model": 21,
             "sku": "GO-132-L-GOL",
             "name": "Google Pixel 6 Pro",
             "os": "Andriod 11",
@@ -2644,6 +2776,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 133,
+            "phone_model": 21,
             "sku": "GO-133-L-BLK",
             "name": "Google Pixel 6 Pro",
             "os": "Andriod 11",
@@ -2664,6 +2797,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 134,
+            "phone_model": 21,
             "sku": "GO-134-L-WHI",
             "name": "Google Pixel 6 Pro",
             "os": "Andriod 11",
@@ -2684,6 +2818,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 135,
+            "phone_model": 22,
             "sku": "HU-135-M-GRE",
             "name": "Huawei P Smart",
             "os": "Andriod 11",
@@ -2704,6 +2839,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 136,
+            "phone_model": 22,
             "sku": "HU-136-M-GOL",
             "name": "Huawei P Smart",
             "os": "Andriod 11",
@@ -2724,6 +2860,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 137,
+            "phone_model": 22,
             "sku": "HU-137-M-BLK",
             "name": "Huawei P Smart",
             "os": "Andriod 11",
@@ -2744,6 +2881,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 138,
+            "phone_model": 23,
             "sku": "HU-138-XL-BLU",
             "name": "Huawei Mate Xs 5G",
             "os": "Andriod 11",
@@ -2764,6 +2902,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 139,
+            "phone_model": 24,
             "sku": "MO-139-M-GRE",
             "name": "Motorola Edge 20 Lite",
             "os": "Andriod 11",
@@ -2784,6 +2923,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 140,
+            "phone_model": 24,
             "sku": "MO-140-M-BLK",
             "name": "Motorola Edge 20 Lite",
             "os": "Andriod 11",
@@ -2804,6 +2944,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 141,
+            "phone_model": 25,
             "sku": "MO-141-M-BLK",
             "name": "Motorola Edge 2",
             "os": "Andriod 11",
@@ -2824,6 +2965,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 142,
+            "phone_model": 25,
             "sku": "MO-142-M-WHI",
             "name": "Motorola Edge 2",
             "os": "Andriod 11",
@@ -2844,6 +2986,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 143,
+            "phone_model": 26,
             "sku": "MO-143-L-DBL",
             "name": "Motorola Edge 20 Pro",
             "os": "Andriod 11",
@@ -2864,6 +3007,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 144,
+            "phone_model": 26,
             "sku": "MO-144-L-BLU",
             "name": "Motorola Edge 20 Pro",
             "os": "Andriod 11",
@@ -2884,6 +3028,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 145,
+            "phone_model": 27,
             "sku": "MO-145-L-GOL",
             "name": "Motorola Razr 5G",
             "os": "Andriod 11",
@@ -2904,6 +3049,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 146,
+            "phone_model": 27,
             "sku": "MO-146-L-SIL",
             "name": "Motorola Razr 5G",
             "os": "Andriod 11",
@@ -2924,6 +3070,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 147,
+            "phone_model": 27,
             "sku": "MO-147-L-BLK",
             "name": "Motorola Razr 5G",
             "os": "Andriod 11",
@@ -2944,6 +3091,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 148,
+            "phone_model": 28,
             "sku": "ON-148-L-BLU",
             "name": "OnePlus 8 Pro",
             "os": "Andriod 11",
@@ -2964,6 +3112,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 149,
+            "phone_model": 28,
             "sku": "ON-149-L-GRE",
             "name": "OnePlus 8 Pro",
             "os": "Andriod 11",
@@ -2984,6 +3133,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 150,
+            "phone_model": 28,
             "sku": "ON-150-L-BLK",
             "name": "OnePlus 8 Pro",
             "os": "Andriod 11",
@@ -3004,6 +3154,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 151,
+            "phone_model": 29,
             "sku": "ON-151-M-GRE",
             "name": "OnePlus 8 T",
             "os": "Andriod 11",
@@ -3024,6 +3175,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 152,
+            "phone_model": 29,
             "sku": "ON-152-M-SIL",
             "name": "OnePlus 8 T",
             "os": "Andriod 11",
@@ -3044,6 +3196,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 153,
+            "phone_model": 29,
             "sku": "ON-153-L-GRE",
             "name": "OnePlus 8 T",
             "os": "Andriod 11",
@@ -3064,6 +3217,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 154,
+            "phone_model": 29,
             "sku": "ON-154-L-SIL",
             "name": "OnePlus 8 T",
             "os": "Andriod 11",
@@ -3084,6 +3238,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 155,
+            "phone_model": 30,
             "sku": "ON-155-M-GRE",
             "name": "OnePlus 8",
             "os": "Andriod 11",
@@ -3104,6 +3259,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 156,
+            "phone_model": 30,
             "sku": "ON-156-M-BLK",
             "name": "OnePlus 8",
             "os": "Andriod 11",
@@ -3124,6 +3280,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 157,
+            "phone_model": 31,
             "sku": "ON-157-M-BLU",
             "name": "OnePlus Nord CE 5G",
             "os": "Andriod 11",
@@ -3144,6 +3301,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 158,
+            "phone_model": 31,
             "sku": "ON-158-M-BLK",
             "name": "OnePlus Nord CE 5G",
             "os": "Andriod 11",
@@ -3164,6 +3322,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 159,
+            "phone_model": 31,
             "sku": "ON-159-M-SIL",
             "name": "OnePlus Nord CE 5G",
             "os": "Andriod 11",
@@ -3184,6 +3343,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 160,
+            "phone_model": 31,
             "sku": "ON-160-L-BLU",
             "name": "OnePlus Nord CE 5G",
             "os": "Andriod 11",
@@ -3204,6 +3364,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 161,
+            "phone_model": 31,
             "sku": "ON-161-L-BLK",
             "name": "OnePlus Nord CE 5G",
             "os": "Andriod 11",
@@ -3224,6 +3385,7 @@
         "model": "store.SimFree",
         "fields": {
             "phone_id": 162,
+            "phone_model": 31,
             "sku": "ON-162-L-SIL",
             "name": "OnePlus Nord CE 5G",
             "os": "Andriod 11",

@@ -190,6 +190,14 @@ Additions:
 - Changes to phone details page
 - Basic structure for review section
 
+### 6.17 Added phone fixtures
+
+Additions:
+
+- Updated SimFree model
+- Added Phone model
+- Added phone.json
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
