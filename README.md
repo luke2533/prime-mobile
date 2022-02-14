@@ -183,6 +183,13 @@ Additions:
 - Frosted glass product cards
 - Phone detail image slideshow
 
+### 6.16 Basic structural changes to phone details page
+
+Additions:
+
+- Changes to phone details page
+- Basic structure for review section
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
