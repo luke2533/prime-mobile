@@ -163,9 +163,10 @@ body a:hover {
 /* Store page */
 
 .product-card {
-    background-color: #Cfd2d7;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
     border: solid black 1px;
-    color: #181818;
+    color: #cecece;
     width: 350px!important;
     height: 550px;
     margin-top: 10px;
@@ -179,6 +180,8 @@ body a:hover {
 
 .product-card:hover {
     box-shadow: 5px 5px 5px 5px #21fdda;
+    background-color: rgba(85, 85, 85, 0.15);
+    backdrop-filter: blur(15px);
 }
 
 .product-card h3, h4 {
@@ -234,7 +237,41 @@ body a:hover {
 
 /* Phone details page */
 
+.phone-details {
+    text-align: center;
+}
 
+.phone-image-slideshow {
+    height: 650px;
+    width: 550px;
+    display: inline-block;
+}
+
+.phone-image {
+    height: 600px;
+    max-width: 500px;
+}
+
+.phone-specs {
+    border: black 1px solid;
+
+}
+
+.phone-icon {
+
+}
+
+.phone-options {
+    background-color: grey;
+}
+
+.phone-review {
+    background-color: grey;
+}
+
+.user-review {
+
+}
 
 /* Phone details page */
 
@@ -283,6 +320,15 @@ body a:hover {
     .banner-title{
         color: white;
         font-size: 3.5em;
+    }
+    .phone-image-slideshow {
+        height: 550px;
+        width: 400px;
+        display: inline-block;
+    }
+    .phone-image {
+        height: 500px;
+        max-width: 400px;
     }
 
 }

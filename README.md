@@ -176,6 +176,13 @@ Additions:
 - Changes to product card structuring on devices
 - Phone details page
 
+### 6.15 Frosted glass background and phone image slideshows
+
+Additions:
+
+- Frosted glass product cards
+- Phone detail image slideshow
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
