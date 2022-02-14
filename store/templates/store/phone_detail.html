@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10">
+                <div class="phone-details">
+                    <h2>{{ phone.name }}</h2>
+                    <h4>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </h4>
+                    <div class="phone-images">
+                        <img src="{{ phone.img_1.url }}" class="product-image" alt="{{ phone.name }}">
+                        <img src="{{ phone.img_2.url }}" class="product-image" alt="{{ phone.name }}">
+                        <img src="{{ phone.img_3.url }}" class="product-image" alt="{{ phone.name }}">
+                    </div>
+                    <div class="phone-specs">
+                        <i class="fa-solid fa-camera">{{ phone.camera }}</i>
+                        <i class="fa-solid fa-microchip">{{ phone.os }}</i>
+                        <i class="fa-solid fa-mobile">{{ phone.screen }}</i>
+                        <i class="fa-solid fa-hard-drive">{{ phone.capacity }}</i>
+                    </div>
+                </div>
+
+                <div class="phone-options">
+                    <form action="">
+                        <h3>Colour</h3>
+                        {% for phone.color in phones %}
+                            <button>{{ phone.color }}</button>
+                        {% endfor %}
+
+                        <h3>Storage</h3>
+                        {% for phone.storage in phones %}
+                            <button>{{ phone.storage }}</button>
+                        {% endfor %}
+
+                        <h3>Purchase</h3>
+                        <button>SIM Free</button>
+                        <button>SIM Plan</button>
+                        <button>SIM Only</button>
+                    </form>
+                </div>
+
+                <div class="phone-review">
+                    <h2 class="text-center">Reviews</h2>
+                    <div class="user-review">
+
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+    </div>
+{% endblock %}

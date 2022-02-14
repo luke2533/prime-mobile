@@ -199,8 +199,14 @@ body a:hover {
 
 .product-image {
     height: 400px;
+    max-width: 350px;
     border-radius: 45px;
     object-fit: cover;
+}
+
+.product-image:hover {
+    transition: all .3s cubic-bezier(0,0,.5,1);
+    height: 404px;
 }
 
 .product-details {
@@ -226,13 +232,13 @@ body a:hover {
 
 /* Store page */
 
-/* Breakpoints */
+/* Phone details page */
 
-@media(min-width: 1440px){
-    .row-desktop {
-        justify-content: space-around;
-    }
-}
+
+
+/* Phone details page */
+
+/* Breakpoints */
 
 @media (min-width: 1024px) {
     .btn-link{
@@ -260,6 +266,8 @@ body a:hover {
 @media (max-width: 991px) {
 
 }
+
+
 
 @media (max-width: 426px) {
     .footer-mobile {

@@ -169,6 +169,13 @@ Additions:
 
 - Product images appear on product card
 
+### 6.14 Store product card structuring and phone details page
+
+Additions:
+
+- Changes to product card structuring on devices
+- Phone details page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
