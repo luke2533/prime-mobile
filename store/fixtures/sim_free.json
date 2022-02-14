@@ -7,17 +7,10 @@
             "phone_model": 1,
             "sku": "IP-001-M-BLU",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#377ea3",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -28,17 +21,10 @@
             "phone_model": 1,
             "sku": "IP-002-M-MID",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#2a3139",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -49,17 +35,10 @@
             "phone_model": 1,
             "sku": "IP-003-M-RED",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c71c2c",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -70,17 +49,10 @@
             "phone_model": 1,
             "sku": "IP-004-M-STA",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fcf9f6",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -91,17 +63,10 @@
             "phone_model": 1,
             "sku": "IP-005-L-BLU",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 879.99
+            "cost": 879.99,
+            "category": 2
         }
     },
     {
@@ -112,17 +77,10 @@
             "phone_model": 1,
             "sku": "IP-006-L-MID",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#2a3139",
-            "cost": 879.99
+            "cost": 879.99,
+            "category": 2
         }
     },
     {
@@ -133,17 +91,10 @@
             "phone_model": 1,
             "sku": "IP-007-L-RED",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c71c2c",
-            "cost": 879.99
+            "cost": 879.99,
+            "category": 2
         }
     },
     {
@@ -154,17 +105,10 @@
             "phone_model": 1,
             "sku": "IP-008-L-STA",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#fcf9f6",
-            "cost": 879.99
+            "cost": 879.99,
+            "category": 2
         }
     },
     {
@@ -175,17 +119,10 @@
             "phone_model": 1,
             "sku": "IP-009-XL-BLU",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#377ea3",
-            "cost": 1079.99
+            "cost": 1079.99,
+            "category": 2
         }
     },
     {
@@ -196,18 +133,11 @@
             "phone_model": 1,
             "sku": "IP-010-XL-MID",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#2a3139",
-            "cost": 1079.99
-        } 
+            "cost": 1079.99,
+            "category": 2
+        }
     },
     {
         "pk": 11,
@@ -217,17 +147,10 @@
             "phone_model": 1,
             "sku": "IP-011-XL-RED",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#c71c2c",
-            "cost": 1079.99
+            "cost": 1079.99,
+            "category": 2
         }
     },
     {
@@ -238,17 +161,10 @@
             "phone_model": 1,
             "sku": "IP-012-XL-STA",
             "name": "iPhone 13",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13.jpg",
-            "img_2": "i13-2.jpg",
-            "img_3": "i13-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#fcf9f6",
-            "cost": 1079.99
+            "cost": 1079.99,
+            "category": 2
         }
     },
     {
@@ -259,17 +175,10 @@
             "phone_model": 2,
             "sku": "IP-013-M-BLU",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#377ea3",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -280,17 +189,10 @@
             "phone_model": 2,
             "sku": "IP-014-M-MID",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#2a3139",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -301,17 +203,10 @@
             "phone_model": 2,
             "sku": "IP-015-M-RED",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c71c2c",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -322,17 +217,10 @@
             "phone_model": 2,
             "sku": "IP-016-M-STA",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fcf9f6",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -343,17 +231,10 @@
             "phone_model": 2,
             "sku": "IP-017-L-BLU",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -364,17 +245,10 @@
             "phone_model": 2,
             "sku": "IP-018-L-MID",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#2a3139",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -385,17 +259,10 @@
             "phone_model": 2,
             "sku": "IP-019-L-RED",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c71c2c",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -406,17 +273,10 @@
             "phone_model": 2,
             "sku": "IP-020-L-STA",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#fcf9f6",
-            "cost": 779.99
+            "cost": 779.99,
+            "category": 2
         }
     },
     {
@@ -427,17 +287,10 @@
             "phone_model": 2,
             "sku": "IP-021-XL-BLU",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#377ea3",
-            "cost": 979.99
+            "cost": 979.99,
+            "category": 2
         }
     },
     {
@@ -448,17 +301,10 @@
             "phone_model": 2,
             "sku": "IP-022-XL-MID",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#2a3139",
-            "cost": 979.99
+            "cost": 979.99,
+            "category": 2
         }
     },
     {
@@ -469,17 +315,10 @@
             "phone_model": 2,
             "sku": "IP-023-XL-RED",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#c71c2c",
-            "cost": 979.99
+            "cost": 979.99,
+            "category": 2
         }
     },
     {
@@ -490,17 +329,10 @@
             "phone_model": 2,
             "sku": "IP-024-XL-STA",
             "name": "iPhone 13 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "128 - 512GB",
-            "img_1": "i13-mini.jpg",
-            "img_2": "i13-mini-2.jpg",
-            "img_3": "i13-mini-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#fcf9f6",
-            "cost": 979.99
+            "cost": 979.99,
+            "category": 2
         }
     },
     {
@@ -511,17 +343,10 @@
             "phone_model": 3,
             "sku": "IP-025-M-GOL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#d4b38e",
-            "cost": 949.99
+            "cost": 949.99,
+            "category": 2
         }
     },
     {
@@ -532,17 +357,10 @@
             "phone_model": 3,
             "sku": "IP-026-M-GRA",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#4e5355",
-            "cost": 949.99
+            "cost": 949.99,
+            "category": 2
         }
     },
     {
@@ -553,17 +371,10 @@
             "phone_model": 3,
             "sku": "IP-027-M-LIE",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#a0bcd6",
-            "cost": 949.99
+            "cost": 949.99,
+            "category": 2
         }
     },
     {
@@ -574,17 +385,10 @@
             "phone_model": 3,
             "sku": "IP-028-M-SIL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c0c0c0",
-            "cost": 949.99
+            "cost": 949.99,
+            "category": 2
         }
     },
     {
@@ -595,17 +399,10 @@
             "phone_model": 3,
             "sku": "IP-029-L-GOL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#d4b38e",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -616,17 +413,10 @@
             "phone_model": 3,
             "sku": "IP-030-L-GRA",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#4e5355",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -637,17 +427,10 @@
             "phone_model": 3,
             "sku": "IP-031-L-LIE",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#a0bcd6",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -658,17 +441,10 @@
             "phone_model": 3,
             "sku": "IP-032-L-SIL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -679,17 +455,10 @@
             "phone_model": 3,
             "sku": "IP-033-XL-GOL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#d4b38e",
-            "cost": 1249.99
+            "cost": 1249.99,
+            "category": 2
         }
     },
     {
@@ -700,17 +469,10 @@
             "phone_model": 3,
             "sku": "IP-034-XL-GRA",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#4e5355",
-            "cost": 1249.99
+            "cost": 1249.99,
+            "category": 2
         }
     },
     {
@@ -721,17 +483,10 @@
             "phone_model": 3,
             "sku": "IP-035-XL-LIE",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#a0bcd6",
-            "cost": 1249.99
+            "cost": 1249.99,
+            "category": 2
         }
     },
     {
@@ -742,17 +497,10 @@
             "phone_model": 3,
             "sku": "IP-036-XL-SIL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#c0c0c0",
-            "cost": 1249.99
+            "cost": 1249.99,
+            "category": 2
         }
     },
     {
@@ -763,17 +511,10 @@
             "phone_model": 3,
             "sku": "IP-037-XXL-GOL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#d4b38e",
-            "cost": 1449.99
+            "cost": 1449.99,
+            "category": 2
         }
     },
     {
@@ -784,17 +525,10 @@
             "phone_model": 3,
             "sku": "IP-038-XXL-GRA",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#4e5355",
-            "cost": 1449.99
+            "cost": 1449.99,
+            "category": 2
         }
     },
     {
@@ -805,17 +539,10 @@
             "phone_model": 3,
             "sku": "IP-039-XXL-LIE",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#a0bcd6",
-            "cost": 1449.99
+            "cost": 1449.99,
+            "category": 2
         }
     },
     {
@@ -826,17 +553,10 @@
             "phone_model": 3,
             "sku": "IP-040-XXL-SIL",
             "name": "iPhone 13 Pro",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#c0c0c0",
-            "cost": 1449.99
+            "cost": 1449.99,
+            "category": 2
         }
     },
     {
@@ -847,17 +567,10 @@
             "phone_model": 4,
             "sku": "IP-041-M-GOL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#d4b38e",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -868,17 +581,10 @@
             "phone_model": 4,
             "sku": "IP-042-M-GRA",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#4e5355",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -889,17 +595,10 @@
             "phone_model": 4,
             "sku": "IP-043-M-LIE",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#a0bcd6",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -910,17 +609,10 @@
             "phone_model": 4,
             "sku": "IP-044-M-SIL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c0c0c0",
-            "cost": 1049.99
+            "cost": 1049.99,
+            "category": 2
         }
     },
     {
@@ -931,17 +623,10 @@
             "phone_model": 4,
             "sku": "IP-045-L-GOL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#d4b38e",
-            "cost": 1149.99
+            "cost": 1149.99,
+            "category": 2
         }
     },
     {
@@ -952,17 +637,10 @@
             "phone_model": 4,
             "sku": "IP-046-L-GRA",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#4e5355",
-            "cost": 1149.99
+            "cost": 1149.99,
+            "category": 2
         }
     },
     {
@@ -973,17 +651,10 @@
             "phone_model": 4,
             "sku": "IP-047-L-LIE",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#a0bcd6",
-            "cost": 1149.99
+            "cost": 1149.99,
+            "category": 2
         }
     },
     {
@@ -994,17 +665,10 @@
             "phone_model": 4,
             "sku": "IP-048-L-SIL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 1149.99
+            "cost": 1149.99,
+            "category": 2
         }
     },
     {
@@ -1015,17 +679,10 @@
             "phone_model": 4,
             "sku": "IP-049-XL-GOL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#d4b38e",
-            "cost": 1349.99
+            "cost": 1349.99,
+            "category": 2
         }
     },
     {
@@ -1036,17 +693,10 @@
             "phone_model": 4,
             "sku": "IP-050-XL-GRA",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#4e5355",
-            "cost": 1349.99
+            "cost": 1349.99,
+            "category": 2
         }
     },
     {
@@ -1057,17 +707,10 @@
             "phone_model": 4,
             "sku": "IP-051-XL-LIE",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#a0bcd6",
-            "cost": 1349.99
+            "cost": 1349.99,
+            "category": 2
         }
     },
     {
@@ -1078,17 +721,10 @@
             "phone_model": 4,
             "sku": "IP-052-XL-SIL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#c0c0c0",
-            "cost": 1349.99
+            "cost": 1349.99,
+            "category": 2
         }
     },
     {
@@ -1099,17 +735,10 @@
             "phone_model": 4,
             "sku": "IP-053-XXL-GOL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#d4b38e",
-            "cost": 1549.99
+            "cost": 1549.99,
+            "category": 2
         }
     },
     {
@@ -1120,17 +749,10 @@
             "phone_model": 4,
             "sku": "IP-054-XXL-GRA",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#4e5355",
-            "cost": 1549.99
+            "cost": 1549.99,
+            "category": 2
         }
     },
     {
@@ -1141,17 +763,10 @@
             "phone_model": 4,
             "sku": "IP-055-XXL-LIE",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#a0bcd6",
-            "cost": 1549.99
+            "cost": 1549.99,
+            "category": 2
         }
     },
     {
@@ -1162,17 +777,10 @@
             "phone_model": 4,
             "sku": "IP-056-XXL-SIL",
             "name": "iPhone 13 Pro Max",
-            "os": "iOS 15",
-            "screen": 6.7,
-            "camera": "12MP",
-            "capacity": "128 - 1024GB",
-            "img_1": "i13-pro.jpg",
-            "img_2": "i13-pro-2.jpg",
-            "img_3": "i13-pro-3.jpg",
-            "category": 1,
             "storage": 1024,
             "color": "#c0c0c0",
-            "cost": 1549.99
+            "cost": 1549.99,
+            "category": 2
         }
     },
     {
@@ -1183,17 +791,10 @@
             "phone_model": 5,
             "sku": "IP-057-S-WHI",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#fff",
-            "cost": 559.99
+            "cost": 559.99,
+            "category": 2
         }
     },
     {
@@ -1204,17 +805,10 @@
             "phone_model": 5,
             "sku": "IP-058-S-RED",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#c71c2c",
-            "cost": 559.99
+            "cost": 559.99,
+            "category": 2
         }
     },
     {
@@ -1225,17 +819,10 @@
             "phone_model": 5,
             "sku": "IP-059-S-BLU",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#377ea3",
-            "cost": 559.99
+            "cost": 559.99,
+            "category": 2
         }
     },
     {
@@ -1246,17 +833,10 @@
             "phone_model": 5,
             "sku": "IP-060-S-BLK",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#000",
-            "cost": 559.99
+            "cost": 559.99,
+            "category": 2
         }
     },
     {
@@ -1267,17 +847,10 @@
             "phone_model": 5,
             "sku": "IP-061-M-WHI",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fff",
-            "cost": 609.99
+            "cost": 609.99,
+            "category": 2
         }
     },
     {
@@ -1288,17 +861,10 @@
             "phone_model": 5,
             "sku": "IP-062-M-RED",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c71c2c",
-            "cost": 609.99
+            "cost": 609.99,
+            "category": 2
         }
     },
     {
@@ -1309,17 +875,10 @@
             "phone_model": 5,
             "sku": "IP-063-M-BLU",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#377ea3",
-            "cost": 609.99
+            "cost": 609.99,
+            "category": 2
         }
     },
     {
@@ -1330,17 +889,10 @@
             "phone_model": 5,
             "sku": "IP-064-M-BLK",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 609.99
+            "cost": 609.99,
+            "category": 2
         }
     },
     {
@@ -1351,17 +903,10 @@
             "phone_model": 5,
             "sku": "IP-065-L-WHI",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#fff",
-            "cost": 709.99
+            "cost": 709.99,
+            "category": 2
         }
     },
     {
@@ -1372,17 +917,10 @@
             "phone_model": 5,
             "sku": "IP-066-L-RED",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c71c2c",
-            "cost": 709.99
+            "cost": 709.99,
+            "category": 2
         }
     },
     {
@@ -1393,17 +931,10 @@
             "phone_model": 5,
             "sku": "IP-067-L-BLU",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 709.99
+            "cost": 709.99,
+            "category": 2
         }
     },
     {
@@ -1414,17 +945,10 @@
             "phone_model": 5,
             "sku": "IP-068-L-BLK",
             "name": "iPhone 12 Mini",
-            "os": "iOS 15",
-            "screen": 5.4,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12-mini.jpg",
-            "img_2": "i12-mini-2.jpg",
-            "img_3": "i12-mini-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 709.99
+            "cost": 709.99,
+            "category": 2
         }
     },
     {
@@ -1435,17 +959,10 @@
             "phone_model": 6,
             "sku": "IP-069-S-WHI",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#fff",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -1456,17 +973,10 @@
             "phone_model": 6,
             "sku": "IP-070-S-RED",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#c71c2c",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -1477,17 +987,10 @@
             "phone_model": 6,
             "sku": "IP-071-S-BLU",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#377ea3",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -1498,17 +1001,10 @@
             "phone_model": 6,
             "sku": "IP-072-S-BLK",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#000",
-            "cost": 679.99
+            "cost": 679.99,
+            "category": 2
         }
     },
     {
@@ -1519,17 +1015,10 @@
             "phone_model": 6,
             "sku": "IP-073-M-WHI",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fff",
-            "cost": 729.99
+            "cost": 729.99,
+            "category": 2
         }
     },
     {
@@ -1540,17 +1029,10 @@
             "phone_model": 6,
             "sku": "IP-074-M-RED",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c71c2c",
-            "cost": 729.99
+            "cost": 729.99,
+            "category": 2
         }
     },
     {
@@ -1561,17 +1043,10 @@
             "phone_model": 6,
             "sku": "IP-075-M-BLU",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#377ea3",
-            "cost": 729.99
+            "cost": 729.99,
+            "category": 2
         }
     },
     {
@@ -1582,17 +1057,10 @@
             "phone_model": 6,
             "sku": "IP-076-M-BLK",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 729.99
+            "cost": 729.99,
+            "category": 2
         }
     },
     {
@@ -1603,17 +1071,10 @@
             "phone_model": 6,
             "sku": "IP-077-L-WHI",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#fff",
-            "cost": 829.99
+            "cost": 829.99,
+            "category": 2
         }
     },
     {
@@ -1624,17 +1085,10 @@
             "phone_model": 6,
             "sku": "IP-078-L-RED",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c71c2c",
-            "cost": 829.99
+            "cost": 829.99,
+            "category": 2
         }
     },
     {
@@ -1645,17 +1099,10 @@
             "phone_model": 6,
             "sku": "IP-079-L-BLU",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 829.99
+            "cost": 829.99,
+            "category": 2
         }
     },
     {
@@ -1666,17 +1113,10 @@
             "phone_model": 6,
             "sku": "IP-080-L-BLK",
             "name": "iPhone 12",
-            "os": "iOS 15",
-            "screen": 6.1,
-            "camera": "12MP",
-            "capacity": "64 - 256GB",
-            "img_1": "i12.jpg",
-            "img_2": "i12-2.jpg",
-            "img_3": "i12-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 829.99
+            "cost": 829.99,
+            "category": 2
         }
     },
     {
@@ -1687,17 +1127,10 @@
             "phone_model": 7,
             "sku": "SA-081-M-SIL",
             "name": "Samsung S21 Ultra",
-            "os": "Andriod 11",
-            "screen": 6.8,
-            "camera": "108MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21-ultra.jpg",
-            "img_2": "s21-ultra-2.jpg",
-            "img_3": "s21-ultra-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c0c0c0",
-            "cost": 969.99
+            "cost": 969.99,
+            "category": 2
         }
     },
     {
@@ -1708,17 +1141,10 @@
             "phone_model": 7,
             "sku": "SA-082-M-BLK",
             "name": "Samsung S21 Ultra",
-            "os": "Andriod 11",
-            "screen": 6.8,
-            "camera": "108MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21-ultra.jpg",
-            "img_2": "s21-ultra-2.jpg",
-            "img_3": "s21-ultra-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 969.99
+            "cost": 969.99,
+            "category": 2
         }
     },
     {
@@ -1729,17 +1155,10 @@
             "phone_model": 7,
             "sku": "SA-083-L-SIL",
             "name": "Samsung S21 Ultra",
-            "os": "Andriod 11",
-            "screen": 6.8,
-            "camera": "108MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21-ultra.jpg",
-            "img_2": "s21-ultra-2.jpg",
-            "img_3": "s21-ultra-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 999.99
+            "cost": 999.99,
+            "category": 2
         }
     },
     {
@@ -1750,17 +1169,10 @@
             "phone_model": 7,
             "sku": "SA-084-L-BLK",
             "name": "Samsung S21 Ultra",
-            "os": "Andriod 11",
-            "screen": 6.8,
-            "camera": "108MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21-ultra.jpg",
-            "img_2": "s21-ultra-2.jpg",
-            "img_3": "s21-ultra-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 999.99
+            "cost": 999.99,
+            "category": 2
         }
     },
     {
@@ -1771,17 +1183,10 @@
             "phone_model": 8,
             "sku": "SA-085-M-VIO",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#6c204f",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -1792,17 +1197,10 @@
             "phone_model": 8,
             "sku": "SA-086-M-WHI",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fff",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -1813,17 +1211,10 @@
             "phone_model": 8,
             "sku": "SA-087-M-PIN",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#ffc0cb",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -1834,17 +1225,10 @@
             "phone_model": 8,
             "sku": "SA-088-M-GRY",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#808080",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -1855,17 +1239,10 @@
             "phone_model": 8,
             "sku": "SA-089-L-VIO",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#6c204f",
-            "cost": 699.99
+            "cost": 699.99,
+            "category": 2
         }
     },
     {
@@ -1876,17 +1253,10 @@
             "phone_model": 8,
             "sku": "SA-090-L-WHI",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#fff",
-            "cost": 699.99
+            "cost": 699.99,
+            "category": 2
         }
     },
     {
@@ -1897,17 +1267,10 @@
             "phone_model": 8,
             "sku": "SA-091-L-PIN",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#ffc0cb",
-            "cost": 699.99
+            "cost": 699.99,
+            "category": 2
         }
     },
     {
@@ -1918,17 +1281,10 @@
             "phone_model": 8,
             "sku": "SA-092-L-GRY",
             "name": "Samsung S21",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "s21.jpg",
-            "img_2": "s21-2.jpg",
-            "img_3": "s21-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#808080",
-            "cost": 699.99
+            "cost": 699.99,
+            "category": 2
         }
     },
     {
@@ -1939,17 +1295,10 @@
             "phone_model": 9,
             "sku": "SA-093-L-BLK",
             "name": "Samsung Galaxy Z Fold3 5G",
-            "os": "Andriod 11",
-            "screen": "7.6 / 6.2",
-            "camera": "12MP",
-            "capacity": "256 - 512GB",
-            "img_1": "fold.jpg",
-            "img_2": "fold-2.jpg",
-            "img_3": "fold-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 1599.99
+            "cost": 1599.99,
+            "category": 2
         }
     },
     {
@@ -1960,17 +1309,10 @@
             "phone_model": 9,
             "sku": "SA-094-L-SIL",
             "name": "Samsung Galaxy Z Fold3 5G",
-            "os": "Andriod 11",
-            "screen": "7.6 / 6.2",
-            "camera": "12MP",
-            "capacity": "256 - 512GB",
-            "img_1": "fold.jpg",
-            "img_2": "fold-2.jpg",
-            "img_3": "fold-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 1599.99
+            "cost": 1599.99,
+            "category": 2
         }
     },
     {
@@ -1981,17 +1323,10 @@
             "phone_model": 9,
             "sku": "SA-095-L-GRE",
             "name": "Samsung Galaxy Z Fold3 5G",
-            "os": "Andriod 11",
-            "screen": "7.6 / 6.2",
-            "camera": "12MP",
-            "capacity": "256 - 512GB",
-            "img_1": "fold.jpg",
-            "img_2": "fold-2.jpg",
-            "img_3": "fold-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#46c77e",
-            "cost": 1599.99
+            "cost": 1599.99,
+            "category": 2
         }
     },
     {
@@ -2002,17 +1337,10 @@
             "phone_model": 9,
             "sku": "SA-096-XL-BLK",
             "name": "Samsung Galaxy Z Fold3 5G",
-            "os": "Andriod 11",
-            "screen": "7.6 / 6.2",
-            "camera": "12MP",
-            "capacity": "256 - 512GB",
-            "img_1": "fold.jpg",
-            "img_2": "fold-2.jpg",
-            "img_3": "fold-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#000",
-            "cost": 1699.99
+            "cost": 1699.99,
+            "category": 2
         }
     },
     {
@@ -2023,17 +1351,10 @@
             "phone_model": 9,
             "sku": "SA-097-XL-SIL",
             "name": "Samsung Galaxy Z Fold3 5G",
-            "os": "Andriod 11",
-            "screen": "7.6 / 6.2",
-            "camera": "12MP",
-            "capacity": "256 - 512GB",
-            "img_1": "fold.jpg",
-            "img_2": "fold-2.jpg",
-            "img_3": "fold-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#c0c0c0",
-            "cost": 1699.99
+            "cost": 1699.99,
+            "category": 2
         }
     },
     {
@@ -2044,17 +1365,10 @@
             "phone_model": 9,
             "sku": "SA-098-XL-GRE",
             "name": "Samsung Galaxy Z Fold3 5G",
-            "os": "Andriod 11",
-            "screen": "7.6 / 6.2",
-            "camera": "12MP",
-            "capacity": "256 - 512GB",
-            "img_1": "fold.jpg",
-            "img_2": "fold-2.jpg",
-            "img_3": "fold-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#46c77e",
-            "cost": 1699.99
+            "cost": 1699.99,
+            "category": 2
         }
     },
     {
@@ -2065,17 +1379,10 @@
             "phone_model": 10,
             "sku": "SA-099-M-BLK",
             "name": "Samsung Galaxy A52s",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "64MP",
-            "capacity": "128GB",
-            "img_1": "a52s.jpg",
-            "img_2": "a52s-2.jpg",
-            "img_3": "a52s-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 349.99
+            "cost": 349.99,
+            "category": 2
         }
     },
     {
@@ -2086,17 +1393,10 @@
             "phone_model": 10,
             "sku": "SA-100-M-WHI",
             "name": "Samsung Galaxy A52s",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "64MP",
-            "capacity": "128GB",
-            "img_1": "a52s.jpg",
-            "img_2": "a52s-2.jpg",
-            "img_3": "a52s-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fff",
-            "cost": 349.99
+            "cost": 349.99,
+            "category": 2
         }
     },
     {
@@ -2107,17 +1407,10 @@
             "phone_model": 10,
             "sku": "SA-101-M-VIO",
             "name": "Samsung Galaxy A52s",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "64MP",
-            "capacity": "128GB",
-            "img_1": "a52s.jpg",
-            "img_2": "a52s-2.jpg",
-            "img_3": "a52s-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#6c204f",
-            "cost": 349.99
+            "cost": 349.99,
+            "category": 2
         }
     },
     {
@@ -2128,17 +1421,10 @@
             "phone_model": 10,
             "sku": "SA-102-M-LIM",
             "name": "Samsung Galaxy A52s",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "64MP",
-            "capacity": "128GB",
-            "img_1": "a52s.jpg",
-            "img_2": "a52s-2.jpg",
-            "img_3": "a52s-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#98ff98",
-            "cost": 349.99
+            "cost": 349.99,
+            "category": 2
         }
     },
     {
@@ -2149,17 +1435,10 @@
             "phone_model": 11,
             "sku": "SA-103-S-BLK",
             "name": "Samsung Galaxy A32",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "a32.jpg",
-            "img_2": "a32-2.jpg",
-            "img_3": "a32-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#000",
-            "cost": 249.99
+            "cost": 249.99,
+            "category": 2
         }
     },
     {
@@ -2170,17 +1449,10 @@
             "phone_model": 11,
             "sku": "SA-104-S-WHI",
             "name": "Samsung Galaxy A32",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "a32.jpg",
-            "img_2": "a32-2.jpg",
-            "img_3": "a32-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#fff",
-            "cost": 249.99
+            "cost": 249.99,
+            "category": 2
         }
     },
     {
@@ -2191,17 +1463,10 @@
             "phone_model": 11,
             "sku": "SA-105-S-VIO",
             "name": "Samsung Galaxy A32",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "a32.jpg",
-            "img_2": "a32-2.jpg",
-            "img_3": "a32-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#6c204f",
-            "cost": 249.99
+            "cost": 249.99,
+            "category": 2
         }
     },
     {
@@ -2212,17 +1477,10 @@
             "phone_model": 11,
             "sku": "SA-106-S-BLU",
             "name": "Samsung Galaxy A32",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "a32.jpg",
-            "img_2": "a32-2.jpg",
-            "img_3": "a32-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#377ea3",
-            "cost": 249.99
+            "cost": 249.99,
+            "category": 2
         }
     },
     {
@@ -2233,17 +1491,10 @@
             "phone_model": 12,
             "sku": "SA-107-S-VIO",
             "name": "Samsung Galaxy A22 5G",
-            "os": "Andriod 11",
-            "screen": 6.6,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "a22.jpg",
-            "img_2": "a22-2.jpg",
-            "img_3": "a22-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#6c204f",
-            "cost": 199.99
+            "cost": 199.99,
+            "category": 2
         }
     },
     {
@@ -2254,17 +1505,10 @@
             "phone_model": 12,
             "sku": "SA-108-S-WHI",
             "name": "Samsung Galaxy A22 5G",
-            "os": "Andriod 11",
-            "screen": 6.6,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "a22.jpg",
-            "img_2": "a22-2.jpg",
-            "img_3": "a22-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#fff",
-            "cost": 199.99
+            "cost": 199.99,
+            "category": 2
         }
     },
     {
@@ -2275,17 +1519,10 @@
             "phone_model": 12,
             "sku": "SA-109-S-GRY",
             "name": "Samsung Galaxy A22 5G",
-            "os": "Andriod 11",
-            "screen": 6.6,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "a22.jpg",
-            "img_2": "a22-2.jpg",
-            "img_3": "a22-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#808080",
-            "cost": 199.99
+            "cost": 199.99,
+            "category": 2
         }
     },
     {
@@ -2296,17 +1533,10 @@
             "phone_model": 13,
             "sku": "HO-110-M-GRE",
             "name": "HONOR 50",
-            "os": "Andriod 11",
-            "screen": 6.6,
-            "camera": "108MP",
-            "capacity": "128GB",
-            "img_1": "h50.jpg",
-            "img_2": "h50-2.jpg",
-            "img_3": "h50-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#46c77e",
-            "cost": 449.99
+            "cost": 449.99,
+            "category": 2
         }
     },
     {
@@ -2317,17 +1547,10 @@
             "phone_model": 13,
             "sku": "HO-111-M-BLK",
             "name": "HONOR 50",
-            "os": "Andriod 11",
-            "screen": 6.6,
-            "camera": "108MP",
-            "capacity": "128GB",
-            "img_1": "h50.jpg",
-            "img_2": "h50-2.jpg",
-            "img_3": "h50-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 449.99
+            "cost": 449.99,
+            "category": 2
         }
     },
     {
@@ -2338,17 +1561,10 @@
             "phone_model": 13,
             "sku": "HO-112-M-WHI",
             "name": "HONOR 50",
-            "os": "Andriod 11",
-            "screen": 6.6,
-            "camera": "108MP",
-            "capacity": "128GB",
-            "img_1": "h50.jpg",
-            "img_2": "h50-2.jpg",
-            "img_3": "h50-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fff",
-            "cost": 449.99
+            "cost": 449.99,
+            "category": 2
         }
     },
     {
@@ -2359,17 +1575,10 @@
             "phone_model": 14,
             "sku": "OP-113-S-VIO",
             "name": "OPPO A54",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "oppo-a54.jpg",
-            "img_2": "oppo-a54-2.jpg",
-            "img_3": "oppo-a54-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#90538f",
-            "cost": 219.99
+            "cost": 219.99,
+            "category": 2
         }
     },
     {
@@ -2380,17 +1589,10 @@
             "phone_model": 14,
             "sku": "OP-114-S-BLK",
             "name": "OPPO A54",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "48MP",
-            "capacity": "64GB",
-            "img_1": "oppo-a54.jpg",
-            "img_2": "oppo-a54-2.jpg",
-            "img_3": "oppo-a54-3.jpg",
-            "category": 1,
             "storage": 64,
             "color": "#000",
-            "cost": 219.99
+            "cost": 219.99,
+            "category": 2
         }
     },
     {
@@ -2401,17 +1603,10 @@
             "phone_model": 15,
             "sku": "OP-115-M-BLK",
             "name": "OPPO A72",
-            "os": "Andriod 11",
-            "screen": 6.5,
-            "camera": "48MP",
-            "capacity": "128GB",
-            "img_1": "oppo-a72.jpg",
-            "img_2": "oppo-a72-2.jpg",
-            "img_3": "oppo-a72-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 199.99
+            "cost": 199.99,
+            "category": 2
         }
     },
     {
@@ -2422,17 +1617,10 @@
             "phone_model": 16,
             "sku": "OP-116-XL-ORA",
             "name": "OPPO Find X2 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "48MP",
-            "capacity": "512GB",
-            "img_1": "x2-pro.jpg",
-            "img_2": "x2-pro-2.jpg",
-            "img_3": "x2-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#ff8a40",
-            "cost": 799.99
+            "cost": 799.99,
+            "category": 2
         }
     },
     {
@@ -2443,17 +1631,10 @@
             "phone_model": 16,
             "sku": "OP-117-XL-GRE",
             "name": "OPPO Find X2 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "48MP",
-            "capacity": "512GB",
-            "img_1": "x2-pro.jpg",
-            "img_2": "x2-pro-2.jpg",
-            "img_3": "x2-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#46c77e",
-            "cost": 799.99
+            "cost": 799.99,
+            "category": 2
         }
     },
     {
@@ -2464,17 +1645,10 @@
             "phone_model": 16,
             "sku": "OP-118-XL-BLK",
             "name": "OPPO Find X2 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "48MP",
-            "capacity": "512GB",
-            "img_1": "x2-pro.jpg",
-            "img_2": "x2-pro-2.jpg",
-            "img_3": "x2-pro-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#000",
-            "cost": 799.99
+            "cost": 799.99,
+            "category": 2
         }
     },
     {
@@ -2485,17 +1659,10 @@
             "phone_model": 17,
             "sku": "OP-119-M-BLU",
             "name": "OPPO Find X3 Lite 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128GB",
-            "img_1": "x3-lite.jpg",
-            "img_2": "x3-lite-2.jpg",
-            "img_3": "x3-lite-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#377ea3",
-            "cost": 379.99
+            "cost": 379.99,
+            "category": 2
         }
     },
     {
@@ -2506,17 +1673,10 @@
             "phone_model": 17,
             "sku": "OP-120-M-BLK",
             "name": "OPPO Find X3 Lite 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128GB",
-            "img_1": "x3-lite.jpg",
-            "img_2": "x3-lite-2.jpg",
-            "img_3": "x3-lite-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 379.99
+            "cost": 379.99,
+            "category": 2
         }
     },
     {
@@ -2527,17 +1687,10 @@
             "phone_model": 17,
             "sku": "OP-121-M-SIL",
             "name": "OPPO Find X3 Lite 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128GB",
-            "img_1": "x3-lite.jpg",
-            "img_2": "x3-lite-2.jpg",
-            "img_3": "x3-lite-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c0c0c0",
-            "cost": 379.99
+            "cost": 379.99,
+            "category": 2
         }
     },
     {
@@ -2548,17 +1701,10 @@
             "phone_model": 18,
             "sku": "OP-122-L-BLK",
             "name": "OPPO Find X3 Neo 5G",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "50MP",
-            "capacity": "256GB",
-            "img_1": "x3-neo.jpg",
-            "img_2": "x3-neo-2.jpg",
-            "img_3": "x3-neo-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 599.99
+            "cost": 599.99,
+            "category": 2
         }
     },
     {
@@ -2569,17 +1715,10 @@
             "phone_model": 18,
             "sku": "OP-123-L-SIL",
             "name": "OPPO Find X3 Neo 5G",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "50MP",
-            "capacity": "256GB",
-            "img_1": "x3-neo.jpg",
-            "img_2": "x3-neo-2.jpg",
-            "img_3": "x3-neo-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 599.99
+            "cost": 599.99,
+            "category": 2
         }
     },
     {
@@ -2590,17 +1729,10 @@
             "phone_model": 19,
             "sku": "OP-124-L-BLU",
             "name": "OPPO Find X3 Pro 5G",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "256GB",
-            "img_1": "x3-pro.jpg",
-            "img_2": "x3-pro-2.jpg",
-            "img_3": "x3-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 999.99
+            "cost": 999.99,
+            "category": 2
         }
     },
     {
@@ -2611,17 +1743,10 @@
             "phone_model": 19,
             "sku": "OP-125-L-BLK",
             "name": "OPPO Find X3 Pro 5G",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "256GB",
-            "img_1": "x3-pro.jpg",
-            "img_2": "x3-pro-2.jpg",
-            "img_3": "x3-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 999.99
+            "cost": 999.99,
+            "category": 2
         }
     },
     {
@@ -2632,17 +1757,10 @@
             "phone_model": 20,
             "sku": "GO-126-M-PIN",
             "name": "Google Pixel 6",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "50MP",
-            "capacity": "128GB",
-            "img_1": "pixel-6.jpg",
-            "img_2": "pixel-6-2.jpg",
-            "img_3": "pixel-6-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#ffc0cb",
-            "cost": 599.99
+            "cost": 599.99,
+            "category": 2
         }
     },
     {
@@ -2653,17 +1771,10 @@
             "phone_model": 20,
             "sku": "GO-127-M-BLK",
             "name": "Google Pixel 6",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "50MP",
-            "capacity": "128GB",
-            "img_1": "pixel-6.jpg",
-            "img_2": "pixel-6-2.jpg",
-            "img_3": "pixel-6-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 599.99
+            "cost": 599.99,
+            "category": 2
         }
     },
     {
@@ -2674,17 +1785,10 @@
             "phone_model": 20,
             "sku": "GO-128-M-GRE",
             "name": "Google Pixel 6",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "50MP",
-            "capacity": "128GB",
-            "img_1": "pixel-6.jpg",
-            "img_2": "pixel-6-2.jpg",
-            "img_3": "pixel-6-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#46c77e",
-            "cost": 599.99
+            "cost": 599.99,
+            "category": 2
         }
     },
     {
@@ -2695,17 +1799,10 @@
             "phone_model": 21,
             "sku": "GO-129-M-GOL",
             "name": "Google Pixel 6 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "128 - 256GB",
-            "img_1": "pixel-pro.jpg",
-            "img_2": "pixel-pro-2.jpg",
-            "img_3": "pixel-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#d4b38e",
-            "cost": 849.99
+            "cost": 849.99,
+            "category": 2
         }
     },
     {
@@ -2716,17 +1813,10 @@
             "phone_model": 21,
             "sku": "GO-130-M-BLK",
             "name": "Google Pixel 6 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "128 - 256GB",
-            "img_1": "pixel-pro.jpg",
-            "img_2": "pixel-pro-2.jpg",
-            "img_3": "pixel-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 849.99
+            "cost": 849.99,
+            "category": 2
         }
     },
     {
@@ -2737,17 +1827,10 @@
             "phone_model": 21,
             "sku": "GO-131-M-WHI",
             "name": "Google Pixel 6 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "128 - 256GB",
-            "img_1": "pixel-pro.jpg",
-            "img_2": "pixel-pro-2.jpg",
-            "img_3": "pixel-pro-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fff",
-            "cost": 849.99
+            "cost": 849.99,
+            "category": 2
         }
     },
     {
@@ -2758,17 +1841,10 @@
             "phone_model": 21,
             "sku": "GO-132-L-GOL",
             "name": "Google Pixel 6 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "128 - 256GB",
-            "img_1": "pixel-pro.jpg",
-            "img_2": "pixel-pro-2.jpg",
-            "img_3": "pixel-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#d4b38e",
-            "cost": 949.99
+            "cost": 949.99,
+            "category": 2
         }
     },
     {
@@ -2779,17 +1855,10 @@
             "phone_model": 21,
             "sku": "GO-133-L-BLK",
             "name": "Google Pixel 6 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "128 - 256GB",
-            "img_1": "pixel-pro.jpg",
-            "img_2": "pixel-pro-2.jpg",
-            "img_3": "pixel-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 949.99
+            "cost": 949.99,
+            "category": 2
         }
     },
     {
@@ -2800,17 +1869,10 @@
             "phone_model": 21,
             "sku": "GO-134-L-WHI",
             "name": "Google Pixel 6 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "50MP",
-            "capacity": "128 - 256GB",
-            "img_1": "pixel-pro.jpg",
-            "img_2": "pixel-pro-2.jpg",
-            "img_3": "pixel-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#fff",
-            "cost": 949.99
+            "cost": 949.99,
+            "category": 2
         }
     },
     {
@@ -2821,17 +1883,10 @@
             "phone_model": 22,
             "sku": "HU-135-M-GRE",
             "name": "Huawei P Smart",
-            "os": "Andriod 11",
-            "screen": 6.67,
-            "camera": "48MP",
-            "capacity": "128GB",
-            "img_1": "p-30.jpg",
-            "img_2": "p-30-2.jpg",
-            "img_3": "p-30-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#46c77e",
-            "cost": 199.99
+            "cost": 199.99,
+            "category": 2
         }
     },
     {
@@ -2842,17 +1897,10 @@
             "phone_model": 22,
             "sku": "HU-136-M-GOL",
             "name": "Huawei P Smart",
-            "os": "Andriod 11",
-            "screen": 6.67,
-            "camera": "48MP",
-            "capacity": "128GB",
-            "img_1": "p-30.jpg",
-            "img_2": "p-30-2.jpg",
-            "img_3": "p-30-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#d4b38e",
-            "cost": 199.99
+            "cost": 199.99,
+            "category": 2
         }
     },
     {
@@ -2863,17 +1911,10 @@
             "phone_model": 22,
             "sku": "HU-137-M-BLK",
             "name": "Huawei P Smart",
-            "os": "Andriod 11",
-            "screen": 6.67,
-            "camera": "48MP",
-            "capacity": "128GB",
-            "img_1": "p-30.jpg",
-            "img_2": "p-30-2.jpg",
-            "img_3": "p-30-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 199.99
+            "cost": 199.99,
+            "category": 2
         }
     },
     {
@@ -2884,17 +1925,10 @@
             "phone_model": 23,
             "sku": "HU-138-XL-BLU",
             "name": "Huawei Mate Xs 5G",
-            "os": "Andriod 11",
-            "screen": "8 / 6.6",
-            "camera": "40MP",
-            "capacity": "512GB",
-            "img_1": "mate-x.jpg",
-            "img_2": "mate-x-2.jpg",
-            "img_3": "mate-x-3.jpg",
-            "category": 1,
             "storage": 512,
             "color": "#377ea3",
-            "cost": 2299.99
+            "cost": 2299.99,
+            "category": 2
         }
     },
     {
@@ -2905,17 +1939,10 @@
             "phone_model": 24,
             "sku": "MO-139-M-GRE",
             "name": "Motorola Edge 20 Lite",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "108MP",
-            "capacity": "128GB",
-            "img_1": "edge-lite.jpg",
-            "img_2": "edge-lite-2.jpg",
-            "img_3": "edge-lite-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#46c77e",
-            "cost": 299.99
+            "cost": 299.99,
+            "category": 2
         }
     },
     {
@@ -2926,17 +1953,10 @@
             "phone_model": 24,
             "sku": "MO-140-M-BLK",
             "name": "Motorola Edge 20 Lite",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "108MP",
-            "capacity": "128GB",
-            "img_1": "edge-lite.jpg",
-            "img_2": "edge-lite-2.jpg",
-            "img_3": "edge-lite-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 299.99
+            "cost": 299.99,
+            "category": 2
         }
     },
     {
@@ -2947,17 +1967,10 @@
             "phone_model": 25,
             "sku": "MO-141-M-BLK",
             "name": "Motorola Edge 2",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "108MP",
-            "capacity": "128GB",
-            "img_1": "edge.jpg",
-            "img_2": "edge-2.jpg",
-            "img_3": "edge-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 429.99
+            "cost": 429.99,
+            "category": 2
         }
     },
     {
@@ -2968,17 +1981,10 @@
             "phone_model": 25,
             "sku": "MO-142-M-WHI",
             "name": "Motorola Edge 2",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "108MP",
-            "capacity": "128GB",
-            "img_1": "edge.jpg",
-            "img_2": "edge-2.jpg",
-            "img_3": "edge-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#fff",
-            "cost": 429.99
+            "cost": 429.99,
+            "category": 2
         }
     },
     {
@@ -2989,17 +1995,10 @@
             "phone_model": 26,
             "sku": "MO-143-L-DBL",
             "name": "Motorola Edge 20 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "108MP",
-            "capacity": "256GB",
-            "img_1": "edge-pro.jpg",
-            "img_2": "edge-pro-2.jpg",
-            "img_3": "edge-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#0f4d6c",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -3010,17 +2009,10 @@
             "phone_model": 26,
             "sku": "MO-144-L-BLU",
             "name": "Motorola Edge 20 Pro",
-            "os": "Andriod 11",
-            "screen": 6.7,
-            "camera": "108MP",
-            "capacity": "256GB",
-            "img_1": "edge-pro.jpg",
-            "img_2": "edge-pro-2.jpg",
-            "img_3": "edge-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -3031,17 +2023,10 @@
             "phone_model": 27,
             "sku": "MO-145-L-GOL",
             "name": "Motorola Razr 5G",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "48MP",
-            "capacity": "256GB",
-            "img_1": "razr.jpg",
-            "img_2": "razr-2.jpg",
-            "img_3": "razr-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#d4b38e",
-            "cost": 1399.99
+            "cost": 1399.99,
+            "category": 2
         }
     },
     {
@@ -3052,17 +2037,10 @@
             "phone_model": 27,
             "sku": "MO-146-L-SIL",
             "name": "Motorola Razr 5G",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "48MP",
-            "capacity": "256GB",
-            "img_1": "razr.jpg",
-            "img_2": "razr-2.jpg",
-            "img_3": "razr-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 1399.99
+            "cost": 1399.99,
+            "category": 2
         }
     },
     {
@@ -3073,17 +2051,10 @@
             "phone_model": 27,
             "sku": "MO-147-L-BLK",
             "name": "Motorola Razr 5G",
-            "os": "Andriod 11",
-            "screen": 6.2,
-            "camera": "48MP",
-            "capacity": "256GB",
-            "img_1": "razr.jpg",
-            "img_2": "razr-2.jpg",
-            "img_3": "razr-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 1399.99
+            "cost": 1399.99,
+            "category": 2
         }
     },
     {
@@ -3094,17 +2065,10 @@
             "phone_model": 28,
             "sku": "ON-148-L-BLU",
             "name": "OnePlus 8 Pro",
-            "os": "Andriod 11",
-            "screen": 6.8,
-            "camera": "48MP",
-            "capacity": "256GB",
-            "img_1": "oneplus-pro.jpg",
-            "img_2": "oneplus-pro-2.jpg",
-            "img_3": "oneplus-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 899.99
+            "cost": 899.99,
+            "category": 2
         }
     },
     {
@@ -3115,17 +2079,10 @@
             "phone_model": 28,
             "sku": "ON-149-L-GRE",
             "name": "OnePlus 8 Pro",
-            "os": "Andriod 11",
-            "screen": 6.8,
-            "camera": "48MP",
-            "capacity": "256GB",
-            "img_1": "oneplus-pro.jpg",
-            "img_2": "oneplus-pro-2.jpg",
-            "img_3": "oneplus-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#46c77e",
-            "cost": 899.99
+            "cost": 899.99,
+            "category": 2
         }
     },
     {
@@ -3136,17 +2093,10 @@
             "phone_model": 28,
             "sku": "ON-150-L-BLK",
             "name": "OnePlus 8 Pro",
-            "os": "Andriod 11",
-            "screen": 6.8,
-            "camera": "48MP",
-            "capacity": "256GB",
-            "img_1": "oneplus-pro.jpg",
-            "img_2": "oneplus-pro-2.jpg",
-            "img_3": "oneplus-pro-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 899.99
+            "cost": 899.99,
+            "category": 2
         }
     },
     {
@@ -3157,17 +2107,10 @@
             "phone_model": 29,
             "sku": "ON-151-M-GRE",
             "name": "OnePlus 8 T",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "48MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-8t.jpg",
-            "img_2": "oneplus-8t-2.jpg",
-            "img_3": "oneplus-8t-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#46c77e",
-            "cost": 549.99
+            "cost": 549.99,
+            "category": 2
         }
     },
     {
@@ -3178,17 +2121,10 @@
             "phone_model": 29,
             "sku": "ON-152-M-SIL",
             "name": "OnePlus 8 T",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "48MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-8t.jpg",
-            "img_2": "oneplus-8t-2.jpg",
-            "img_3": "oneplus-8t-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c0c0c0",
-            "cost": 549.99
+            "cost": 549.99,
+            "category": 2
         }
     },
     {
@@ -3199,17 +2135,10 @@
             "phone_model": 29,
             "sku": "ON-153-L-GRE",
             "name": "OnePlus 8 T",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "48MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-8t.jpg",
-            "img_2": "oneplus-8t-2.jpg",
-            "img_3": "oneplus-8t-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#46c77e",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -3220,17 +2149,10 @@
             "phone_model": 29,
             "sku": "ON-154-L-SIL",
             "name": "OnePlus 8 T",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "48MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-8t.jpg",
-            "img_2": "oneplus-8t-2.jpg",
-            "img_3": "oneplus-8t-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 649.99
+            "cost": 649.99,
+            "category": 2
         }
     },
     {
@@ -3241,17 +2163,10 @@
             "phone_model": 30,
             "sku": "ON-155-M-GRE",
             "name": "OnePlus 8",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "48MP",
-            "capacity": "128GB",
-            "img_1": "oneplus-8.jpg",
-            "img_2": "oneplus-8-2.jpg",
-            "img_3": "oneplus-8-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#46c77e",
-            "cost": 449.99
+            "cost": 449.99,
+            "category": 2
         }
     },
     {
@@ -3262,17 +2177,10 @@
             "phone_model": 30,
             "sku": "ON-156-M-BLK",
             "name": "OnePlus 8",
-            "os": "Andriod 11",
-            "screen": 6.55,
-            "camera": "48MP",
-            "capacity": "128GB",
-            "img_1": "oneplus-8.jpg",
-            "img_2": "oneplus-8-2.jpg",
-            "img_3": "oneplus-8-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 449.99
+            "cost": 449.99,
+            "category": 2
         }
     },
     {
@@ -3283,17 +2191,10 @@
             "phone_model": 31,
             "sku": "ON-157-M-BLU",
             "name": "OnePlus Nord CE 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-ce.jpg",
-            "img_2": "oneplus-ce-2.jpg",
-            "img_3": "oneplus-ce-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#377ea3",
-            "cost": 299.99
+            "cost": 299.99,
+            "category": 2
         }
     },
     {
@@ -3304,17 +2205,10 @@
             "phone_model": 31,
             "sku": "ON-158-M-BLK",
             "name": "OnePlus Nord CE 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-ce.jpg",
-            "img_2": "oneplus-ce-2.jpg",
-            "img_3": "oneplus-ce-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#000",
-            "cost": 299.99
+            "cost": 299.99,
+            "category": 2
         }
     },
     {
@@ -3325,17 +2219,10 @@
             "phone_model": 31,
             "sku": "ON-159-M-SIL",
             "name": "OnePlus Nord CE 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-ce.jpg",
-            "img_2": "oneplus-ce-2.jpg",
-            "img_3": "oneplus-ce-3.jpg",
-            "category": 1,
             "storage": 128,
             "color": "#c0c0c0",
-            "cost": 299.99
+            "cost": 299.99,
+            "category": 2
         }
     },
     {
@@ -3346,17 +2233,10 @@
             "phone_model": 31,
             "sku": "ON-160-L-BLU",
             "name": "OnePlus Nord CE 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-ce.jpg",
-            "img_2": "oneplus-ce-2.jpg",
-            "img_3": "oneplus-ce-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#377ea3",
-            "cost": 369.99
+            "cost": 369.99,
+            "category": 2
         }
     },
     {
@@ -3367,17 +2247,10 @@
             "phone_model": 31,
             "sku": "ON-161-L-BLK",
             "name": "OnePlus Nord CE 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-ce.jpg",
-            "img_2": "oneplus-ce-2.jpg",
-            "img_3": "oneplus-ce-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#000",
-            "cost": 369.99
+            "cost": 369.99,
+            "category": 2
         }
     },
     {
@@ -3388,17 +2261,10 @@
             "phone_model": 31,
             "sku": "ON-162-L-SIL",
             "name": "OnePlus Nord CE 5G",
-            "os": "Andriod 11",
-            "screen": 6.4,
-            "camera": "64MP",
-            "capacity": "128 - 256GB",
-            "img_1": "oneplus-ce.jpg",
-            "img_2": "oneplus-ce-2.jpg",
-            "img_3": "oneplus-ce-3.jpg",
-            "category": 1,
             "storage": 256,
             "color": "#c0c0c0",
-            "cost": 369.99
+            "cost": 369.99,
+            "category": 2
         }
     }
 ]

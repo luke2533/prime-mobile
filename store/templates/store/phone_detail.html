@@ -52,7 +52,9 @@
                 </div>
 
                 <div class="phone-options">
+
                     <form action="">
+                        <!-- SimFree class comes in here -->
                         <h3>Colour</h3>
                         {% for phone.color in phones %}
                             <button>{{ phone.color }}</button>
@@ -65,6 +67,7 @@
 
                         <h3>Purchase</h3>
                         <button>SIM Free</button>
+                        <!-- SimFree class comes in here -->
                         <button>SIM Plan</button>
                         <button>SIM Only</button>
                     </form>

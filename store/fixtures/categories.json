@@ -1,26 +1,50 @@
 [
     {
-      "pk": 1,
-      "model": "store.category",
-      "fields": {
-        "name": "sim_free",
-        "freindly_name": "SIM Free"
+        "pk": 1,
+        "model": "store.category",
+        "fields": {
+            "name": "phone",
+            "friendly_name": "Phones"
         }
     },
     {
-      "pk": 2,
-      "model": "store.category",
-      "fields": {
-        "name": "sim_only",
-        "freindly_name": "SIM Only"
+        "pk": 2,
+        "model": "store.category",
+        "fields": {
+            "name": "sim_free",
+            "friendly_name": "SIM Free"
         }
     },
     {
-      "pk": 3,
-      "model": "store.category",
-      "fields": {
-        "name": "sim_plan",
-        "freindly_name": "SIM Plan"
+        "pk": 3,
+        "model": "store.category",
+        "fields": {
+            "name": "sim_only",
+            "friendly_name": "SIM Only"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "store.category",
+        "fields": {
+            "name": "sim_plan",
+            "friendly_name": "SIM Plan"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "store.category",
+        "fields": {
+            "name": "deals",
+            "friendly_name": "Deals"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "store.category",
+        "fields": {
+            "name": "accessories",
+            "friendly_name": "Accessories"
         }
     }
   ]

@@ -3,22 +3,52 @@ from django.db import models
 # Create your models here.
 
 class Category(models.Model):
+    
+    # Categories for products such as SIM Free and Deals
 
     class Meta:
         verbose_name_plural = "Categories"
 
 
     name = models.CharField(max_length=254)
-    freindly_name = models.CharField(max_length=254, null=True, blank=True)
+    friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):
         return self.name
 
-    def get_freindly_name(self):
-        return self.freindly_name
+    def get_friendly_name(self):
+        return self.friendly_name
+
+
+class Phone(models.Model):
+
+    # Phone data
+
+    class Meta:
+        verbose_name_plural = "Phone"
+
+    phone_model = models.IntegerField(blank=True, null=True)
+    name = models.CharField(max_length=254)
+    from_cost = models.FloatField(blank=True, null=True)
+    rating = models.FloatField(blank=True, null=True)
+    
+    os = models.CharField(max_length=254, null=True, blank=True)
+    screen = models.CharField(max_length=254, null=True, blank=True)
+    camera = models.CharField(max_length=254, null=True, blank=True)
+    capacity = models.CharField(max_length=254, null=True, blank=True)
+    img_1 = models.ImageField(null=True, blank=True)
+    img_2 = models.ImageField(null=True, blank=True)
+    img_3 = models.ImageField(null=True, blank=True)
+    category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
+
+
+    def __str__(self):
+        return self.name
 
 
 class SimFree(models.Model):
+
+    # Sim Free data
 
     class Meta:
         verbose_name_plural = "SIM Free"
@@ -28,34 +58,10 @@ class SimFree(models.Model):
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
 
-    os = models.CharField(max_length=254, null=True, blank=True)
-    screen = models.CharField(max_length=254, null=True, blank=True)
-    camera = models.CharField(max_length=254, null=True, blank=True)
-    capacity = models.CharField(max_length=254, null=True, blank=True)
-    img_1 = models.ImageField(null=True, blank=True)
-    img_2 = models.ImageField(null=True, blank=True)
-    img_3 = models.ImageField(null=True, blank=True)
-
-    category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
     storage = models.IntegerField(blank=True, null=True)
     color = models.CharField(max_length=254, null=True, blank=True)
-    # Come back to this one (might need freindly_color)
     cost = models.FloatField(blank=True, null=True)
+    category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
 
-    def __str__(self):
-        return self.name
-
-
-class Phone(models.Model):
-
-    class Meta:
-        verbose_name_plural = "Phone"
-
-    phone_model = models.IntegerField(blank=True, null=True)
-    name = models.CharField(max_length=254)
-    cost = models.FloatField(blank=True, null=True)
-    rating = models.FloatField(blank=True, null=True)
-    img_1 = models.ImageField(null=True, blank=True)
-    
     def __str__(self):
         return self.name

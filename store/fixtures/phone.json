@@ -5,9 +5,16 @@
         "fields": {
             "phone_model": 1,
             "name": "iPhone 13",
-            "cost": 779.99,
+            "from_cost": 779.99,
             "rating": 0,
-            "img_1": "i13"
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13.jpg",
+            "img_2": "i13-2.jpg",
+            "img_3": "i13-3.jpg",
+            "category": 1
         }
     },
     {
@@ -16,9 +23,16 @@
         "fields": {
             "phone_model": 2,
             "name": "iPhone 13 Mini",
-            "cost": 679.99,
+            "from_cost": 679.99,
             "rating": 0,
-            "img_1": "i13-mini"
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "128 - 512GB",
+            "img_1": "i13-mini.jpg",
+            "img_2": "i13-mini-2.jpg",
+            "img_3": "i13-mini-3.jpg",
+            "category": 1
         }
     },
     {
@@ -27,9 +41,16 @@
         "fields": {
             "phone_model": 3,
             "name": "iPhone 13 Pro",
-            "cost": 949.99,
+            "from_cost": 949.99,
             "rating": 0,
-            "img_1": "i13-pro"
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro.jpg",
+            "img_2": "i13-pro-2.jpg",
+            "img_3": "i13-pro-3.jpg",
+            "category": 1
         }
     },
     {
@@ -38,9 +59,16 @@
         "fields": {
             "phone_model": 4,
             "name": "iPhone 13 Pro Max",
-            "cost": 1049.99,
+            "from_cost": 1049.99,
             "rating": 0,
-            "img_1": "i13-pro"
+            "os": "iOS 15",
+            "screen": 6.7,
+            "camera": "12MP",
+            "capacity": "128 - 1024GB",
+            "img_1": "i13-pro.jpg",
+            "img_2": "i13-pro-2.jpg",
+            "img_3": "i13-pro-3.jpg",
+            "category": 1
         }
     },
     {
@@ -49,9 +77,16 @@
         "fields": {
             "phone_model": 5,
             "name": "iPhone 12 Mini",
-            "cost": 559.99,
+            "from_cost": 559.99,
             "rating": 0,
-            "img_1": "i12-mini"
+            "os": "iOS 15",
+            "screen": 5.4,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12-mini.jpg",
+            "img_2": "i12-mini-2.jpg",
+            "img_3": "i12-mini-3.jpg",
+            "category": 1
         }
     },
     {
@@ -60,9 +95,16 @@
         "fields": {
             "phone_model": 6,
             "name": "iPhone 12",
-            "cost": 679.99,
+            "from_cost": 679.99,
             "rating": 0,
-            "img_1": "i12"
+            "os": "iOS 15",
+            "screen": 6.1,
+            "camera": "12MP",
+            "capacity": "64 - 256GB",
+            "img_1": "i12.jpg",
+            "img_2": "i12-2.jpg",
+            "img_3": "i12-3.jpg",
+            "category": 1
         }
     },
     {
@@ -71,9 +113,16 @@
         "fields": {
             "phone_model": 7,
             "name": "Samsung S21 Ultra",
-            "cost": 969.99,
+            "from_cost": 969.99,
             "rating": 0,
-            "img_1": "s21-ultra"
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "108MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21-ultra.jpg",
+            "img_2": "s21-ultra-2.jpg",
+            "img_3": "s21-ultra-3.jpg",
+            "category": 1
         }
     },
     {
@@ -82,9 +131,16 @@
         "fields": {
             "phone_model": 8,
             "name": "Samsung S21",
-            "cost": 649.99,
+            "from_cost": 649.99,
             "rating": 0,
-            "img_1": "s21"
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "s21.jpg",
+            "img_2": "s21-2.jpg",
+            "img_3": "s21-3.jpg",
+            "category": 1
         }
     },
     {
@@ -93,9 +149,16 @@
         "fields": {
             "phone_model": 9,
             "name": "Samsung Galaxy Z Fold3 5G",
-            "cost": 1599.99,
+            "from_cost": 1599.99,
             "rating": 0,
-            "img_1": "fold"
+            "os": "Andriod 11",
+            "screen": "7.6 / 6.2",
+            "camera": "12MP",
+            "capacity": "256 - 512GB",
+            "img_1": "fold.jpg",
+            "img_2": "fold-2.jpg",
+            "img_3": "fold-3.jpg",
+            "category": 1
         }
     },
     {
@@ -104,9 +167,16 @@
         "fields": {
             "phone_model": 10,
             "name": "Samsung Galaxy A52s",
-            "cost": 349.99,
+            "from_cost": 349.99,
             "rating": 0,
-            "img_1": "a52s"
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "64MP",
+            "capacity": 128,
+            "img_1": "a52s.jpg",
+            "img_2": "a52s-2.jpg",
+            "img_3": "a52s-3.jpg",
+            "category": 1
         }
     },
     {
@@ -115,9 +185,16 @@
         "fields": {
             "phone_model": 11,
             "name": "Samsung Galaxy A32",
-            "cost": 249.99,
+            "from_cost": 249.99,
             "rating": 0,
-            "img_1": "a32"
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": 64,
+            "img_1": "a32.jpg",
+            "img_2": "a32-2.jpg",
+            "img_3": "a32-3.jpg",
+            "category": 1
         }
     },
     {
@@ -126,9 +203,16 @@
         "fields": {
             "phone_model": 12,
             "name": "Samsung Galaxy A22 5G",
-            "cost": 199.99,
+            "from_cost": 199.99,
             "rating": 0,
-            "img_1": "a22"
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "48MP",
+            "capacity": 64,
+            "img_1": "a22.jpg",
+            "img_2": "a22-2.jpg",
+            "img_3": "a22-3.jpg",
+            "category": 1
         }
     },
     {
@@ -137,9 +221,16 @@
         "fields": {
             "phone_model": 13,
             "name": "HONOR 50",
-            "cost": 449.99,
+            "from_cost": 449.99,
             "rating": 0,
-            "img_1": "h50"
+            "os": "Andriod 11",
+            "screen": 6.6,
+            "camera": "108MP",
+            "capacity": 128,
+            "img_1": "h50.jpg",
+            "img_2": "h50-2.jpg",
+            "img_3": "h50-3.jpg",
+            "category": 1
         }
     },
     {
@@ -148,9 +239,16 @@
         "fields": {
             "phone_model": 14,
             "name": "OPPO A54",
-            "cost": 219.99,
+            "from_cost": 219.99,
             "rating": 0,
-            "img_1": "oppo-a54"
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": 64,
+            "img_1": "oppo-a54.jpg",
+            "img_2": "oppo-a54-2.jpg",
+            "img_3": "oppo-a54-3.jpg",
+            "category": 1
         }
     },
     {
@@ -159,9 +257,16 @@
         "fields": {
             "phone_model": 15,
             "name": "OPPO A72",
-            "cost": 199.99,
+            "from_cost": 199.99,
             "rating": 0,
-            "img_1": "oppo-a72"
+            "os": "Andriod 11",
+            "screen": 6.5,
+            "camera": "48MP",
+            "capacity": 128,
+            "img_1": "oppo-a72.jpg",
+            "img_2": "oppo-a72-2.jpg",
+            "img_3": "oppo-a72-3.jpg",
+            "category": 1
         }
     },
     {
@@ -170,9 +275,16 @@
         "fields": {
             "phone_model": 16,
             "name": "OPPO Find X2 Pro",
-            "cost": 799.99,
+            "from_cost": 799.99,
             "rating": 0,
-            "img_1": "x2-pro"
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "48MP",
+            "capacity": 512,
+            "img_1": "x2-pro.jpg",
+            "img_2": "x2-pro-2.jpg",
+            "img_3": "x2-pro-3.jpg",
+            "category": 1
         }
     },
     {
@@ -181,9 +293,16 @@
         "fields": {
             "phone_model": 17,
             "name": "OPPO Find X3 Lite 5G",
-            "cost": 379.99,
+            "from_cost": 379.99,
             "rating": 0,
-            "img_1": "x3-lite"
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": 128,
+            "img_1": "x3-lite.jpg",
+            "img_2": "x3-lite-2.jpg",
+            "img_3": "x3-lite-3.jpg",
+            "category": 1
         }
     },
     {
@@ -192,9 +311,16 @@
         "fields": {
             "phone_model": 18,
             "name": "OPPO Find X3 Neo 5G",
-            "cost": 599.99,
+            "from_cost": 599.99,
             "rating": 0,
-            "img_1": "x3-neo"
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "50MP",
+            "capacity": 256,
+            "img_1": "x3-neo.jpg",
+            "img_2": "x3-neo-2.jpg",
+            "img_3": "x3-neo-3.jpg",
+            "category": 1
         }
     },
     {
@@ -203,9 +329,16 @@
         "fields": {
             "phone_model": 19,
             "name": "OPPO Find X3 Pro 5G",
-            "cost": 999.99,
+            "from_cost": 999.99,
             "rating": 0,
-            "img_1": "x3-pro"
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": 256,
+            "img_1": "x3-pro.jpg",
+            "img_2": "x3-pro-2.jpg",
+            "img_3": "x3-pro-3.jpg",
+            "category": 1
         }
     },
     {
@@ -214,9 +347,16 @@
         "fields": {
             "phone_model": 20,
             "name": "Google Pixel 6",
-            "cost": 599.99,
+            "from_cost": 599.99,
             "rating": 0,
-            "img_1": "pixel-6"
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "50MP",
+            "capacity": 128,
+            "img_1": "pixel-6.jpg",
+            "img_2": "pixel-6-2.jpg",
+            "img_3": "pixel-6-3.jpg",
+            "category": 1
         }
     },
     {
@@ -225,9 +365,16 @@
         "fields": {
             "phone_model": 21,
             "name": "Google Pixel 6 Pro",
-            "cost": 849.99,
+            "from_cost": 849.99,
             "rating": 0,
-            "img_1": "pixel-pro"
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "50MP",
+            "capacity": "128 - 256GB",
+            "img_1": "pixel-pro.jpg",
+            "img_2": "pixel-pro-2.jpg",
+            "img_3": "pixel-pro-3.jpg",
+            "category": 1
         }
     },
     {
@@ -236,9 +383,16 @@
         "fields": {
             "phone_model": 22,
             "name": "Huawei P Smart",
-            "cost": 199.99,
+            "from_cost": 199.99,
             "rating": 0,
-            "img_1": "p-30"
+            "os": "Andriod 11",
+            "screen": 6.67,
+            "camera": "48MP",
+            "capacity": 128,
+            "img_1": "p-30.jpg",
+            "img_2": "p-30-2.jpg",
+            "img_3": "p-30-3.jpg",
+            "category": 1
         }
     },
     {
@@ -247,9 +401,16 @@
         "fields": {
             "phone_model": 23,
             "name": "Huawei Mate Xs 5G",
-            "cost": 2299.99,
+            "from_cost": 2299.99,
             "rating": 0,
-            "img_1": "mate-x"
+            "os": "Andriod 11",
+            "screen": "8 / 6.6",
+            "camera": "40MP",
+            "capacity": 512,
+            "img_1": "mate-x.jpg",
+            "img_2": "mate-x-2.jpg",
+            "img_3": "mate-x-3.jpg",
+            "category": 1
         }
     },
     {
@@ -258,9 +419,16 @@
         "fields": {
             "phone_model": 24,
             "name": "Motorola Edge 20 Lite",
-            "cost": 299.99,
+            "from_cost": 299.99,
             "rating": 0,
-            "img_1": "edge-lite"
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": 128,
+            "img_1": "edge-lite.jpg",
+            "img_2": "edge-lite-2.jpg",
+            "img_3": "edge-lite-3.jpg",
+            "category": 1
         }
     },
     {
@@ -269,9 +437,16 @@
         "fields": {
             "phone_model": 25,
             "name": "Motorola Edge 2",
-            "cost": 429.99,
+            "from_cost": 429.99,
             "rating": 0,
-            "img_1": "edge"
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": 128,
+            "img_1": "edge.jpg",
+            "img_2": "edge-2.jpg",
+            "img_3": "edge-3.jpg",
+            "category": 1
         }
     },
     {
@@ -280,9 +455,16 @@
         "fields": {
             "phone_model": 26,
             "name": "Motorola Edge 20 Pro",
-            "cost": 649.99,
+            "from_cost": 649.99,
             "rating": 0,
-            "img_1": "edge-pro"
+            "os": "Andriod 11",
+            "screen": 6.7,
+            "camera": "108MP",
+            "capacity": 256,
+            "img_1": "edge-pro.jpg",
+            "img_2": "edge-pro-2.jpg",
+            "img_3": "edge-pro-3.jpg",
+            "category": 1
         }
     },
     {
@@ -291,9 +473,16 @@
         "fields": {
             "phone_model": 27,
             "name": "Motorola Razr 5G",
-            "cost": 1399.99,
+            "from_cost": 1399.99,
             "rating": 0,
-            "img_1": "razr"
+            "os": "Andriod 11",
+            "screen": 6.2,
+            "camera": "48MP",
+            "capacity": 256,
+            "img_1": "razr.jpg",
+            "img_2": "razr-2.jpg",
+            "img_3": "razr-3.jpg",
+            "category": 1
         }
     },
     {
@@ -302,9 +491,16 @@
         "fields": {
             "phone_model": 28,
             "name": "OnePlus 8 Pro",
-            "cost": 899.99,
+            "from_cost": 899.99,
             "rating": 0,
-            "img_1": "oneplus-pro"
+            "os": "Andriod 11",
+            "screen": 6.8,
+            "camera": "48MP",
+            "capacity": 256,
+            "img_1": "oneplus-pro.jpg",
+            "img_2": "oneplus-pro-2.jpg",
+            "img_3": "oneplus-pro-3.jpg",
+            "category": 1
         }
     },
     {
@@ -313,9 +509,16 @@
         "fields": {
             "phone_model": 29,
             "name": "OnePlus 8 T",
-            "cost": 549.99,
+            "from_cost": 549.99,
             "rating": 0,
-            "img_1": "oneplus-8t"
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-8t.jpg",
+            "img_2": "oneplus-8t-2.jpg",
+            "img_3": "oneplus-8t-3.jpg",
+            "category": 1
         }
     },
     {
@@ -324,9 +527,16 @@
         "fields": {
             "phone_model": 30,
             "name": "OnePlus 8",
-            "cost": 449.99,
+            "from_cost": 449.99,
             "rating": 0,
-            "img_1": "oneplus-8"
+            "os": "Andriod 11",
+            "screen": 6.55,
+            "camera": "48MP",
+            "capacity": 128,
+            "img_1": "oneplus-8.jpg",
+            "img_2": "oneplus-8-2.jpg",
+            "img_3": "oneplus-8-3.jpg",
+            "category": 1
         }
     },
     {
@@ -335,9 +545,16 @@
         "fields": {
             "phone_model": 31,
             "name": "OnePlus Nord CE 5G",
-            "cost": 299.99,
+            "from_cost": 299.99,
             "rating": 0,
-            "img_1": "oneplus-ce"
+            "os": "Andriod 11",
+            "screen": 6.4,
+            "camera": "64MP",
+            "capacity": "128 - 256GB",
+            "img_1": "oneplus-ce.jpg",
+            "img_2": "oneplus-ce-2.jpg",
+            "img_3": "oneplus-ce-3.jpg",
+            "category": 1
         }
     }
-]
+  ]

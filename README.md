@@ -163,6 +163,8 @@ Additions:
 - Store views
 - Products listed on phone page
 
+Issue #1: SimFree displays 162 phones on store page most duplicates
+
 ### 6.13 Product images appear on product card
 
 Additions:
@@ -197,6 +199,21 @@ Additions:
 - Updated SimFree model
 - Added Phone model
 - Added phone.json
+
+### 6.18 Overhaul to to store fixtures and sim free phones fix
+
+Additions:
+
+- Changes to Categories fixtures and model
+- Changes to Phone fixtures and model
+- Changes to SimFree fixtures and model
+- Only 1 product card per phone
+- Updates to store admin
+- Changes to store page
+- Changes to product page
+
+Issue #1 RESOLVED : SimFree displays 162 phones on store page most duplicates - RESOLVED (6.12)
+
 
 ## 7.0 Deployment
 
