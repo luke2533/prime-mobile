@@ -94,6 +94,20 @@ PrimeMobile’s target audience are those in need of accessibility to high speed
 
 ### 3.1 Existing features
 
+- Search bar - Search bar filter products by name
+- Filter system - Filter products by price and rating low to high/high to low
+- Customize product - Users can pick the color and storage capacity of their device
+- SIM deals - Users can pay overtime or in one payment
+- Reviews - Product reviews submitted by users
+- Ratings - Users can rate products out of 5 stars affecting where are positioned on store page
+- Contact - Users can submit complaints to PrimeMobile
+- Basket total - Upfront cost total in basket
+- Secure checkout - Purchases and billing details are secured through stripe
+- Email confirmation - Email receipt on confirmed orders
+- Account creation - Users can sign up to save billing details, order history and monthly payment total
+- Password security - User accounts are protected by password
+- Save payment information - Billing details can be saved to accounts for faster checkout
+
 ### 3.2 Features left to implement
 
 ## 4.0 Technologies used
@@ -286,6 +300,12 @@ Additions:
 
 - README Goals of the buisness
 - README User stories
+
+### 6.21 Updates to README 3.1 Features
+
+Additions:
+
+- README Existing features
 
 ## 7.0 Deployment
 
