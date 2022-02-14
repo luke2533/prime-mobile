@@ -44,7 +44,39 @@ PrimeMobile’s target audience are those in need of accessibility to high speed
 
 #### 1.3.1 Goals of the business
 
+1. Provide users with text, call and high speed data
+2. Sell phones
+3. Sell SIM deals for long term revenue
+4. Growth of customers through deals
+5. User interaction through reviews and ratings
+6. Users sign up to PrimeMobile
+
 ### 1.4 User stories
+
+1. User is looking for highest rated phone
+2. User wants to leave a review
+3. The user wants to pay for a phone in one payment
+4. The user wants to buy a SIM plan
+5. User wants to edit or remove an item in their bag
+6. User wants to sign up
+7. User wants to save their payment information
+8. User wants to check their order history
+
+1.4.1 The user is looking for PrimeMobile’s highest rated phones according to user reviews to narrow their search and ensure they get the best deal for them. On the store page there are multiple sorting options such as price/rating low to high/high to low and a search bar where users can use keywords such as apple to filter out android phones.
+
+1.4.2 A user is satisfied or unhappy with the product they have purchased and wishes to write their take positive or negative on the performance, quality and experience with their phone rating it out of 5 stars. On the product page of the product users can scroll down to leave a review which will appear on the product page when submitted and can directly affect how high the phone is once filtered.
+
+1.4.3 The user wants to purchase the phone without a SIM card and pay in full at checkout. When on the phone's product page the user can select the SIM Free tab and add it to the basket where they can pay the full price in one payment.
+
+1.4.4 The user wants to purchase a phone and a SIM Plan and pay over time with text, calls and mobile data. When on the phones product page the user can select the SIM Plan tab giving them the option to pick from 4 SIM plans for text, calls, data and the length of the contract based on the tier there will be an upfront cost and then a monthly cost.  
+
+1.4.5 A user wants to remove or change a detail on an item in the basket. In the basket under the summary of the item they can click delete to remove the item from the basket or edit to change the device's color, storage capacity, add a SIM plan or buy the phone alone.
+
+1.4.6 The user wants to create an account so that they can review their phone. When the user clicks to review the page while not signed up they are taken to the sign up page which can also be accessed via the nav-bar where they can sign up or if they have an account log in.
+
+1.4.7 The user wants to save their payment information for future purchases or payments towards SIM plans. To do so the user needs an account where they can tick a box on checkout that will save their details upon checkout so they can skip it on the next purchase.
+
+1.4.8 The user wants to check their order history to see if it went through. On the user account page (when logged in) users can find their order history with the date of purchase, how much they paid, the type of purchase and the contract length. Users will also receive an email with a receipt as confirmation of a successful purchase. 
 
 ## 2.0 Design choices
 
@@ -247,6 +279,13 @@ Additions:
 - README PrimeMobile overview
 - README Target audience
 - READNE User needs and how there are met
+
+### 6.20 Updates to README 1.3 - 1.4
+
+Additions:
+
+- README Goals of the buisness
+- README User stories
 
 ## 7.0 Deployment
 
