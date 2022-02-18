@@ -77,7 +77,7 @@
                 <div>
                     <!-- Taken from django mini project -->
                     
-                    <form class="form-inline">
+                    <form class="form-inline" method="GET" action="{% url 'store' %}">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %} total-bag{% endif %} nav-link" href="">
                             <div class="text-center">
                                 <!-- <div><i class="fas fa-shopping-bag fa-lg"></i></div> -->
@@ -91,7 +91,7 @@
                                 </h5>
                             </div>
                         </a>
-                        <input class="search-bar form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="search-bar form-control mr-sm-2" type="search" name="q" placeholder="Search here" aria-label="Search">
                         <button class="search-submit btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
                     </form>
                 </div>

@@ -307,6 +307,12 @@ Additions:
 
 - README Existing features
 
+### 6.22 Search bar functional by name
+
+Additions:
+
+- Searching functionality
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
