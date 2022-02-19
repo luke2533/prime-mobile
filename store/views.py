@@ -10,8 +10,23 @@ def all_phones(request):
 
     phones = Phone.objects.all()
     query = None
+    sort = None
+    direction = None
 
     if request.GET:
+        if "sort" in request.GET:
+            sortkey = request.GET["sort"]
+            sort = sortkey
+            if sortkey == "name":
+                sortkey = "lower_name"
+                phones = phones.annotate(lower_name=Lower("name"))
+
+            if "direction" in request.GET:
+                direction = request.GET["direction"]
+                if direction == "desc":
+                    sortkey = f"-{sortkey}"
+            phones = phones.order_by(sortkey)
+
         if "q" in request.GET:
             query = request.GET["q"]
             if not query:
@@ -21,9 +36,13 @@ def all_phones(request):
             queries = Q(name__icontains=query)
             phones = phones.filter(queries)
     
+    current_sorting = f"{sort}_{direction}"
+    # Search and filter Mini Project
+
     context = {
         "phones": phones,
         "search_term": query,
+        "current_sorting": current_sorting,
     }
 
     return render(request, "store/store.html", context)

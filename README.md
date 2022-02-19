@@ -313,6 +313,13 @@ Additions:
 
 - Searching functionality
 
+### 6.23 Sort by price working
+
+Additions:
+
+- Sort low to high price
+- Sort high to low price
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

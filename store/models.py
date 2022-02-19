@@ -27,10 +27,10 @@ class Phone(models.Model):
     class Meta:
         verbose_name_plural = "Phone"
 
-    phone_model = models.IntegerField(blank=True, null=True)
+    phone_model = models.IntegerField(default=1, blank=True, null=True)
     name = models.CharField(max_length=254)
-    from_cost = models.FloatField(blank=True, null=True)
-    rating = models.FloatField(blank=True, null=True)
+    from_cost = models.FloatField(default=1, blank=True, null=True)
+    rating = models.FloatField(default=1, blank=True, null=True)
     
     os = models.CharField(max_length=254, null=True, blank=True)
     screen = models.CharField(max_length=254, null=True, blank=True)
@@ -53,14 +53,14 @@ class SimFree(models.Model):
     class Meta:
         verbose_name_plural = "SIM Free"
 
-    phone_id = models.IntegerField(blank=True, null=True)
-    phone_model = models.IntegerField(blank=True, null=True)
+    phone_id = models.IntegerField(default=1, blank=True, null=True)
+    phone_model = models.IntegerField(default=1, blank=True, null=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
 
-    storage = models.IntegerField(blank=True, null=True)
+    storage = models.IntegerField(default=1, blank=True, null=True)
     color = models.CharField(max_length=254, null=True, blank=True)
-    cost = models.FloatField(blank=True, null=True)
+    cost = models.FloatField(default=1, blank=True, null=True)
     category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
 
     def __str__(self):
