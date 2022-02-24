@@ -78,7 +78,7 @@
                     <!-- Taken from django mini project -->
                     
                     <form class="form-inline" method="GET" action="{% url 'store' %}">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %} total-bag{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %} total-bag{% endif %} nav-link" href="{% url 'bag' %}">
                             <div class="text-center">
                                 <!-- <div><i class="fas fa-shopping-bag fa-lg"></i></div> -->
                                 <h5 class="my-0">

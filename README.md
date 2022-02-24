@@ -320,6 +320,15 @@ Additions:
 - Sort low to high price
 - Sort high to low price
 
+### 6.24 Search total and bag app created
+
+Additions:
+
+- Total products in search
+- Created bag app
+- Bag page
+- Bag URLS file
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
