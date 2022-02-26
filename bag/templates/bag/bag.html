@@ -2,5 +2,31 @@
 {% load static %}
 
 {% block content %}
-    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-6 bag-test">
+                <div class="bag-items">
+                    <div class="bag-detail">
+                        <img src="../media/s21.jpg" alt="" class="bag-img">
+                        <h2>Samsung S21</h2>
+                        <h3>Green</h3>
+                        <h3>128GB</h3>
+                        <h3>Qty: 1</h3>
+                        <h2>Cost: <span>£779.99</span></h2>
+                        <br>
+                        <br>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-6 bag-total bag-test">
+                <h1>Total cost: £779.99</h1>
+                <button>Checkout</button>
+            </div>
+        </div>
+    </div>
 {% endblock %}

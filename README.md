@@ -329,6 +329,13 @@ Additions:
 - Bag page
 - Bag URLS file
 
+### 6.25 Basic bag structure and small changes to product details page
+
+Additions:
+
+- Basic bag page structure
+- Small changes to product details page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

@@ -9,7 +9,6 @@ def all_phones(request):
     # Displays all of the phones on store page
 
     phones = Phone.objects.all()
-    simfree = SimFree.objects.all()
     query = None
     sort = None
     direction = None
@@ -42,7 +41,6 @@ def all_phones(request):
 
     context = {
         "phones": phones,
-        "simfree": simfree,
         "search_term": query,
         "current_sorting": current_sorting,
     }

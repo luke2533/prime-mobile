@@ -289,6 +289,10 @@ h1, h2 {
     padding: 20px;
 }
 
+.phone-bag {
+    display: flex;
+}
+
 .phone-review {
     border: black 1px solid;
     margin-bottom: 10px;
@@ -300,6 +304,39 @@ h1, h2 {
 }
 
 /* Phone details page */
+
+/* Bag page */
+
+.bag-test {
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 18px;
+    display: block;
+}
+
+.bag-items {
+
+}
+
+.bag-detail {
+    position: relative;
+    left: 0;
+    text-align: end;
+    padding-right: 0px;   
+}
+
+.bag-detail h2{
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.bag-img {
+    float: left;
+    height: 325px;
+}
+
+
+/* Bag page */
 
 /* Breakpoints */
 
