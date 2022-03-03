@@ -336,6 +336,12 @@ Additions:
 - Basic bag page structure
 - Small changes to product details page
 
+### 6.26 Fixture changes
+
+Additions:
+
+- Changes to phone fixtures
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

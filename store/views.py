@@ -53,9 +53,12 @@ def phone_detail(request, product_id):
     # Phone detail page
 
     phone = get_object_or_404(Phone, pk=product_id)
+    simfree = SimFree.objects.all()
+    # Placeholder
     
     context = {
         "phone": phone,
+        "simfree": simfree,
     }
 
     return render(request, "store/phone_detail.html", context)
