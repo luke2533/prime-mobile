@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category, Phone, SimFree
+from .models import Category, Phone
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
@@ -10,18 +10,6 @@ class CategoryAdmin(admin.ModelAdmin):
 class PhoneAdmin(admin.ModelAdmin):
     list_display = (
         "phone_model",
-        "name",
-        "from_cost",
-        "rating",
-        "category",
-    )
-
-    ordering = ("phone_model",)
-
-class SimFreeAdmin(admin.ModelAdmin):
-    list_display = (
-        "phone_id",
-        "phone_model",
         "sku",
         "name",
         "storage",
@@ -30,9 +18,7 @@ class SimFreeAdmin(admin.ModelAdmin):
         "category",
     )
 
-    ordering = ("phone_id",)
-
+    ordering = ("phone_model",)
 
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Phone, PhoneAdmin)
-admin.site.register(SimFree, SimFreeAdmin)

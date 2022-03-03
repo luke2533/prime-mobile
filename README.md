@@ -342,6 +342,14 @@ Additions:
 
 - Changes to phone fixtures
 
+### 6.27 Updated data to store app
+
+Additions:
+
+- Changes to store models
+- Migrations to store
+- Deleted simFree fixtures
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

@@ -1,8 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Phone, SimFree
-
+from .models import Phone
 
 def all_phones(request):
     
@@ -53,12 +52,10 @@ def phone_detail(request, product_id):
     # Phone detail page
 
     phone = get_object_or_404(Phone, pk=product_id)
-    simfree = SimFree.objects.all()
     # Placeholder
     
     context = {
         "phone": phone,
-        "simfree": simfree,
     }
 
     return render(request, "store/phone_detail.html", context)
