@@ -55,26 +55,30 @@
 
                     <form action="">
                         {% csrf_token %}
-                        <!-- SimFree class comes in here -->
-                        <h3>Color</h3>
-                        <ul>
-                            {% for phone in phones %}
-                                
-                                <input type="hidden">
-                                <li>
-                                    
-                                </li>
-                            {% endfor %}
+                        
+                        <h3>Color:</h3>
+                        <ul> 
+                            <!-- for and if for other colors -->
+                            <input type="hidden">
+                            <li>
+                                <span class="phone-form" id="phone-color">{{ phone.color }}</span>
+                            </li>
+                            <!-- Use JS for colors -->
                         </ul>
                            
-                        <h3>Storage</h3>
-                        <button>{{ phone.storage }}</button>
+                        <h3>Storage:</h3>
+                        <ul> 
+                            <input type="hidden">
+                            <li>
+                                <span class="phone-form">{{ phone.storage }} GB</span>
+                            </li>
+                        </ul>
 
-                        <h3>Purchase</h3>
+                        <h3>Purchase:</h3>
                         <div class="phone-bag">
-                            <h3>Total cost: £779.99</h3>
+                            <h3>Total cost: £{{ phone.cost }}</h3>
                             <h3>Qty: 1</h3>
-                            <button>Add to basket</button>
+                            <button type="submit" class="bag-btn" id="add-bag-btn">Add to basket</button>
                         </div>
                         
                     </form>
@@ -112,4 +116,8 @@
             </div>
         </div> 
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+    <script type="text/javascript" src="{% static 'js/phone.js' %}"></script>
 {% endblock %}

@@ -360,6 +360,13 @@ Additions:
 - Nav bar has filters
 - Bag button changes
 
+### 6.29 Background for color button JS
+
+Additions:
+
+- Custom phone form structure
+- Color buttons JS
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
