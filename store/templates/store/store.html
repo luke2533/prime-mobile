@@ -13,8 +13,8 @@
                 Sort By ---
             </a>
             <div class="dropdown-menu" aria-labelledby="sortBy">
-                <a class="dropdown-item" href="?sort=from_cost&direction=asc">Price low to high</a>
-                <a class="dropdown-item" href="?sort=from_cost&direction=desc">Price high to low</a>
+                <a class="dropdown-item" href="?sort=cost&direction=asc">Price low to high</a>
+                <a class="dropdown-item" href="?sort=cost&direction=desc">Price high to low</a>
                 <a class="dropdown-item" href="#">Rating low to high</a>
                 <a class="dropdown-item" href="#">Rating high to low</a>
             </div>
@@ -23,47 +23,49 @@
         <div class="row">
             <!-- IF display_store is equal to true show -->
             {% for phone in phones %}
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div class="product-card">  
-                        <h4 class="text-left">{{ phone.name }}</h4>
-                        <div class="row">
-                            <div class="col-7 product-content">
-                                <h2>£{{ phone.cost }}</h2>
-                                <h4>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </h4>
-                            </div>
-                            <div class="col-5 product-details">
-                                <a href="{% url 'phone_detail' phone.id %}" class="product-btn">More details</a>
-                            </div>
-                        </div> 
-                        <hr>
-                        <img src="{{ phone.img_1.url }}" class="product-image" alt="{{ phone.name }}">
+                {% if phone.display_store == True %}
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="product-card">  
+                            <h4 class="text-left">{{ phone.name }}</h4>
+                            <div class="row">
+                                <div class="col-7 product-content">
+                                    <h2>£{{ phone.cost }}</h2>
+                                    <h4>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </h4>
+                                </div>
+                                <div class="col-5 product-details">
+                                    <a href="{% url 'phone_detail' phone.id %}" class="product-btn">More details</a>
+                                </div>
+                            </div> 
+                            <hr>
+                            <img src="{{ phone.img_1.url }}" class="product-image" alt="{{ phone.name }}">
+                        </div>
                     </div>
-                </div>
-                {% if forloop.counter|divisibleby:1 %}
-                    <div class="col-12 d-sm-none mb-5">
-                        <hr>
-                    </div>
-                {% endif %}                        
-                {% if forloop.counter|divisibleby:2 %}
-                    <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
-                        <hr>
-                    </div>
-                {% endif %}
-                {% if forloop.counter|divisibleby:3 %}
-                    <div class="col-12 d-none d-lg-block d-xl-none mb-5">
-                        <hr>
-                    </div>
-                {% endif %}
-                {% if forloop.counter|divisibleby:4 %}
-                    <div class="col-12 d-none d-xl-block mb-5">
-                        <hr>
-                    </div>
+                    {% if forloop.counter|divisibleby:1 %}
+                        <div class="col-12 d-sm-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}                        
+                    {% if forloop.counter|divisibleby:2 %}
+                        <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}
+                    {% if forloop.counter|divisibleby:3 %}
+                        <div class="col-12 d-none d-lg-block d-xl-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}
+                    {% if forloop.counter|divisibleby:4 %}
+                        <div class="col-12 d-none d-xl-block mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}
                 {% endif %}
             {% endfor %}
             

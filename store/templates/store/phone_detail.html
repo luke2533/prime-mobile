@@ -54,12 +54,21 @@
                 <div class="phone-options">
 
                     <form action="">
+                        {% csrf_token %}
                         <!-- SimFree class comes in here -->
-                        <h3>Colour</h3>
-                        <button>{ simfree.color }</button>
-
+                        <h3>Color</h3>
+                        <ul>
+                            {% for phone in phones %}
+                                
+                                <input type="hidden">
+                                <li>
+                                    
+                                </li>
+                            {% endfor %}
+                        </ul>
+                           
                         <h3>Storage</h3>
-                        <button>{ simfree.storage }</button>
+                        <button>{{ phone.storage }}</button>
 
                         <h3>Purchase</h3>
                         <div class="phone-bag">
@@ -67,6 +76,7 @@
                             <h3>Qty: 1</h3>
                             <button>Add to basket</button>
                         </div>
+                        
                     </form>
                 </div>
 

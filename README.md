@@ -350,6 +350,16 @@ Additions:
 - Migrations to store
 - Deleted simFree fixtures
 
+### 6.28 Small updates to nav and bag page
+
+Additions:
+
+- Changes to navbar buttons
+- Changes to product page form
+- Changes to bag page
+- Nav bar has filters
+- Bag button changes
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
