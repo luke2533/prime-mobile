@@ -52,11 +52,9 @@ def phone_detail(request, product_id):
     # Phone detail page
 
     phone = get_object_or_404(Phone, pk=product_id)
-    test = "test 1"
     
     context = {
         "phone": phone,
-        "test": test,
     }
 
     return render(request, "store/phone_detail.html", context)

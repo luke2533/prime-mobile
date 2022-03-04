@@ -367,6 +367,13 @@ Additions:
 - Custom phone form structure
 - Color buttons JS
 
+### 6.30 Changes to phone models and fixture structure
+
+Additions:
+
+- Changes to phone models
+- Updated fixtures structure
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

@@ -41,8 +41,11 @@ class Phone(models.Model):
     img_3 = models.ImageField(null=True, blank=True)
 
     storage = models.IntegerField(default=1, blank=True, null=True)
-    color = models.CharField(max_length=254, null=True, blank=True)
-    cost = models.FloatField(default=1, blank=True, null=True)
+    color_1 = models.CharField(max_length=254, null=True, blank=True)
+    color_2 = models.CharField(max_length=254, null=True, blank=True)
+    color_3 = models.CharField(max_length=254, null=True, blank=True)
+    color_4 = models.CharField(max_length=254, null=True, blank=True)
+    price = models.FloatField(default=1, blank=True, null=True)
     category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
     display_store = models.BooleanField(default=False, null=True, blank=True)
 

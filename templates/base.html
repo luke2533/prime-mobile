@@ -39,10 +39,11 @@
                 <div class="collapse navbar-collapse" id="nav-menu">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle btn-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle btn-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                                 Shop
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{% url 'store' %}">Shop Now!</a>
                                 <a class="dropdown-item" href="{% url 'store' %}?sort=cost&direction=asc">Low to High Price</a>
                                 <a class="dropdown-item" href="{% url 'store' %}?sort=cost&direction=desc">High to Low Price</a>
                                 <a class="dropdown-item" href="#">Low to High Ratings</a>

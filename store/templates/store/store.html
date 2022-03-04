@@ -39,7 +39,8 @@
                                     </h4>
                                 </div>
                                 <div class="col-5 product-details">
-                                    <a href="{% url 'phone_detail' phone.id %}" class="product-btn">More details</a>
+                                    <a href="{% url 'phone_detail' phone.pk %}" class="product-btn">More details</a>
+                                    <!-- If it stops working change pk to phone.id -->
                                 </div>
                             </div> 
                             <hr>
