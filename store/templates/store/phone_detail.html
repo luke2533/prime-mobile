@@ -65,42 +65,55 @@
                             {% if phone.color_2 %}
                                 <input type="hidden">
                                 <li>
-                                    <a class="phone-form"id="color-2" >{{ phone.color_2 }}</a>
+                                    <a class="phone-form" id="color-2" href="#">{{ phone.color_2 }}</a>
                                 </li>
                             {% endif %}
                             {% if phone.color_3 %}
                                 <input type="hidden">
                                 <li>
-                                    <a class="phone-form"id="color-3" >{{ phone.color_3 }}</a>
+                                    <a class="phone-form" id="color-3" href="#">{{ phone.color_3 }}</a>
                                 </li>
                             {% endif %}
                             {% if phone.color_4 %}
                                 <input type="hidden">
                                 <li>
-                                    <a class="phone-form"id="color-4" >{{ phone.color_4 }}</a>
+                                    <a class="phone-form" id="color-4" href="#">{{ phone.color_4 }}</a>
                                  </li>
                             {% endif %}
                             <!-- Use JS for colors -->
                         </ul>
                            
                         <h3>Storage:</h3> 
-                        <!-- PK and phone_model to get other storages -->
                         <ul class="phone-list"> 
                             <input type="hidden">
+                            <!-- value of storage and data-set of price -->
                             <li>
-                                <a class="phone-form">{{ phone.storage }} GB</a>
+                                <a class="phone-form" href="#">{{ phone.storage_1 }} GB</a>
                             </li>
-                            {% if phone.pk == phone_model %}
+                            {% if phone.storage_2 %}
                                 <input type="hidden">
                                 <li>
-                                    <a class="phone-form">{{ phone.storage }} GB</a>
+                                    <a class="phone-form" href="#">{{ phone.storage_2 }} GB</a>
                                 </li>
+                            {% endif %}
+                            {% if phone.storage_3 %}
+                                <input type="hidden">
+                                <li>
+                                    <a class="phone-form" href="#">{{ phone.storage_3 }} GB</a>
+                                </li>
+                            {% endif %}
+                            {% if phone.storage_4 %}
+                                <input type="hidden">
+                                <li>
+                                    <a class="phone-form" href="#">{{ phone.storage_4 }} GB</a>
+                                 </li>
                             {% endif %}
                         </ul>
 
                         <h3>Purchase:</h3>
                         <div class="phone-bag">
                             <h3>Total cost: £{{ phone.price }}</h3>
+                            <!-- This should display the selected storages price -->
                             <h3>Qty: 1</h3>
                             <button type="submit" class="bag-btn" id="add-bag-btn">Add to basket</button>
                         </div>

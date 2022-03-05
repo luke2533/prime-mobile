@@ -390,6 +390,13 @@ Additions:
 - Changes to store models
 - Changes to store admin
 
+### 6.33 Bag contents and place holder delivery banner
+
+Additions:
+
+- Context.py
+- Placeholder free delivery banner
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

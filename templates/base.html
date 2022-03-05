@@ -44,8 +44,8 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{% url 'store' %}">Shop Now!</a>
-                                <a class="dropdown-item" href="{% url 'store' %}?sort=cost&direction=asc">Low to High Price</a>
-                                <a class="dropdown-item" href="{% url 'store' %}?sort=cost&direction=desc">High to Low Price</a>
+                                <a class="dropdown-item" href="{% url 'store' %}?sort=price_1&direction=asc">Low to High Price</a>
+                                <a class="dropdown-item" href="{% url 'store' %}?sort=price_1&direction=desc">High to Low Price</a>
                                 <a class="dropdown-item" href="#">Low to High Ratings</a>
                                 <a class="dropdown-item" href="#">High to Low Ratings</a>
                             </div>
@@ -99,6 +99,14 @@
                 </div>
             </nav>
             <!-- Top nav -->
+
+            <div class="row">
+                <div class="col">
+                    <!-- PLACEHOLDER -->
+                    <h3>Free Delivery on orders over £{{ free_delivery_threshold }}</h3>
+                    <!-- May move to bag button or dropdown menu thing -->
+                </div>
+            </div>
 
         </header>
         {% if messages %}

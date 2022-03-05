@@ -18,6 +18,26 @@
                         <button class="bag-btn">Edit</button>
                         <button class="bag-btn">Delete</button>
                     </div>
+                    {% if bag_items %}
+                        <div class="bag-detail">
+                            <img src="../media/s21.jpg" alt="" class="bag-img">
+                            <h2>name</h2>
+                            <h3>sku</h3>
+                            <h3>storage</h3>
+                            <h3>quantity</h3>
+                            <h2>Cost: <span>price</span></h2>
+                            <br>
+                            <br>
+                            <button class="bag-btn">Edit</button>
+                            <button class="bag-btn">Delete</button>
+                        </div>
+                    {% else %}
+                    <!-- Your bag is empty -->
+                    <div>
+                        <h1>Your bag is empty</h1>
+                        
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
