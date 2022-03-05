@@ -382,6 +382,14 @@ Additions:
 - Displays phone colors
 - Changes to phone JS for colors
 
+### 6.32 Changes to store fixtures
+
+Additions:
+
+- Changes to fixtures to include 4 colors, storage capacities and prices
+- Changes to store models
+- Changes to store admin
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

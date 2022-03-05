@@ -299,7 +299,7 @@ h1, h2 {
 }
 
 .phone-bag {
-    display: flex;
+    display: inline-block;
 }
 
 .phone-form {

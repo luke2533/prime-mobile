@@ -27,7 +27,6 @@ class Phone(models.Model):
     class Meta:
         verbose_name_plural = "Phone"
 
-    phone_model = models.IntegerField(default=1, blank=True, null=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     rating = models.FloatField(default=1, blank=True, null=True)
@@ -40,12 +39,18 @@ class Phone(models.Model):
     img_2 = models.ImageField(null=True, blank=True)
     img_3 = models.ImageField(null=True, blank=True)
 
-    storage = models.IntegerField(default=1, blank=True, null=True)
+    storage_1 = models.IntegerField(default=1, blank=True, null=True)
+    storage_2 = models.IntegerField(default=1, blank=True, null=True)
+    storage_3 = models.IntegerField(default=1, blank=True, null=True)
+    storage_4 = models.IntegerField(default=1, blank=True, null=True)
     color_1 = models.CharField(max_length=254, null=True, blank=True)
     color_2 = models.CharField(max_length=254, null=True, blank=True)
     color_3 = models.CharField(max_length=254, null=True, blank=True)
     color_4 = models.CharField(max_length=254, null=True, blank=True)
-    price = models.FloatField(default=1, blank=True, null=True)
+    price_1 = models.FloatField(default=1, blank=True, null=True)
+    price_2 = models.FloatField(default=1, blank=True, null=True)
+    price_3 = models.FloatField(default=1, blank=True, null=True)
+    price_4 = models.FloatField(default=1, blank=True, null=True)
     category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
     display_store = models.BooleanField(default=False, null=True, blank=True)
 

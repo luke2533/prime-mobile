@@ -9,19 +9,15 @@ class CategoryAdmin(admin.ModelAdmin):
 
 class PhoneAdmin(admin.ModelAdmin):
     list_display = (
-        "phone_model",
         "sku",
         "name",
-        "storage",
+        "storage_1",
         "color_1",
-        "color_2",
-        "color_3",
-        "color_4",
-        "price",
+        "price_1",
         "category",
     )
 
-    ordering = ("phone_model",)
+    ordering = ("sku",)
 
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Phone, PhoneAdmin)
