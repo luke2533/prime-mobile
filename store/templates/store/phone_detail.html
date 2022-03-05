@@ -57,26 +57,50 @@
                         {% csrf_token %}
                         
                         <h3>Color:</h3>
-                        <ul> 
-                            <!-- for and if for other colors -->
+                        <ul class="phone-list">
                             <input type="hidden">
                             <li>
-                                <a class="phone-form" id="phone-color">{{ phone.color }}</a>
+                                <a class="phone-form" id="color-1" href="#">{{ phone.color_1 }}</a>
                             </li>
+                            {% if phone.color_2 %}
+                                <input type="hidden">
+                                <li>
+                                    <a class="phone-form"id="color-2" >{{ phone.color_2 }}</a>
+                                </li>
+                            {% endif %}
+                            {% if phone.color_3 %}
+                                <input type="hidden">
+                                <li>
+                                    <a class="phone-form"id="color-3" >{{ phone.color_3 }}</a>
+                                </li>
+                            {% endif %}
+                            {% if phone.color_4 %}
+                                <input type="hidden">
+                                <li>
+                                    <a class="phone-form"id="color-4" >{{ phone.color_4 }}</a>
+                                 </li>
+                            {% endif %}
                             <!-- Use JS for colors -->
                         </ul>
                            
-                        <h3>Storage:</h3>
-                        <ul> 
+                        <h3>Storage:</h3> 
+                        <!-- PK and phone_model to get other storages -->
+                        <ul class="phone-list"> 
                             <input type="hidden">
                             <li>
                                 <a class="phone-form">{{ phone.storage }} GB</a>
                             </li>
+                            {% if phone.pk == phone_model %}
+                                <input type="hidden">
+                                <li>
+                                    <a class="phone-form">{{ phone.storage }} GB</a>
+                                </li>
+                            {% endif %}
                         </ul>
 
                         <h3>Purchase:</h3>
                         <div class="phone-bag">
-                            <h3>Total cost: £{{ phone.cost }}</h3>
+                            <h3>Total cost: £{{ phone.price }}</h3>
                             <h3>Qty: 1</h3>
                             <button type="submit" class="bag-btn" id="add-bag-btn">Add to basket</button>
                         </div>

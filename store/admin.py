@@ -13,8 +13,11 @@ class PhoneAdmin(admin.ModelAdmin):
         "sku",
         "name",
         "storage",
-        "color",
-        "cost",
+        "color_1",
+        "color_2",
+        "color_3",
+        "color_4",
+        "price",
         "category",
     )
 

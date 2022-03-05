@@ -374,6 +374,14 @@ Additions:
 - Changes to phone models
 - Updated fixtures structure
 
+### 6.31 Phone detail page shows all phone colors
+
+Additions:
+
+- Changes to phone admin
+- Displays phone colors
+- Changes to phone JS for colors
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

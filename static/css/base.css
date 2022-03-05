@@ -308,11 +308,17 @@ h1, h2 {
     /* PLACEHOLDER */
     border-radius: 90px;
     padding: 10px;
+    margin: 10px;
     height: 50px;
     width: 125px;
     font-size: 1.2em;
     display: block;
     text-align: center;
+}
+
+.phone-list {
+    display: flex;
+    flex-direction: row;
 }
 
 .phone-review {

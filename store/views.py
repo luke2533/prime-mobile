@@ -50,11 +50,13 @@ def all_phones(request):
 def phone_detail(request, product_id):
 
     # Phone detail page
-
+    pk = product_id
     phone = get_object_or_404(Phone, pk=product_id)
+    phone_model = Phone.objects.filter(phone_model=pk)
     
     context = {
         "phone": phone,
+        "phone_model": phone_model,
     }
 
     return render(request, "store/phone_detail.html", context)
