@@ -415,6 +415,12 @@ Additions:
 
 Note: price/storage 2 to 4 options do not display
 
+### 6.36 Delete items from bag
+
+Additions:
+
+- Delete items from bag
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

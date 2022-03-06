@@ -53,7 +53,7 @@
 
                 <div class="phone-options">
 
-                    <form action="{% url 'add_phone_bag' phone.id %}" method="POST">
+                    <form action="{% url 'add_phone_bag' phone.pk %}" method="POST">
                         {% csrf_token %}
                         
                         <h3>Color:</h3>
