@@ -13,12 +13,13 @@ def add_phone_bag(request, item_id):
     redirect_url = request.POST.get("redirect_url")
     bag = request.session.get("bag", {})
 
+    # Color, storage and price will be custom code
+
     if item_id in list(bag.keys()):
         bag[item_id] += quantity
     else:
         bag[item_id] = quantity
     
     request.session["bag"] = bag
-    print(request.session["bag"])
     return redirect(redirect_url)
     # Need to figure out how to get simfree fixtures

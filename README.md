@@ -405,6 +405,16 @@ Additions:
 - Can add items to bag
 - Quantity works
 
+### 6.35 Items show in bag, as well as grand total
+
+Additions:
+
+- Bag displays bag items
+- Item name, SKU, storage_1 and price_1 display
+- Bag total displayed
+
+Note: price/storage 2 to 4 options do not display
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
