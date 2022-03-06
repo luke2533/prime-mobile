@@ -53,31 +53,31 @@
 
                 <div class="phone-options">
 
-                    <form action="">
+                    <form action="{% url 'add_phone_bag' phone.id %}" method="POST">
                         {% csrf_token %}
                         
                         <h3>Color:</h3>
                         <ul class="phone-list">
-                            <input type="hidden">
+                            <input type="hidden" name="color" value="{{ phone.color_1 }}">
                             <li>
-                                <a class="phone-form" id="color-1" href="#">{{ phone.color_1 }}</a>
+                                <a class="phone-form" id="color-1" href="javascript:void(0)"><p class="phone-color">{{ phone.color_1 }}</p></a>
                             </li>
                             {% if phone.color_2 %}
-                                <input type="hidden">
+                                <input type="hidden" name="color" value="{{ phone.color_2 }}">
                                 <li>
-                                    <a class="phone-form" id="color-2" href="#">{{ phone.color_2 }}</a>
+                                    <a class="phone-form" id="color-2" href="javascript:void(0)"><p class="phone-color">{{ phone.color_2 }}</p></a>
                                 </li>
                             {% endif %}
                             {% if phone.color_3 %}
-                                <input type="hidden">
+                                <input type="hidden" name="color" value="{{ phone.color_3 }}">
                                 <li>
-                                    <a class="phone-form" id="color-3" href="#">{{ phone.color_3 }}</a>
+                                    <a class="phone-form" id="color-3" href="javascript:void(0)"><p class="phone-color">{{ phone.color_3 }}</p></a>
                                 </li>
                             {% endif %}
                             {% if phone.color_4 %}
-                                <input type="hidden">
+                                <input type="hidden" name="color" value="{{ phone.color_4 }}">
                                 <li>
-                                    <a class="phone-form" id="color-4" href="#">{{ phone.color_4 }}</a>
+                                    <a class="phone-form" id="color-4" href="javascript:void(0)"><p class="phone-color">{{ phone.color_4 }}</p></a>
                                  </li>
                             {% endif %}
                             <!-- Use JS for colors -->
@@ -85,37 +85,45 @@
                            
                         <h3>Storage:</h3> 
                         <ul class="phone-list"> 
-                            <input type="hidden">
+                            <input type="hidden" name="storage" value="{{ phone.storage_1 }}" data-price="{{ phone.price_1 }}">
                             <!-- value of storage and data-set of price -->
                             <li>
-                                <a class="phone-form" href="#">{{ phone.storage_1 }} GB</a>
+                                <a class="phone-form" href="javascript:void(0)">{{ phone.storage_1 }} GB</a>
                             </li>
                             {% if phone.storage_2 %}
-                                <input type="hidden">
+                                <input type="hidden" name="storage" value="{{ phone.storage_2 }}" data-price="{{ phone.price_2 }}">
                                 <li>
-                                    <a class="phone-form" href="#">{{ phone.storage_2 }} GB</a>
+                                    <a class="phone-form" href="javascript:void(0)">{{ phone.storage_2 }} GB</a>
                                 </li>
                             {% endif %}
                             {% if phone.storage_3 %}
-                                <input type="hidden">
+                                <input type="hidden" name="storage" value="{{ phone.storage_3 }}" data-price="{{ phone.price_3 }}">
                                 <li>
-                                    <a class="phone-form" href="#">{{ phone.storage_3 }} GB</a>
+                                    <a class="phone-form" href="javascript:void(0)">{{ phone.storage_3 }} GB</a>
                                 </li>
                             {% endif %}
                             {% if phone.storage_4 %}
-                                <input type="hidden">
+                                <input type="hidden" name="storage" value="{{ phone.storage_4 }}" data-price="{{ phone.price_4 }}">
                                 <li>
-                                    <a class="phone-form" href="#">{{ phone.storage_4 }} GB</a>
+                                    <a class="phone-form" href="javascript:void(0)">{{ phone.storage_4 }} GB</a>
                                  </li>
                             {% endif %}
                         </ul>
 
-                        <h3>Purchase:</h3>
                         <div class="phone-bag">
                             <h3>Total cost: £{{ phone.price }}</h3>
                             <!-- This should display the selected storages price -->
-                            <h3>Qty: 1</h3>
+                            <h5>Quantity:
+                                <select name="quantity" id="quantity">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </h5>
                             <button type="submit" class="bag-btn" id="add-bag-btn">Add to basket</button>
+                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
                         
                     </form>

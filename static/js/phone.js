@@ -4,6 +4,8 @@
 var color_1 = $("#color-1").text();
 $("#color-1").css("background-color", color_1);
 
+$(".phone-color").hide()
+
 var color_2 = $("#color-2").text();
 $("#color-2").css("background-color", color_2);
 

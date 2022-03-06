@@ -397,6 +397,14 @@ Additions:
 - Context.py
 - Placeholder free delivery banner
 
+### 6.34 Adding and quantity working for bag
+
+Additions:
+
+- Color options text is hidden
+- Can add items to bag
+- Quantity works
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
