@@ -14,12 +14,15 @@ def bag_contents(request):
     for item_id, quantity in bag.items():
         phone = get_object_or_404(Phone, pk=item_id)
         total += quantity * phone.price_1
-        # Need to figure out price 1 to 4
+        # Quantity no a variable
         product_count += quantity
         bag_items.append({
             "item_id": item_id,
             "quantity": quantity,
             "phone": phone,
+            # "color": color,
+            # "storage": storage,
+            # "price": price,
         })
 
     if total < settings.FREE_DELIVERY:

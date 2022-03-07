@@ -118,11 +118,8 @@
                 
                         <div class="phone-bag">
                             <h3>Total cost: £<input class="phone-select" id="price" name="price" value="{{ phone.price_1 }}" readonly></h3>
-                            <input type="hidden" id="color" name="color" value="{{ phone.color_1 }}">
-                            <!-- <input type="hidden" id="storage" name="storage" value="{{ phone.storage_1 }}">                             -->
+                            <input type="hidden" id="color" name="color" value="{{ phone.color_1 }}" style="background-color: {{ phone.color_1 }}; border-radius: 10px; color: {{phone.color_1 }};">
                             <p>Current storage selected: <input class="phone-select" id="storage" name="storage" value="{{ phone.storage_1 }}" readonly></p>
-                            <p>Current color selected: <span style="background-color: {{ phone.color_1 }}; border-radius: 10px; color: {{phone.color_1 }};">........</span></p>
-
 
                             <!-- This should display the selected storages price -->
                             <h5>Quantity:
@@ -182,6 +179,8 @@
         function setColor(value){
             console.log(value);
             document.getElementById("color").value = document.getElementById(`color_${value}`).value;
+            // document.getElementById("color-selected").style.background = value;
+
         }
         
         function setStorage(value){

@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect, HttpResponse
 from django.contrib import messages
 from store.models import Phone
+from decimal import Decimal
 
 def user_bag(request):
     
@@ -10,6 +11,9 @@ def user_bag(request):
 def add_phone_bag(request, item_id):
 
     phone = get_object_or_404(Phone, pk=item_id)
+    color = request.POST.get("color")
+    storage = int(request.POST.get("storage"))
+    price = Decimal(request.POST.get("price"))
     quantity = int(request.POST.get("quantity"))
     redirect_url = request.POST.get("redirect_url")
     bag = request.session.get("bag", {})

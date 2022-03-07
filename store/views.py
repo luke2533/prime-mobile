@@ -50,7 +50,7 @@ def all_phones(request):
 def phone_detail(request, phone_id):
 
     # Phone detail page
-    pk = phone_id
+    # pk = phone_id
     phone = get_object_or_404(Phone, pk=phone_id)
     
     context = {

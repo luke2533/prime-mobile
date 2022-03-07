@@ -439,6 +439,12 @@ Additions:
 - Storage selection working
 - Price based on storage works
 
+### 6.39 Updates to fixtures price models to decimal
+
+Additions:
+
+- Updates to fixtures price models
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
