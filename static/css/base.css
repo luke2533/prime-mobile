@@ -47,6 +47,13 @@ h1, h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 9999;
+}
+
 /* Genral */
 
 /* Nav-bar */
@@ -315,6 +322,10 @@ h1, h2 {
     display: block;
     text-align: center;
 }
+
+/* .phone-form:focus {
+    border: #21fdda 3px solid;
+} */
 
 .phone-list {
     display: flex;

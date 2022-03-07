@@ -47,11 +47,11 @@ def all_phones(request):
     return render(request, "store/store.html", context)
 
     
-def phone_detail(request, product_id):
+def phone_detail(request, phone_id):
 
     # Phone detail page
-    pk = product_id
-    phone = get_object_or_404(Phone, pk=product_id)
+    pk = phone_id
+    phone = get_object_or_404(Phone, pk=phone_id)
     
     context = {
         "phone": phone,

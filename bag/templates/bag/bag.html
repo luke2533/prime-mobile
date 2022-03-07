@@ -9,19 +9,20 @@
                     {% for item in bag_items %}    
                         <div class="bag-detail">
                             <img src="{{ item.phone.img_1.url }}" alt="{{ item.phone.name }}" class="bag-img">
-                            <h2>{{ item.phone.name }}</h2>
+                            <h2>{{ item.phone }}</h2>
                             <h3>{{ item.phone.sku|upper }}</h3>
-                            <h3>Capacity: {{ item.phone.storage_1 }} GB</h3>
+                            <h3>Capacity: {{ item.storage }} GB</h3>
                             <h3>Qty: {{ item.quantity }}</h3>
-                            <h2>Cost: <span>£{{ item.phone.price_1 }}</span></h2>
+                            <h2>Cost: <span>£{{ item.price }}</span></h2>
                             <br>
                             <br>
                             <a class="bag-btn edit-item">Edit</a>
-                            <a class="bag-btn delete-item" id="delete_{{ item.item_id }}">Delete</a>
+                            <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
                             <hr class="bag-hr">
                             
                         </div>
                     {% endfor %}
+                    {{ bag_items }}
                 {% else %}
                 <!-- Your bag is empty -->
                 <div>
@@ -42,20 +43,20 @@
 {% endblock %}
 
 {% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
+        $(".delete-item").click(function(e) {
+            var csrfToken = "{{ csrf_token }}";
+            var itemId = $(this).attr("id").split("delete_")[1];
+            var url = `/bag/delete/${itemId}/`;
+            var data = {'csrfmiddlewaretoken': csrfToken};
 
-<script type="text/javascript">
-    $(".delete-item").click(function(e) {
-        var csrfToken = "{{ csrf_token }}";
-        var itemId = $(this).attr("id").split("delete_")[1];
-        var url = `/bag/delete/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken};
-
-        $.post(url, data)
-            .done(function() {
-                location.reload();
-        });
-    })
-    // Used form django mini project
-</script>
+            $.post(url, data)
+                .done(function() {
+                    location.reload();
+            });
+        })
+        // Used form django mini project
+    </script>
 
 {% endblock %}

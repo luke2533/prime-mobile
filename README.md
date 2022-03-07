@@ -421,6 +421,16 @@ Additions:
 
 - Delete items from bag
 
+### 6.37 Added toasts for adding/deleting items from bag
+
+Additions:
+
+- Toasts success
+- Toasts error
+- Toasts info
+- Toasts warning
+- Changes to bag page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
