@@ -11,9 +11,6 @@ def add_phone_bag(request, item_id):
 
     phone = get_object_or_404(Phone, pk=item_id)
     quantity = int(request.POST.get("quantity"))
-    color = request.POST.get("color")
-    storage = int(request.POST.get("storage"))
-    price = float(request.POST.get("price"))
     redirect_url = request.POST.get("redirect_url")
     bag = request.session.get("bag", {})
 

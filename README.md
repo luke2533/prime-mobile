@@ -431,6 +431,14 @@ Additions:
 - Toasts warning
 - Changes to bag page
 
+### 6.38 Phone selection working
+
+Additions:
+
+- Color selection working
+- Storage selection working
+- Price based on storage works
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

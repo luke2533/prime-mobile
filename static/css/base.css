@@ -309,6 +309,13 @@ h1, h2 {
     display: inline-block;
 }
 
+.phone-select {
+    border: none;
+    background-color: #04162e;
+    color: white;
+    width: 110px;
+}
+
 .phone-form {
     border: white solid 1px;
     background-color: #181818;
@@ -323,9 +330,9 @@ h1, h2 {
     text-align: center;
 }
 
-/* .phone-form:focus {
+.phone-form:active {
     border: #21fdda 3px solid;
-} */
+}
 
 .phone-list {
     display: flex;
