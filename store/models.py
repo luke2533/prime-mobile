@@ -29,7 +29,7 @@ class Phone(models.Model):
 
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
-    rating = models.IntegerField(default=1, blank=True, null=True)
+    rating = models.FloatField(default=1, blank=True, null=True)
     
     os = models.CharField(max_length=254, null=True, blank=True)
     screen = models.CharField(max_length=254, null=True, blank=True)
@@ -47,10 +47,10 @@ class Phone(models.Model):
     color_2 = models.CharField(max_length=254, null=True, blank=True)
     color_3 = models.CharField(max_length=254, null=True, blank=True)
     color_4 = models.CharField(max_length=254, null=True, blank=True)
-    price_1 = models.DecimalField(max_digits=7, decimal_places=2, default=1)
-    price_2 = models.DecimalField(max_digits=7, decimal_places=2, default=1)
-    price_3 = models.DecimalField(max_digits=7, decimal_places=2, default=1)
-    price_4 = models.DecimalField(max_digits=7, decimal_places=2, default=1)
+    price_1 = models.FloatField(default=1, blank=True, null=True)
+    price_2 = models.FloatField(default=1, blank=True, null=True)
+    price_3 = models.FloatField(default=1, blank=True, null=True)
+    price_4 = models.FloatField(default=1, blank=True, null=True)
     category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
     display_store = models.BooleanField(default=False, null=True, blank=True)
 

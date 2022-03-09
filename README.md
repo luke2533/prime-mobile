@@ -445,6 +445,17 @@ Additions:
 
 - Updates to fixtures price models
 
+### 6.40 Phone selections store in bag_items
+
+Additions:
+
+- Color selections store in bag_items
+- Storage selections store in bag_items
+- Price selections store in bag_items
+- Quantity selections store in bag_items 
+
+Note: Does not yet display on bag page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

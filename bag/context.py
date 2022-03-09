@@ -11,24 +11,39 @@ def bag_contents(request):
     product_count = 0
     bag = request.session.get("bag", {})
 
-    for item_id, quantity in bag.items():
+    for item_id, item_data in bag.items():
         phone = get_object_or_404(Phone, pk=item_id)
-        total += quantity * phone.price_1
-        # Quantity no a variable
-        product_count += quantity
+        print(item_id)
+        print(item_data)
+        print(bag)
+
+        total += int(item_data["quantity"]) * float(item_data["price"])
+        product_count += int(item_data["quantity"])
         bag_items.append({
             "item_id": item_id,
-            "quantity": quantity,
+            "item_data": item_data,
             "phone": phone,
-            # "color": color,
-            # "storage": storage,
-            # "price": price,
         })
+
+    # for item_id, quantity in bag.items():
+    #     phone = get_object_or_404(Phone, pk=item_id)
+    #     print(item_id)
+    #     print(quantity)
+    #     print(bag)
+    #     print(bag_items)
+    #     total += quantity * phone.price_1
+    #     # Quantity no a variable
+    #     product_count += quantity
+    #     bag_items.append({
+    #         "item_id": item_id,
+    #         "quantity": quantity,
+    #         "phone": phone,
+    #     })
 
     if total < settings.FREE_DELIVERY:
         delivery = total * Decimal(settings.DELIVERY_PERCENTAGE/100)
         free_delivery_delta = settings.FREE_DELIVERY - total
-    
+
     else:
         delivery = 0
         free_delivery_delta = 0
@@ -42,7 +57,7 @@ def bag_contents(request):
         "delivery": delivery,
         "free_delivery_delta": free_delivery_delta,
         "free_delivery_threshold": settings.FREE_DELIVERY,
-        "grand_total": grand_total
+        "grand_total": grand_total,
     }
 
     return context
