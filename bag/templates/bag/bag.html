@@ -11,9 +11,9 @@
                             <img src="{{ item.phone.img_1.url }}" alt="{{ item.phone.name }}" class="bag-img">
                             <h2>{{ item.phone }}</h2>
                             <h3>{{ item.phone.sku|upper }}</h3>
-                            <h3>Capacity: {{ item.storage }} GB</h3>
-                            <h3>Qty: {{ item.quantity }}</h3>
-                            <h2>Cost: <span>£{{ item.price }}</span></h2>
+                            <h3>Capacity: {{ item.item_data.storage }} GB</h3>
+                            <h3>Qty: {{ item.item_data.quantity }}</h3>
+                            <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
                             <br>
                             <br>
                             <a class="bag-btn edit-item">Edit</a>

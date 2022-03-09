@@ -456,6 +456,14 @@ Additions:
 
 Note: Does not yet display on bag page
 
+### 6.41 Phone selections display in bag correctly
+
+Additions:
+
+- Phone selections display in bag correctly
+
+Issue: Adding the same phone or with diffrent options to the bag when the same phone is already in the bag causes errors
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
