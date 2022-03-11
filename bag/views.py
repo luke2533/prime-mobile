@@ -18,12 +18,14 @@ def add_phone_bag(request, item_id):
     bag = request.session.get("bag", {})
 
     if item_id in list(bag.keys()):
-        bag[item_id] += quantity
-        # Adding the same phone with diffrent or same options and adding the quantity??
+        bag[item_id]["quantity"] += quantity
+
+        # If the item is already in the bag
     else:
-        # Adding a new phone
         bag[item_id] = {"color": color, "storage": storage, "price": price, "quantity": quantity}
         messages.success(request, f'{phone.name} added to your bag')
+
+        # Adding a new phone
             
     request.session["bag"] = bag
     return redirect(redirect_url)

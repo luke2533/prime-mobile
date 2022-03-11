@@ -464,6 +464,12 @@ Additions:
 
 Issue: Adding the same phone or with diffrent options to the bag when the same phone is already in the bag causes errors
 
+### 6.42 Add same phone to bag more then once
+
+Additions:
+
+- Add same phone to bag more then once
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
