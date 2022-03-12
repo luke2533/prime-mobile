@@ -477,6 +477,12 @@ Additions:
 - Checkout app
 - Checkout HTML
 
+### 6.44 Checkout models
+
+Additions:
+
+- Checkout models
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
