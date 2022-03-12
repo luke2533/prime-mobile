@@ -13,10 +13,6 @@ def bag_contents(request):
 
     for item_id, item_data in bag.items():
         phone = get_object_or_404(Phone, pk=item_id)
-        print(item_id)
-        print(item_data)
-        print(bag)
-
         total += int(item_data["quantity"]) * float(item_data["price"])
         product_count += int(item_data["quantity"])
         bag_items.append({
@@ -24,21 +20,10 @@ def bag_contents(request):
             "item_data": item_data,
             "phone": phone,
         })
+        # This works
+        # Issue: Can't add same phone with diffrent color or storage
 
-    # for item_id, quantity in bag.items():
-    #     phone = get_object_or_404(Phone, pk=item_id)
-    #     print(item_id)
-    #     print(quantity)
-    #     print(bag)
-    #     print(bag_items)
-    #     total += quantity * phone.price_1
-    #     # Quantity no a variable
-    #     product_count += quantity
-    #     bag_items.append({
-    #         "item_id": item_id,
-    #         "quantity": quantity,
-    #         "phone": phone,
-    #     })
+    print(bag)
 
     if total < settings.FREE_DELIVERY:
         delivery = total * Decimal(settings.DELIVERY_PERCENTAGE/100)

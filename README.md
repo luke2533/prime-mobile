@@ -470,6 +470,13 @@ Additions:
 
 - Add same phone to bag more then once
 
+### 6.43 Checkout app and page created
+
+Additions:
+
+- Checkout app
+- Checkout HTML
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

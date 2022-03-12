@@ -406,6 +406,10 @@ h1, h2 {
 
 .bag-total {
     display: flex;
+}
+
+.edit-card {
+    padding: 5px;
     
 }
 
