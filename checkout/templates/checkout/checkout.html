@@ -5,25 +5,79 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-6 bag-background bag-items">
+                {% for item in bag_items %}    
+                    <div class="bag-detail">
+                        <img src="{{ item.phone.img_1.url }}" alt="{{ item.phone.name }}" class="bag-img">                            <h2>{{ item.phone }}</h2>
+                        <h3>{{ item.phone.sku|upper }}</h3>
+                        <h3>Capacity: {{ item.item_data.storage }} GB</h3>
+                        <h3>Qty: {{ item.item_data.quantity }}</h3>
+                        <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
+                        <br>
+                        <br>
+                        <!-- <a class="bag-btn edit-item" href="javascript:void(0)" id="edit{{ item.item_id }}">Edit</a> -->
+                        <a class="bag-btn edit-item" href="javascript:void(0)" id="">Edit</a>
+                        <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
+                        <hr class="bag-hr">
+                    </div>
+                {% endfor %}
             </div>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-6 bag-total bag-background">
-                
+                <p>Bag total: £{{ total|floatformat:2 }}</p>
+                <p>Delivery: £{{ delivery|floatformat:2 }}</p>
+                <p>Grand total: £{{ grand_total|floatformat:2 }}</p>
             </div>
         </div>
 
         <div class="order-from">
-            <form action="">
+            <form action="{% url 'checkout' %}" method="POST">
+                {% csrf_token %}
+                {{ order_form.full_name | as_crispy_field }}
+                {{ order_form.email | as_crispy_field }}
+                {{ order_form.phone_number | as_crispy_field }}
+                {{ order_form.street_address1 | as_crispy_field }}
+                {{ order_form.street_address2 | as_crispy_field }}
+                {{ order_form.town_or_city | as_crispy_field }}
+                {{ order_form.postcode | as_crispy_field }}
+                {{ order_form.country | as_crispy_field }}
+                {% if user.is_authenticated %}
+                    <label for="save-info">Save delivery infomation for faster checkout</label>
+                    <input type="checkbox" name="save-info" checked>
+                {% else %}
+                    <a href="{ url 'account_signup' }">Create an account</a>
+                    <a href="{ url 'account_login' }">Log in here</a>
+                {% endif %}
                 <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
+                <!-- For card info -->
+
+                <div class="">
+                    <h3>Total charge £{{ grand_total|floatformat:2 }}</h3>
+                    <a href="">Adjust bag</a>
+                    <button type="submit">Complete Order</button>
+                </div>
             </form>
         </div>
     </div>
+
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
+        $(".delete-item").click(function(e) {
+            var csrfToken = "{{ csrf_token }}";
+            var itemId = $(this).attr("id").split("delete_")[1];
+            var url = `/bag/delete/${itemId}/`;
+            var data = {'csrfmiddlewaretoken': csrfToken};
+
+            $.post(url, data)
+                .done(function() {
+                    location.reload();
+            });
+        })
+        // Used form django mini project
+    </script>
 
 {% endblock %}

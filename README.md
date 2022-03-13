@@ -515,6 +515,13 @@ Additions:
 - Installed Django crispy forms
 - Updated requirements.txt file
 
+### 6.49 Basic checkout page structure
+
+Additions:
+
+- Checkout page structure
+- Checkout page from
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
