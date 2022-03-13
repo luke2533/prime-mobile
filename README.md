@@ -522,6 +522,15 @@ Additions:
 - Checkout page structure
 - Checkout page from
 
+### 6.50 Delivey cost displays correctly and change to store models price field
+
+Additions:
+
+- Changed price 1 to 4 from float to decimal store models
+- Migrated changes
+- Delivery cost works
+- Delivery cost displays on bag and checkout page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

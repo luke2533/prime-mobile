@@ -13,7 +13,7 @@ def bag_contents(request):
 
     for item_id, item_data in bag.items():
         phone = get_object_or_404(Phone, pk=item_id)
-        total += int(item_data["quantity"]) * float(item_data["price"])
+        total += int(item_data["quantity"]) * Decimal(item_data["price"])
         product_count += int(item_data["quantity"])
         bag_items.append({
             "item_id": item_id,
@@ -23,11 +23,9 @@ def bag_contents(request):
         # This works
         # Issue: Can't add same phone with diffrent color or storage
 
-    print(bag)
-
     if total < settings.FREE_DELIVERY:
         delivery = total * Decimal(settings.DELIVERY_PERCENTAGE/100)
-        free_delivery_delta = settings.FREE_DELIVERY - total
+        free_delivery_delta = Decimal(settings.FREE_DELIVERY) - total
 
     else:
         delivery = 0

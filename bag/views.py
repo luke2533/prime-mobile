@@ -1,3 +1,4 @@
+from decimal import Decimal
 from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, reverse
 from django.contrib import messages
 from store.models import Phone
@@ -12,7 +13,7 @@ def add_phone_bag(request, item_id):
     phone = get_object_or_404(Phone, pk=item_id)
     color = request.POST.get("color")
     storage = int(request.POST.get("storage"))
-    price = float(request.POST.get("price"))
+    price = request.POST.get("price")
     quantity = int(request.POST.get("quantity"))
     redirect_url = request.POST.get("redirect_url")
     bag = request.session.get("bag", {})
@@ -37,7 +38,7 @@ def edit_phone_bag(request, item_id):
     phone = get_object_or_404(Phone, pk=item_id)
     color = request.POST.get("color")
     storage = int(request.POST.get("storage"))
-    price = float(request.POST.get("price"))
+    price = Decimal(request.POST.get("price"))
     quantity = int(request.POST.get("quantity"))
     bag = request.session.get("bag", {})
 

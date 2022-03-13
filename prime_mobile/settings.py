@@ -169,7 +169,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-FREE_DELIVERY = 350
+FREE_DELIVERY = 799.99
 DELIVERY_PERCENTAGE = 2
 
 # Default primary key field type
