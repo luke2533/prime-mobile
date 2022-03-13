@@ -531,6 +531,15 @@ Additions:
 - Delivery cost works
 - Delivery cost displays on bag and checkout page
 
+### 6.51 Set up stripe and added card details input
+
+Additions:
+
+- Setting up stripe.js
+- static and JS file (checkout)
+- CSS file (checkout)
+- Added card details input
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

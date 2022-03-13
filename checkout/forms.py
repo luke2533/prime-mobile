@@ -28,7 +28,7 @@ class OrderForm(forms.ModelForm):
             else:
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs["placeholder"] = placeholder
-            # self.fields[field].widget.attrs["class"] = "stripe-style-input"
+            self.fields[field].widget.attrs["class"] = "stripe-style-input"
             # Try when using stripe for card box (CSS Class)
             self.fields[field].label = False
 
