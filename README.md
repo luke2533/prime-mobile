@@ -500,6 +500,12 @@ Additions:
 - signals.py
 - app.py ready function
 
+### 6.47 Checkout form.py created for order from
+
+Additions:
+
+- Checkout form.py
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
