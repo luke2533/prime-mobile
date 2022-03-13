@@ -483,6 +483,14 @@ Additions:
 
 - Checkout models
 
+### 6.45 Checkout models function order ID, Total and save override
+
+Additions:
+
+- Checkout generate order id
+- Checkout update total
+- Checkout override save for order and order items
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

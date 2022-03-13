@@ -23,6 +23,28 @@ class Order(models.Model):
     grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
     # User order information
 
+    def _order_id(self):
+        return uuid.uuid4().hex.upper()
+        # Generates order id
+    
+    def update_total(self):
+        self.order_total = self.bagitems.aggregate(sum("phone_total"))["phone_total_sum"] or 0
+        if self.order_total < settings.FREE_DELIVERY:
+            self.delivery_cost = self.order_total * settings.DELIVERY_PERCENTAGE / 100
+        else:
+            self.delivery_cost = 0
+        self.grand_total = self.order_total + self.delivery_cost
+        self.save()
+
+    def save(self, *args, **kwargs):
+        if not self.order_number:
+            self.order_number = self._order_id()
+        super().save(*args, **kwargs)
+        # Sets the order id
+
+    def __str__(self):
+        return self.order_number
+
 
 class OrderItems(models.Model):
 
@@ -31,4 +53,13 @@ class OrderItems(models.Model):
     phone_color = models.CharField(max_length=7, null=False, blank=False)
     phone_size = models.IntegerField(max_length=4, null=False, blank=False)
     phone_quantity = models.IntegerField(default=0, null=False, blank=False)
+    phone_price = models.DecimalField(max_digits=7, decimal_places=2, null=False, blank=False)
     phone_total = models.DecimalField(max_digits=7, decimal_places=2, null=False, blank=False, editable=False)
+
+    def save(self, *args, **kwargs):
+        self.phone_total = self.phone_price * self.phone_quantity
+        super().save(*args, **kwargs)
+        # Sets the order id
+
+    def __str__(self):
+        return f"SKU {self.phone.sku} on order {self.order.order_number}"
