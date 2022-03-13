@@ -540,6 +540,16 @@ Additions:
 - CSS file (checkout)
 - Added card details input
 
+### 6.52 Installed stripe and added error to card detail input box
+
+Additions:
+
+- Installed stripe
+- Updated requirements.txt file
+- Added error message to card details input
+- Checkout views current bag rounded total
+- Keys exported from version control
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
