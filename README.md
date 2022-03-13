@@ -491,6 +491,15 @@ Additions:
 - Checkout update total
 - Checkout override save for order and order items
 
+### 6.46 Creation of signals.py, checkout migration, checkout models added to admin and changes to app.py
+
+Additions:
+
+- Checkout migration
+- Added checkout to admin
+- signals.py
+- app.py ready function
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

@@ -51,8 +51,8 @@ class OrderItems(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name="orderitems")
     phone = models.ForeignKey(Phone, null=False, blank=False, on_delete=models.CASCADE)
     phone_color = models.CharField(max_length=7, null=False, blank=False)
-    phone_size = models.IntegerField(max_length=4, null=False, blank=False)
-    phone_quantity = models.IntegerField(default=0, null=False, blank=False)
+    phone_size = models.IntegerField(null=False, blank=False)
+    phone_quantity = models.IntegerField(null=False, blank=False)
     phone_price = models.DecimalField(max_digits=7, decimal_places=2, null=False, blank=False)
     phone_total = models.DecimalField(max_digits=7, decimal_places=2, null=False, blank=False, editable=False)
 
