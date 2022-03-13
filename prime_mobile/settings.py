@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'store',
     'bag',
     'checkout',
+
+
+    'crispy-forms',
 ]
 
 MIDDLEWARE = [
@@ -61,6 +64,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'prime_mobile.urls'
+
+CRISPY_TEMPLATE_PACK = 'boostrap4'
 
 TEMPLATES = [
     {
@@ -78,6 +83,10 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'bag.context.bag_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]

@@ -37,7 +37,7 @@
             <div class="col-6 bag-total bag-background">
                 <h1>Bag total: £{{ grand_total|floatformat:2 }}</h1>
                 <p>Delivery??</p>
-                <button class="bag-btn" id="bag-btn-submit" type="submit">Checkout</button>
+                <a class="bag-btn" id="bag-btn-submit" href="{% url 'checkout' %}">Checkout</a>
             </div>
         </div>
     </div>

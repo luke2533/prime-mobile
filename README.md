@@ -506,6 +506,15 @@ Additions:
 
 - Checkout form.py
 
+### 6.48 Checkout views, urls added and installed crispy forms
+
+Additions:
+
+- Checkout views
+- Checkout URLs
+- Installed Django crispy forms
+- Updated requirements.txt file
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
