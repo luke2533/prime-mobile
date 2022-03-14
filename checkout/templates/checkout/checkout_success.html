@@ -9,8 +9,41 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-6 bag-background bag-items">
-                <h1>Test</h1>
-                
+                <h1>Order Information:</h1>
+                <h5>Order Number: {{ order.order_number }}</h5>
+                <h5>Order Date: {{ order.date }}</h5>
+
+                <hr>
+
+                <h3>Delivery Detals:</h3>
+                <h5>Full Name: {{ order.full_name }}</h5>
+                <h5>Email: {{ order.email }}</h5>
+                <h5>Phone Number: {{ order.phone_number }}</h5>
+                <h5>Address line 1: {{ order.street_address1 }}</h5>
+                <h5>Address line 2: {{ order.street_address2 }}</h5>
+                <h5>Town or City: {{ order.town_or_city }}</h5>
+                <h5>Postcode: {{ order.postcode }}</h5>
+                <h5>Country: {{ order.country }}</h5>
+
+                <hr>
+
+                <h3>Order Item's:</h3>
+                {% for item in order.orderitems.all %}
+                    <h5>Phone: {{ item.phone }}</h5>
+                    <!-- <h5>SKU: {{ phone.SKU }}</h5> -->
+                    <h5>Color: {{ item.phone_color }}</h5>
+                    <h5>Storage: {{ item.phone_size }} GB</h5>
+                    <h5>Quantity: {{ item.phone_quantity }}</h5>
+                    <h5>Cost: £{{ item.phone_price }}</h5>
+                    <hr>
+                {% endfor %}
+
+                <hr>
+
+                <h3>Order Total:</h3>
+                <h5>Total: £{{ order.order_total }}</h5>
+                <h5>Delivery cost: £{{ order.delivery_cost }}</h5>
+                <h5>Grand Total: £{{ order.grand_total }}</h5>
             </div>
         </div>
     </div>

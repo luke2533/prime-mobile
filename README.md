@@ -569,7 +569,14 @@ Additions:
 Additions:
 
 - Checkout init file default app config for signals.py
-- Order details and items successfully POST 
+- Order details and items successfully POST
+
+### 6.56 Checkout success page displays order information
+
+Additions:
+
+- Deleting orders succesfully
+- Checkout success page displays order information
 
 ## 7.0 Deployment
 
