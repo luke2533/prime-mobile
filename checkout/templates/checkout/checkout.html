@@ -35,37 +35,39 @@
             </div>
         </div>
 
-        <div class="order-from">
-            <form action="{% url 'checkout' %}" method="POST">
-                {% csrf_token %}
-                {{ order_form.full_name | as_crispy_field }}
-                {{ order_form.email | as_crispy_field }}
-                {{ order_form.phone_number | as_crispy_field }}
-                {{ order_form.street_address1 | as_crispy_field }}
-                {{ order_form.street_address2 | as_crispy_field }}
-                {{ order_form.town_or_city | as_crispy_field }}
-                {{ order_form.postcode | as_crispy_field }}
-                {{ order_form.country | as_crispy_field }}
-                {% if user.is_authenticated %}
-                    <label for="save-info">Save delivery infomation for faster checkout</label>
-                    <input type="checkbox" name="save-info" checked>
-                {% else %}
-                    <a href="{ url 'account_signup' }">Create an account</a>
-                    <a href="{ url 'account_login' }">Log in here</a>
-                {% endif %}
-                
-                <!-- Payment input -->
-                <div id="card-element"></div>
-                <div class="text-danger" id="card-errors" role="alert"></div>
-                <input type="hidden" value="{{ client_secret }}" name="client_secret">
-                <!-- Django mini project -->
+        <div class="row justify-content-center">
+            <div class="col-6 order-from">
+                <form action="{% url 'checkout' %}" method="POST" id="checkout-form">
+                    {% csrf_token %}
+                    {{ order_form.full_name | as_crispy_field }}
+                    {{ order_form.email | as_crispy_field }}
+                    {{ order_form.phone_number | as_crispy_field }}
+                    {{ order_form.street_address1 | as_crispy_field }}
+                    {{ order_form.street_address2 | as_crispy_field }}
+                    {{ order_form.town_or_city | as_crispy_field }}
+                    {{ order_form.postcode | as_crispy_field }}
+                    {{ order_form.country | as_crispy_field }}
+                    {% if user.is_authenticated %}
+                        <label for="save-info">Save delivery infomation for faster checkout</label>
+                        <input type="checkbox" name="save-info" checked>
+                    {% else %}
+                        <a href="{ url 'account_signup' }">Create an account</a>
+                        <a href="{ url 'account_login' }">Log in here</a>
+                    {% endif %}
+                    
+                    <!-- Payment input -->
+                    <div id="card-element"></div>
+                    <div class="text-danger" id="card-errors" role="alert"></div>
+                    <input type="hidden" value="{{ client_secret }}" name="client_secret">
+                    <!-- Django mini project -->
 
-                <div class="">
-                    <h3>Total charge £{{ grand_total|floatformat:2 }}</h3>
-                    <a href="">Adjust bag</a>
-                    <button type="submit">Complete Order</button>
-                </div>
-            </form>
+                    <div class="">
+                        <h3>Total charge £{{ grand_total|floatformat:2 }}</h3>
+                        <a href="">Adjust bag</a>
+                        <button type="submit" id="checkout-submit">Complete Order</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 

@@ -550,6 +550,12 @@ Additions:
 - Checkout views current bag rounded total
 - Keys exported from version control
 
+### 6.53 Checkout form submission working
+
+Additions:
+
+- Checkout form submission working
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
