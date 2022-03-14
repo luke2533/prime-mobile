@@ -564,6 +564,13 @@ Additions:
 - User on checkout success page after form is submited
 - Order Form and form data save to Order/Order items
 
+### 6.55 Order details and items successfully POST 
+
+Additions:
+
+- Checkout init file default app config for signals.py
+- Order details and items successfully POST 
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
