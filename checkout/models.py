@@ -28,7 +28,7 @@ class Order(models.Model):
         # Generates order id
     
     def update_total(self):
-        self.order_total = self.bagitems.aggregate(sum("phone_total"))["phone_total_sum"] or 0
+        self.order_total = self.orderitems.aggregate(Sum("phone_total"))["phone_total__sum"] or 0
         if self.order_total < settings.FREE_DELIVERY:
             self.delivery_cost = self.order_total * settings.DELIVERY_PERCENTAGE / 100
         else:

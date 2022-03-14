@@ -556,6 +556,14 @@ Additions:
 
 - Checkout form submission working
 
+### 6.54 Form sumbits landing user on checkout success page
+
+Additions:
+
+- Checkout success page
+- User on checkout success page after form is submited
+- Order Form and form data save to Order/Order items
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
