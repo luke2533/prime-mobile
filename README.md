@@ -578,6 +578,15 @@ Additions:
 - Deleting orders succesfully
 - Checkout success page displays order information
 
+### 6.57 Webhooks.py created error 401
+
+Additions:
+
+- Webhook_handler.py
+- Webhooks.py
+
+Webhooks not working error 401
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
