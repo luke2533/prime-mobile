@@ -604,6 +604,16 @@ Additions:
 - Updated requirements.txt file
 - Updated checkout models country and phone_size to phone_storage
 
+### 6.60 Basic profiles app set up and small change to checkout models
+
+Additions:
+
+- Created Profile app
+- Updates to checkout models
+- UserProfile class created for profiles models
+- Created profiles urls.py
+- Created profile.html
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
