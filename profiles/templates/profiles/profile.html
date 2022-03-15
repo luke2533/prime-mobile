@@ -9,7 +9,44 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-8">
-                HELLLO
+                <a class="btn btn-primary" data-toggle="collapse" href="#deliveryInfo" role="button" aria-expanded="false" aria-controls="deliveryInfo">
+                    Set default delivery information:
+                </a>
+                
+                <div class="collapse" id="deliveryInfo">
+                    <div class="">
+                        <form action="{% url 'profile' %}" method="POST" id="profile-save-form">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+                            <button type="submit">Set Default</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <h1>Order History:</h1>
+                <div class="col-8 bag-background bag-items">
+                    {% for order in orders %}    
+                        <div class="bag-detail">
+                            <h3>{{ order.order_number }}</h3>
+                            <h3>{{ order.date }}</h3>
+                            <h5>Order Total: £{{ order.order_total }}</h5>
+                            <h5>Delivery Fee: £{{ order.delivery_cost }}</h5>
+                            <h5>Grand Total: £{{ order.grand_total }}</h5>
+                            
+                            
+                            <h3>{{ order.phone.sku|upper }}</h3>
+                            <h3>Capacity: {{ order.storage }} GB</h3>
+                            <h3>Qty: {{ order.quantity }}</h3>
+                            
+                                       
+                            <hr class="bag-hr">
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>

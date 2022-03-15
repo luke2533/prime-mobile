@@ -623,6 +623,15 @@ Additions:
 - Changes to Allauth Sign up page
 - Added links to profile page
 
+### 6.62 Set delivery default form and basic structure for order history
+
+Additions:
+
+- Profile page displays username
+- Profile form.py
+- Set delivery default info form
+- Basic order history structure
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
