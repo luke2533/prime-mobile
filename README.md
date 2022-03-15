@@ -587,6 +587,15 @@ Additions:
 
 Webhooks not working error 401
 
+### 6.58 Checkout page will cache and reload page without charging user if form fails to submit
+
+Additions:
+
+- Checkout submit payment method object (JS)
+- Checkout page will cache and reload page without charging user if form fails to submit
+
+Webhooks not working error 401 (Public key issue?)
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
