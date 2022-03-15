@@ -596,6 +596,14 @@ Additions:
 
 Webhooks not working error 401 (Public key issue?)
 
+### 6.59 Installed django countries and updated checkout models
+
+Additions:
+
+- Installed django countries
+- Updated requirements.txt file
+- Updated checkout models country and phone_size to phone_storage
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

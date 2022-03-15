@@ -55,7 +55,7 @@ def checkout(request):
                         order=order,
                         phone=phone,
                         phone_color=item_data["color"],
-                        phone_size=item_data["storage"],
+                        phone_storage=item_data["storage"],
                         phone_quantity=item_data["quantity"],
                         phone_price=item_data["price"],
                     )
