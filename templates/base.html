@@ -55,7 +55,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-link" href="#">Contact Us</a>
+                            <a class="nav-link btn-link" href="{% url 'profile' %}">Profile</a>
                         </li>
                         {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
@@ -142,9 +142,9 @@
                     <div class="col-5">
                         <h2 class="footer-mobile">Navigation</h2>
                         <a href="" class="footer-link footer-mobile-link"><i class="fas fa-home"></i> Home</a>
+                        <a href="{% url 'profile' %}" class="footer-link footer-mobile-link"><i class="fas fa-user"></i> Profile</a>
                         <a href="" class="footer-link footer-mobile-link"><i class="fas fa-mobile"></i> Shop</a>
                         <a href="" class="footer-link footer-mobile-link"><i class="fas fa-shopping-basket"></i> Basket</a>
-                        <a href="" class="footer-link footer-mobile-link"><i class="fas fa-phone"></i> Contact Us</a>
                     </div>
                 </div>
             </div>    

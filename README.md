@@ -614,6 +614,15 @@ Additions:
 - Created profiles urls.py
 - Created profile.html
 
+### 6.61 Updates to allauth log in and sign up pages plus links from base template to profile page
+
+Additions:
+
+- Static file and profiles.css
+- Changes to Allauth Log in page
+- Changes to Allauth Sign up page
+- Added links to profile page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
