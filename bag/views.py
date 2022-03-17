@@ -36,24 +36,20 @@ def add_phone_bag(request, item_id):
 def edit_phone_bag(request, item_id):
 
     phone = get_object_or_404(Phone, pk=item_id)
-    color = request.POST.get("color")
-    storage = int(request.POST.get("storage"))
-    price = Decimal(request.POST.get("price"))
-    quantity = int(request.POST.get("quantity"))
+    # color = request.POST.get("color")
+    # storage = int(request.POST.get("storage"))
+    # price = Decimal(request.POST.get("price"))
+    # quantity = int(request.POST.get("quantity"))
     bag = request.session.get("bag", {})
 
-    if quantity > 0:
-        bag[item_id] = quantity
-        messages.success(request, f'Updated quantity of {phone.name}')
-
-    else:
-        del bag[item_id]
-        if not bag[item_id]:
-            bag.pop(item_id)
-        messages.success(request, f'Removed {phone.name} from your bag')
+    
+    # del bag[item_id]
+    # if not bag[item_id]:
+    #     bag.pop(item_id)
+    #     messages.success(request, f'Removed {phone.name} from your bag')
             
     request.session["bag"] = bag
-    return redirect(reverse("user_bag"))
+    return HttpResponse(status=200)
 
 
 def delete_phone_bag(request, item_id):

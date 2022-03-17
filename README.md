@@ -644,6 +644,17 @@ Additions:
 
 - Fixed issue with JS getting the form data from the checkout page
 
+### 6.65 Stripe bug fix and added basic structure to bag editing
+
+Additions:
+
+- Fixed bug where user can skip card box on checkout
+- Metadata goes through with users order, save info and username
+- Stripe succesfully charges user
+- Failed charge working correctly
+- Stripe authentication working correcly
+- Added basic structure for bag editing
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
