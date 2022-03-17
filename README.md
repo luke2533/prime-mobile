@@ -655,6 +655,16 @@ Additions:
 - Stripe authentication working correcly
 - Added basic structure for bag editing
 
+### 6.66 Successful payment webhook attempts being created multiple times before failure
+
+Additions:
+
+- Webhook payment succeeded handle
+- Updates to model incase of user purchasing the same phone causing the previous order to be replaced
+- Migrated checkout changes
+- Updated checkout admin
+- While loop on successful payment to attempt to create order multiple times before failure
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

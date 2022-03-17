@@ -89,6 +89,7 @@
                                                 <option value="5">5</option>
                                             </select>
                                         </h5>
+                                        <h3>Total cost: £<input class="phone-select" id="price" name="price" value="{{ item.phone.price_1 }}" readonly></h3>
                                         <button type="submit" class="bag-btn edit-item" id="">Update basket</button>
                                     </form>
                                 </div>
@@ -132,6 +133,7 @@
             document.getElementById("storage").value = document.getElementById(`storage_${value}`).value;
             document.getElementById("price").value = document.getElementById(`price_${value}`).value;
         }
+        // Move to phone.js file
     </script>
 
     <script type="text/javascript">

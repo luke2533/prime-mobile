@@ -36,10 +36,10 @@ def add_phone_bag(request, item_id):
 def edit_phone_bag(request, item_id):
 
     phone = get_object_or_404(Phone, pk=item_id)
-    # color = request.POST.get("color")
-    # storage = int(request.POST.get("storage"))
-    # price = Decimal(request.POST.get("price"))
-    # quantity = int(request.POST.get("quantity"))
+    color = request.POST.get("color")
+    storage = int(request.POST.get("storage"))
+    price = Decimal(request.POST.get("price"))
+    quantity = int(request.POST.get("quantity"))
     bag = request.session.get("bag", {})
 
     
