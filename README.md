@@ -632,6 +632,12 @@ Additions:
 - Set delivery default info form
 - Basic order history structure
 
+### 6.63 Webooks successful went through successfully
+
+Additions:
+
+- Webooks successful went through successfully (payment_intent.created=200)
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

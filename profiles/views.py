@@ -19,6 +19,7 @@ def profile(request):
     orders = profile.orders.all()
 
     template = "profiles/profile.html"
+
     context= {
         "form": form,
         "orders": orders,
@@ -26,4 +27,13 @@ def profile(request):
 
     return render(request, template, context)
 
+
+# def order_history(request, order_number):
+#     order = get_object_or_404(Order, order_number=order_number)
+
+#     message.info(request, (
+#         f"Testing"
+#     ))
+
+#     template = check
 # Django mini project

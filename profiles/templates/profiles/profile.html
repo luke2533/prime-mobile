@@ -28,7 +28,8 @@
         <div class="row justify-content-center">
             <div class="col-8">
                 <h1>Order History:</h1>
-                <div class="col-8 bag-background bag-items">
+                <div class="bag-background bag-items">
+                    {{ orders }}
                     {% for order in orders %}    
                         <div class="bag-detail">
                             <h3>{{ order.order_number }}</h3>
@@ -36,13 +37,13 @@
                             <h5>Order Total: £{{ order.order_total }}</h5>
                             <h5>Delivery Fee: £{{ order.delivery_cost }}</h5>
                             <h5>Grand Total: £{{ order.grand_total }}</h5>
-                            
+
+                            <!-- Need to have webhooks working first i think -->
                             
                             <h3>{{ order.phone.sku|upper }}</h3>
                             <h3>Capacity: {{ order.storage }} GB</h3>
                             <h3>Qty: {{ order.quantity }}</h3>
                             
-                                       
                             <hr class="bag-hr">
                         </div>
                     {% endfor %}
