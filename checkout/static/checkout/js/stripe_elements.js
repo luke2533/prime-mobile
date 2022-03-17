@@ -37,7 +37,7 @@ card.addEventListener('change', function (event) {
     }
 });
 
-var form = $("#checkout-form");
+var form = document.getElementById("checkout-form");
 
 form.addEventListener("submit", function(ev){
     ev.preventDefault();
@@ -53,12 +53,12 @@ form.addEventListener("submit", function(ev){
         "save_info": saveInfo,
     }
     var url = "/checkout/cache_checkout_data/";
-
+    
     $.post(url, postData).done(function(){
         stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: card,
-                user_details: {
+                billing_details: {
                     name: $.trim(form.full_name.value),
                     email: $.trim(form.email.value),
                     phone: $.trim(form.phone_number.value),

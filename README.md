@@ -638,6 +638,12 @@ Additions:
 
 - Webooks successful went through successfully (payment_intent.created=200)
 
+### 6.64 Fixed issue with JS error
+
+Additions:
+
+- Fixed issue with JS getting the form data from the checkout page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
