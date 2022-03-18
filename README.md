@@ -673,6 +673,13 @@ Additions:
 - Save users infomation
 - Order history displays
 
+### 6.68 Order history items display and links to past order success page
+
+Additions:
+
+- Order history items display
+- Order number links to past orders confirmation page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

@@ -32,17 +32,24 @@
                     {{ orders }}
                     {% for order in orders %}    
                         <div class="bag-detail">
-                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}"><h3>{{ order.order_number|truncatechars:6 }}<h3></a>
+                            <h2>Order Details:</h2>
+                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}"><h3>{{ order.order_number }}<h3></a>
                             <h3>{{ order.date }}</h3>
+                            <hr class="bag-hr">
+                            
+                            <h2>Order Items:</h2>
+                            {% for item in order.orderitems.all %}
+                                <h3>Phone: {{ item.phone }}</h3>
+                                <h3>Color: {{ item.phone_color }}</h3>
+                                <h3>Capacity: {{ item.phone_storage }} GB</h3>
+                                <h3>Qty: {{ item.phone_quantity }}</h3>
+                                <hr class="bag-hr">
+                            {% endfor %}
+                            
+                            <h2>Order Cost:</h2>
                             <h5>Order Total: £{{ order.order_total }}</h5>
                             <h5>Delivery Fee: £{{ order.delivery_cost }}</h5>
                             <h5>Grand Total: £{{ order.grand_total }}</h5>
-
-                            <!-- Need to have webhooks working first i think -->
-                            
-                            <h3>{{ order.phone.sku|upper }}</h3>
-                            <h3>Capacity: {{ order.storage }} GB</h3>
-                            <h3>Qty: {{ order.quantity }}</h3>
                             
                             <hr class="bag-hr">
                         </div>
