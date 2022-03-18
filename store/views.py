@@ -78,3 +78,27 @@ def add_phone(request):
     }
 
     return render(request, template, context)
+
+
+def edit_phone(request, phone_id):
+    phone = get_object_or_404(Phone, pk=phone_id)
+
+    if request.method == "POST":
+        form = StoreForm(request.POST, request.FILES, instance=phone)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Succesfully updated phone")
+            return redirect(reverse("phone_detail", args=[phone.id]))
+        else:
+            messages.error(request, "Failed to update phone")
+    else:
+        form = StoreForm(instance=phone)
+        messages.info(request, f"You are editing { phone.name } - { phone.pk }")
+
+    template = "store/edit_phone.html"
+    context = {
+        "form": form,
+        "phone": phone,
+    }
+
+    return render(request, template, context)

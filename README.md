@@ -703,6 +703,14 @@ Additions:
 - edit_phone.html
 - Successfully added product
 
+### 6.72 Admin can edit and add phones to store
+
+Additions:
+
+- Admin can edit phones
+- Admin can add phones
+- Throws correct errors if form is filled incorrectly
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
