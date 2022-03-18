@@ -680,6 +680,13 @@ Additions:
 - Order history items display
 - Order number links to past orders confirmation page
 
+### 6.69 Confirmation email and user info in checkout
+
+Additions:
+
+- Users with default checkout information will have their info ready for checkout
+- Confirmation emails subject and body
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

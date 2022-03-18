@@ -1,0 +1,22 @@
+Hello {{ order.full_name }}
+
+Thank you for choosing Prime Mobile,
+
+Here's a summary of your order.
+
+Order Number: {{ order.order_number }}
+Order Date: {{ order.date }}
+
+Order Total: £{{ order.order_total }}
+Delivery Cost: £{{ order.delivery_cost }}
+Grand Total: £{{ order.grand_total }}
+
+Your order will be shipped in 2-3 days to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+
+If we need to contact you we will contact you at {{ order.phone_number }}
+
+If you need to contact us please feel free to contact us at {{ contact_email }}
+
+Thank you for your order!
+
+Prime Mobile.

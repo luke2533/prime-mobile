@@ -12,8 +12,6 @@ def profile(request):
 
     profile = get_object_or_404(UserProfile, user=request.user)
 
-    print(profile.orders)
-
     if request.method == "POST":
         form = UserProfileForm(request.POST, instance=profile)
         if form.is_valid():
@@ -27,7 +25,6 @@ def profile(request):
     orders = profile.orders.all()
 
     template = "profiles/profile.html"
-
     context= {
         "form": form,
         "orders": orders,
