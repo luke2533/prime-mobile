@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
+
 from .models import Phone
+from .forms import StoreForm
 
 def all_phones(request):
     
@@ -58,3 +60,14 @@ def phone_detail(request, phone_id):
     }
 
     return render(request, "store/phone_detail.html", context)
+
+
+def add_phone(request):
+
+    form = StoreForm()
+    template = "store/add_phone.html"
+    context = {
+        "form": form,
+    }
+
+    return render(request, template, context)

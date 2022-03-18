@@ -687,6 +687,14 @@ Additions:
 - Users with default checkout information will have their info ready for checkout
 - Confirmation emails subject and body
 
+### 6.70 Admin add phone page and form
+
+Additions:
+
+- Store forms.py for admin
+- add_phone.html
+- Add phone page form
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
