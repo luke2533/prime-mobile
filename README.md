@@ -665,6 +665,14 @@ Additions:
 - Updated checkout admin
 - While loop on successful payment to attempt to create order multiple times before failure
 
+### 6.67 Order history displays on profile page
+
+Additions:
+
+- Checkout success view updated
+- Save users infomation
+- Order history displays
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

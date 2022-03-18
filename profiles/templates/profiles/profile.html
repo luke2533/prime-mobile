@@ -32,7 +32,7 @@
                     {{ orders }}
                     {% for order in orders %}    
                         <div class="bag-detail">
-                            <h3>{{ order.order_number }}</h3>
+                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}"><h3>{{ order.order_number|truncatechars:6 }}<h3></a>
                             <h3>{{ order.date }}</h3>
                             <h5>Order Total: £{{ order.order_total }}</h5>
                             <h5>Delivery Fee: £{{ order.delivery_cost }}</h5>

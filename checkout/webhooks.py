@@ -32,15 +32,11 @@ def webhook(request):
     except Exception as e:
         return HttpResponse(content=e, status=400)
 
-    # print("WORKING")
-    # return HttpResponse(status=200)
-
     handler = StripeWH_Handler(request)
 
     event_map = {
         "payment_intent.succeeded": handler.handle_payment_intent_succeeded,
         "payment_intent.payment_failed": handler.handle_payment_intent_payment_failed,
-        # "payment_intent.created": handler.handle_payment_intent_create,
     }
 
     event_type = event["type"]

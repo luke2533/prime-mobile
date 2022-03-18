@@ -15,7 +15,7 @@
 
                 <hr>
 
-                <h3>Delivery Detals:</h3>
+                <h3>Delivery Details:</h3>
                 <h5>Full Name: {{ order.full_name }}</h5>
                 <h5>Email: {{ order.email }}</h5>
                 <h5>Phone Number: {{ order.phone_number }}</h5>
@@ -42,6 +42,10 @@
                 <h5>Total: £{{ order.order_total }}</h5>
                 <h5>Delivery cost: £{{ order.delivery_cost }}</h5>
                 <h5>Grand Total: £{{ order.grand_total }}</h5>
+
+                {% if from_profile %}
+                    <a href="{% url 'profile' %}">Back to Profile</a>
+                {% endif %}
             </div>
         </div>
     </div>
