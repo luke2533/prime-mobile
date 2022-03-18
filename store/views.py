@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 
 from .models import Phone
@@ -59,7 +60,12 @@ def phone_detail(request, phone_id):
     return render(request, "store/phone_detail.html", context)
 
 
+@login_required
 def add_phone(request):
+
+    if not request.user.is_superuser:
+        messages.error(request, "Sorry, only store admins can do that")
+        return redirect(reverse("home"))    
 
     if request.method == "POST":
         form = StoreForm(request.POST, request.FILES)
@@ -80,7 +86,13 @@ def add_phone(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_phone(request, phone_id):
+
+    if not request.user.is_superuser:
+        messages.error(request, "Sorry, only store admins can do that")
+        return redirect(reverse("home"))
+
     phone = get_object_or_404(Phone, pk=phone_id)
 
     if request.method == "POST":
@@ -102,3 +114,16 @@ def edit_phone(request, phone_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_phone(request, phone_id):
+
+    if not request.user.is_superuser:
+        messages.error(request, "Sorry, only store admins can do that")
+        return redirect(reverse("home"))    
+
+    phone = get_object_or_404(Phone, pk=phone_id)
+    phone.delete()
+    messages.success(request, "Phone removed from store")
+    return redirect(reverse("store"))

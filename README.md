@@ -711,6 +711,14 @@ Additions:
 - Admin can add phones
 - Throws correct errors if form is filled incorrectly
 
+### 6.73 Admin edit and delete buttons on phone details pages and further security for admin
+
+Additions:
+
+- Admin can delete phones from store page
+- Phone detail page edit and delete for admin only
+- Further security for add, edit and deleting phones redirecting normal users back to home page
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

@@ -43,6 +43,17 @@
                         </button>
                     </div>
 
+                    {% if request.user.is_superuser %}
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <small><a class="text-primary" href="{% url 'edit_phone' phone.pk %}">Edit</a></small>
+                            </div>
+                            <div class="col-3">
+                                <small><a class="text-danger" href="{% url 'delete_phone' phone.pk %}">Remove</a></small>
+                            </div>
+                        </div>
+                    {% endif %}
+
                     <div class="phone-specs">
                         <i class="fas fa-camera phone-icon"><span class="phone-text"> {{ phone.camera }}</span></i>
                         <i class="fas fa-microchip phone-icon"><span class="phone-text"> {{ phone.os }}</span></i>
