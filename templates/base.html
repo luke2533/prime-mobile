@@ -59,8 +59,12 @@
                         {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                             <!-- If user is admin -->
-                                <li class="nav-item">
-                                    <a class="nav-link btn-link" href="#">Admin</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle btn-link" id="adminDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Admin</a>
+                                    <div class="dropdown-menu" aria-labelledby="adminDropdown">
+                                        <a class="dropdown-item" href="{% url 'add_phone' %}">Add Phone</a>
+                                        <!-- <a class="dropdown-item" href="">Edit Phone</a> -->
+                                    </div>
                                 </li>
                             {% endif %}
                             <!-- If user is signed in -->

@@ -695,6 +695,14 @@ Additions:
 - add_phone.html
 - Add phone page form
 
+### 6.71 Admin nav bar dropdown and Edit Phone page
+
+Additions:
+
+- Admin dropdown on navbar
+- edit_phone.html
+- Successfully added product
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

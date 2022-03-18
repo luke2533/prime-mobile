@@ -51,10 +51,7 @@ def all_phones(request):
     
 def phone_detail(request, phone_id):
 
-    # Phone detail page
-    # pk = phone_id
     phone = get_object_or_404(Phone, pk=phone_id)
-    
     context = {
         "phone": phone,
     }
@@ -64,7 +61,17 @@ def phone_detail(request, phone_id):
 
 def add_phone(request):
 
-    form = StoreForm()
+    if request.method == "POST":
+        form = StoreForm(request.POST, request.FILES)
+        if form.is_valid():
+            phone = form.save()
+            messages.success(request, "Successfully Added Phone")
+            return redirect(reverse("phone_detail", args=[phone.id]))
+        else:
+            messages.error(request, "Failed to add phone")
+    else:
+        form = StoreForm()
+
     template = "store/add_phone.html"
     context = {
         "form": form,
