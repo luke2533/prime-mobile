@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-pea0kiicxu2+oh1t%^*2kap-7*+g6j=xlt&d@g-d9-1zu3b8!^
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# Change to false when deploying
 
 ALLOWED_HOSTS = []
 
@@ -49,7 +50,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
-
+    'reviews',
 
     'crispy_forms',
 ]

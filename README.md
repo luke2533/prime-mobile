@@ -719,6 +719,14 @@ Additions:
 - Phone detail page edit and delete for admin only
 - Further security for add, edit and deleting phones redirecting normal users back to home page
 
+### 6.74 Basic set up for reviews app
+
+Additions:
+
+- Added reviews app
+- Basic review setup
+- Review urls.py
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
