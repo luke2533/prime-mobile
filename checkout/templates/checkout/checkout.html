@@ -18,10 +18,6 @@
                         <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
                         <br>
                         <br>
-                        <!-- <a class="bag-btn edit-item" href="javascript:void(0)" id="edit{{ item.item_id }}">Edit</a> -->
-                        <a class="bag-btn edit-item" href="javascript:void(0)" id="">Edit</a>
-                        <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
-                        <hr class="bag-hr">
                     </div>
                 {% endfor %}
             </div>
@@ -79,20 +75,4 @@
     {{ stripe_public_key|json_script:"id_stripe_public_key" }}
     {{ client_secret|json_script:"id_client_secret" }}
     <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
-
-    <script type="text/javascript">
-        $(".delete-item").click(function(e) {
-            var csrfToken = "{{ csrf_token }}";
-            var itemId = $(this).attr("id").split("delete_")[1];
-            var url = `/bag/delete/${itemId}/`;
-            var data = {'csrfmiddlewaretoken': csrfToken};
-
-            $.post(url, data)
-                .done(function() {
-                    location.reload();
-            });
-        })
-        // Used form django mini project
-    </script>
-
 {% endblock %}

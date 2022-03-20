@@ -15,91 +15,20 @@
                             <h3>Qty: {{ item.item_data.quantity }}</h3>
                             <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
                             <br>
+                            
+                            <form class="update-form" method="POST" action="{% url 'edit_phone_bag' item.item_id %}">
+                                {% csrf_token %}
+                                <input type="number" name="quantity" value="{{ item.item_data.quantity }}" id="it_qty_{{ item.item_data.quantity }}" min="1" max="5">
+                                <button class="btn-bag update-item" type="submit">Update</button>
+                                <!-- <input type="hidden" name="redirect_url" value="{{ request.path }}"> -->
+                            </form>
                             <br>
-                            <!-- <a class="bag-btn edit-item" href="javascript:void(0)" id="">Edit</a> -->
-                            <a class="btn btn-primary" data-toggle="collapse" href="#editCollapse" role="button" aria-expanded="false" aria-controls="editCollapse">Edit</a>
-                            <div class="collapse" id="editCollapse">
-                                <div class="phone-options">
-
-                                    <h3>Color:</h3>
-                                    <ul class="phone-list">
-                                        <li>
-                                            <input type="hidden" name="color" id="color_1" value="{{ phone.color_1 }}">
-                                            <a class="phone-form" id="color-1" onclick="setColor(1);"><p class="hide">{{ item.phone.color_1 }}</p></a>
-                                        </li>
-                                        {% if item.phone.color_2 %}
-                                            <li>
-                                                <input type="hidden" name="color" id="color_2" value="{{ phone.color_2 }}">
-                                                <a class="phone-form" id="color-2" onclick="setColor(2);"><p class="hide">{{ item.phone.color_2 }}</p></a>
-                                            </li>
-                                        {% endif %}
-                                        {% if item.phone.color_3 %}
-                                            <li>
-                                                <input type="hidden" name="color" id="color_3" value="{{ phone.color_3 }}">
-                                                <a class="phone-form" id="color-3" onclick="setColor(3);"><p class="hide">{{ item.phone.color_3 }}</p></a>
-                                            </li>
-                                        {% endif %}
-                                        {% if item.phone.color_4 %}
-                                            <li>
-                                                <input type="hidden" name="color" id="color_4" value="{{ phone.color_4 }}">
-                                                <a class="phone-form" id="color-4" onclick="setColor(4);"><p class="hide">{{ item.phone.color_4 }}</p></a>
-                                             </li>
-                                        {% endif %}
-                                        <!-- Use JS for colors -->
-                                    </ul>
-                                       
-                                    <h3>Storage:</h3> 
-                                    <ul class="phone-list">
-                                        <!-- value of storage and data-set of price -->
-                                        <li>
-                                            <input type="hidden" name="storage" id="storage_1" value="{{ phone.storage_1 }}">
-                                            <input type="hidden" name="price" id="price_1" value="{{ phone.price_1 }}">
-                                            <a class="phone-form" onclick="setStorage(1);">{{ item.phone.storage_1 }} GB</a>
-                                        </li>
-                                        {% if item.phone.storage_2 %}
-                                            <li>
-                                                <input type="hidden" name="storage" id="storage_2" value="{{ phone.storage_2 }}">
-                                                <input type="hidden" name="price" id="price_2" value="{{ phone.price_2 }}">
-                                                <a class="phone-form" onclick="setStorage(2);">{{ item.phone.storage_2 }} GB</a>
-                                            </li>
-                                        {% endif %}
-                                        {% if item.phone.storage_3 %}
-                                            <li>
-                                                <input type="hidden" name="storage" id="storage_3" value="{{ phone.storage_3 }}">
-                                                <input type="hidden" name="price" id="price_3" value="{{ phone.price_3 }}">
-                                                <a class="phone-form" onclick="setStorage(3);">{{ item.phone.storage_3 }} GB</a>
-                                            </li>
-                                        {% endif %}
-                                        {% if item.phone.storage_4 %}
-                                            <li>
-                                                <input type="hidden" name="storage" id="storage_4" value="{{ phone.storage_4 }}">
-                                                <input type="hidden" name="price" id="price_4" value="{{ phone.price_4 }}">
-                                                <a class="phone-form" onclick="setStorage(4);">{{ item.phone.storage_4 }} GB</a>                          
-                                             </li>
-                                        {% endif %}
-                                    </ul>
-                                    <form action="{% url 'edit_phone_bag' item.item_id %}" method="POST">
-                                        {% csrf_token %}
-                                        <h5>Quantity:
-                                            <select name="quantity" id="quantity">
-                                                <option value="1" selected>1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                            </select>
-                                        </h5>
-                                        <h3>Total cost: £<input class="phone-select" id="price" name="price" value="{{ item.phone.price_1 }}" readonly></h3>
-                                        <button type="submit" class="bag-btn edit-item" id="">Update basket</button>
-                                    </form>
-                                </div>
-                            </div>
+                            <!-- <a class="bag-btn update-item">Update</a> -->
                             <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
                             <hr class="bag-hr">
-                            
                         </div>
                     {% endfor %}
-                    {{ bag_items }}
+                    
                 {% else %}
                 <!-- Your bag is empty -->
                 <div>
@@ -137,6 +66,13 @@
     </script>
 
     <script type="text/javascript">
+
+        $(".update-item").click(function(e){
+            var form = $(this).prev(".update-form");
+            console.log(form)
+            form.submit();
+        })
+
         $(".delete-item").click(function(e) {
             var csrfToken = "{{ csrf_token }}";
             var itemId = $(this).attr("id").split("delete_")[1];

@@ -727,6 +727,14 @@ Additions:
 - Basic review setup
 - Review urls.py
 
+### 6.75 Bag edit not working and removed checkout edit and delete
+
+Additions:
+
+- Removed delete and edit buttons from checkout
+- Removed bag edit collapse
+- Bag edit not working
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

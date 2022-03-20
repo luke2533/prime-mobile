@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, 
 from django.contrib import messages
 from store.models import Phone
 
-def user_bag(request):
+def view_bag(request):
     
     return render(request, "bag/bag.html")
 
@@ -36,20 +36,23 @@ def add_phone_bag(request, item_id):
 def edit_phone_bag(request, item_id):
 
     phone = get_object_or_404(Phone, pk=item_id)
-    color = request.POST.get("color")
-    storage = int(request.POST.get("storage"))
-    price = Decimal(request.POST.get("price"))
     quantity = int(request.POST.get("quantity"))
     bag = request.session.get("bag", {})
 
+    if quantity > 0:
+        bag_quantity = bag[item_id]["quantity"]
+        update_bag = bag_quantity + quantity
+        print(update_bag)
+        messages.success(request, f"Updated {phone.name} quantity to {bag[item_id]}")
+        
+    else:
+        bag.pop(item_id)
+        print(quantity)
+        messages.success(request, f"Removed {phone.name} from your bag")
     
-    # del bag[item_id]
-    # if not bag[item_id]:
-    #     bag.pop(item_id)
-    #     messages.success(request, f'Removed {phone.name} from your bag')
-            
     request.session["bag"] = bag
-    return HttpResponse(status=200)
+    return redirect(reverse("view_bag"))
+    
 
 
 def delete_phone_bag(request, item_id):
@@ -57,7 +60,6 @@ def delete_phone_bag(request, item_id):
     phone = get_object_or_404(Phone, pk=item_id)
     bag = request.session.get("bag", {})
     bag.pop(item_id)
-    # message goes here
     messages.success(request, f'{phone.name} removed from your bag')
 
     request.session["bag"] = bag
