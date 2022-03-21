@@ -759,6 +759,13 @@ Additions:
 - Updated review admin
 - JS setRating working
 
+### 6.79 Issues with review form posting to django and stars not being checked
+
+Additions:
+
+- Fails to post to django but form works otherwise
+- Stars working but won't check when hovered or clicked
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

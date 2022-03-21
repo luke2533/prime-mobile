@@ -8,22 +8,21 @@
                 {{ phone.name }}
                 {{ phone.rating }}
 
-                <span class="text-left">
+                <span class="text-left star-rating">
                     <input type="hidden" name="rating" id="rating_1" value="1">
-                    <a onclick="setRating(1);"><i class="fas fa-star checked"></i></a>
+                    <a onclick="setRating(1);"><i class="fas fa-star"></i></a>
                     
                     <input type="hidden" name="rating" id="rating_2" value="2">
-                    <a onclick="setRating(2);"><i class="fas fa-star checked"></i></a>
+                    <a onclick="setRating(2);"><i class="fas fa-star"></i></a>
 
                     <input type="hidden" name="rating" id="rating_3" value="3">
-                    <a onclick="setRating(3);"><i class="fas fa-star checked"></i></a>
+                    <a onclick="setRating(3);"><i class="fas fa-star"></i></a>
 
                     <input type="hidden" name="rating" id="rating_4" value="4">
                     <a onclick="setRating(4);"><i class="fas fa-star"></i></a>
 
                     <input type="hidden" name="rating" id="rating_5" value="5">
                     <a onclick="setRating(5);"><i class="fas fa-star"></i></a>
-
                 </span>
             </div>
         </div>
@@ -33,7 +32,7 @@
                 <img src="{{ phone.img_1.url }}" class="review-image" alt="{{ phone.name }}">
             </div>
             <div class="col-6 review-test">
-                <form action="{% url 'reviews' phone.id %}">
+                <form action="{% url 'reviews' phone.id %}" method="POST">
                     {% csrf_token %}
                     <label for="title">Review title</label>
                     <input type="text" name="title" id="title">
@@ -41,7 +40,7 @@
                     <label for="body">Review body</label>
                     <input type="textbox" name="body" id="body">
 
-                    <input type="text" id="rating" name="rating" value="Test">
+                    <input type="hidden" id="rating" name="rating">
 
                     <button type="submit">Submit review</button>
                 </form>
@@ -56,6 +55,8 @@
         function setRating(value) {
             document.getElementById("rating").value = document.getElementById(`rating_${value}`).value;
             console.log(value)
+
+            // Code below from https://www.youtube.com/watch?v=iz1GB_q5txM
         }
     </script>
 {% endblock %}

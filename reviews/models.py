@@ -21,6 +21,9 @@ class PhoneReview(models.Model):
         MinLengthValidator(1),
     ])
 
+    def save(self, *args, **kwargs):
+        
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return self.user_name

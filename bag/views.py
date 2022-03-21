@@ -41,9 +41,6 @@ def edit_phone_bag(request, item_id):
 
     if quantity > 0:
         bag[item_id]["quantity"] = quantity
-        # bag_quantity = bag[item_id]["quantity"]
-        # update_bag = bag_quantity + quantity
-        # print(update_bag)
         messages.success(request, f"Updated {phone.name} quantity to {bag[item_id]}")
         
     else:
