@@ -1,7 +1,10 @@
 from django.shortcuts import render, get_object_or_404
+from django.contrib.auth.decorators import login_required
 
 from store.models import Phone
 
+
+@login_required
 def reviews(request, phone_id):
 # def reviews(request):
 

@@ -29,7 +29,7 @@ class Phone(models.Model):
 
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
-    rating = models.FloatField(default=1, blank=True, null=True)
+    rating = models.IntegerField(default=1, blank=True, null=True)
     
     os = models.CharField(max_length=254, null=True, blank=True)
     screen = models.CharField(max_length=254, null=True, blank=True)

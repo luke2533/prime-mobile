@@ -743,6 +743,14 @@ Additions:
 - Updates to phone detail review section
 - Added reviews.html and template folder
 
+### 6.77 Upated review and store models, review section only accessed by users with accounts
+
+Additions:
+
+- Updated rating field in store models (Phone)
+- Users have to be logged in to access review page
+- Created PhoneReview model in reviews models
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

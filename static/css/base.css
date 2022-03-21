@@ -415,6 +415,23 @@ h1, h2 {
 
 /* Bag page */
 
+/* Reviews */
+
+/* DELETE */
+
+.review-test {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+/* DELETE */
+
+.review-image {
+    height: 350px;
+}
+
+/* Reviews */
+
 /* Breakpoints */
 
 @media (min-width: 1024px) {
