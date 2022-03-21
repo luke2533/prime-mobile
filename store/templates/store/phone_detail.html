@@ -148,7 +148,8 @@
                 </div>
 
                 <div class="phone-review">
-                    <h2 class="text-center">Reviews</h2>
+                    <h2 class="text-center">{{ phone.name }} Reviews</h2>
+                    <a href="{% url 'reviews' phone.id %}"><h6 class="text-center">Add review</h6></a>
                     <div class="user-review">
                         <h5>User name</h5>
                         <h3>Review title</h3>

@@ -1,6 +1,16 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
+from store.models import Phone
 
-def reviews(request):
+def reviews(request, phone_id):
+# def reviews(request):
 
-    return render(request, "reviews/reviews.html")
+    phone = get_object_or_404(Phone, pk=phone_id)
+
+    template = "reviews/reviews.html"
+    context = {
+        "phone": phone,
+    }
+
+    return render(request, template, context)
+    # return render(request, template)

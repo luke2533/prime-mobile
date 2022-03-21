@@ -735,6 +735,14 @@ Additions:
 - Removed bag edit collapse
 - Bag edit not working
 
+### 6.76 Working bag editing and reviews.html
+
+Additions:
+
+- Working bag editing
+- Updates to phone detail review section
+- Added reviews.html and template folder
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

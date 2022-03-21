@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, 
 from django.contrib import messages
 from store.models import Phone
 
-def view_bag(request):
+def user_bag(request):
     
     return render(request, "bag/bag.html")
 
@@ -40,9 +40,10 @@ def edit_phone_bag(request, item_id):
     bag = request.session.get("bag", {})
 
     if quantity > 0:
-        bag_quantity = bag[item_id]["quantity"]
-        update_bag = bag_quantity + quantity
-        print(update_bag)
+        bag[item_id]["quantity"] = quantity
+        # bag_quantity = bag[item_id]["quantity"]
+        # update_bag = bag_quantity + quantity
+        # print(update_bag)
         messages.success(request, f"Updated {phone.name} quantity to {bag[item_id]}")
         
     else:
@@ -51,7 +52,7 @@ def edit_phone_bag(request, item_id):
         messages.success(request, f"Removed {phone.name} from your bag")
     
     request.session["bag"] = bag
-    return redirect(reverse("view_bag"))
+    return redirect("bag")
     
 
 
