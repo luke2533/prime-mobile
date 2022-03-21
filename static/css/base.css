@@ -430,6 +430,10 @@ h1, h2 {
     height: 350px;
 }
 
+.checked {
+    color: orange;
+}
+
 /* Reviews */
 
 /* Breakpoints */

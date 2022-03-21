@@ -751,6 +751,14 @@ Additions:
 - Users have to be logged in to access review page
 - Created PhoneReview model in reviews models
 
+### 6.78 Updated reviews admin and added JS setRating function to select rating
+
+Additions:
+
+- Migrated changes to store and review models
+- Updated review admin
+- JS setRating working
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
