@@ -32,7 +32,7 @@
                 <img src="{{ phone.img_1.url }}" class="review-image" alt="{{ phone.name }}">
             </div>
             <div class="col-6 review-test">
-                <form action="{% url 'reviews' phone.id %}" method="POST">
+                <form action="{% url 'add_review' phone.id %}" method="POST">
                     {% csrf_token %}
                     <label for="title">Review title</label>
                     <input type="text" name="title" id="title">

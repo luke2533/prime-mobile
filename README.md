@@ -766,6 +766,15 @@ Additions:
 - Fails to post to django but form works otherwise
 - Stars working but won't check when hovered or clicked
 
+### 6.80 Reviews display on correct phone page
+
+Additions:
+
+- User's name, title and body display in review section (Added through admin)
+- Reviews display on correct phone page
+
+Issue: No reviews message repeats based on how many reviews there are due to being in for loop
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

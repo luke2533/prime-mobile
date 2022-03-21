@@ -12,4 +12,5 @@ class PhoneReviewAdmin(admin.ModelAdmin):
 
     ordering = ("date",)
 
+
 admin.site.register(PhoneReview, PhoneReviewAdmin)

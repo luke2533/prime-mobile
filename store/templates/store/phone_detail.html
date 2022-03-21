@@ -150,36 +150,29 @@
                 <div class="phone-review">
                     <h2 class="text-center">{{ phone.name }} Reviews</h2>
                     {% if request.user.is_authenticated %}
-                        <a href="{% url 'reviews' phone.id %}"><h6 class="text-center">Add review</h6></a>
+                        <a href="{% url 'add_review' phone.id %}"><h6 class="text-center">Add review</h6></a>
                     {% else %}
                         <a href="{% url 'account_signup' %}"><h6 class="text-center">Want to leave a review? Sign up here</h6></a>
                         <a href="{% url 'account_login' %}"><h6 class="text-center">Want to leave a review? Log in</h6></a>
                     {% endif %}
 
                     <div class="user-review">
-                        <h5>User name</h5>
-                        <h3>Review title</h3>
-                        <h4>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </h4>
-                        <p>
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                            Review text Review text Review text Review text Review text
-                        </p>
+                        {% for review in reviews %}
+                            {% if review.phone_name == phone %}
+                                <h5>{{ review.user_name }}</h5>
+                                <h3>{{ review.review_title }}</h3>
+                                <h4>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </h4>
+                                <p>{{ review.review_body }}</p>
+                            {% else %}
+                                <h2 class="text-center">There a currently no reviews on this phone</h2>
+                            {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
 

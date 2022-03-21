@@ -5,6 +5,7 @@ from django.db.models import Q
 
 from .models import Phone
 from .forms import StoreForm
+from reviews.models import PhoneReview
 
 def all_phones(request):
     
@@ -53,8 +54,11 @@ def all_phones(request):
 def phone_detail(request, phone_id):
 
     phone = get_object_or_404(Phone, pk=phone_id)
+    reviews = PhoneReview.objects.all()
+
     context = {
         "phone": phone,
+        "reviews": reviews,
     }
 
     return render(request, "store/phone_detail.html", context)

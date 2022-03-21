@@ -7,7 +7,7 @@ from profiles.models import UserProfile
 
 
 @login_required
-def reviews(request, phone_id):
+def add_review(request, phone_id):
 
     phone = get_object_or_404(Phone, pk=phone_id)
     user = get_object_or_404(UserProfile, user=request.user)
@@ -17,15 +17,7 @@ def reviews(request, phone_id):
     rating = request.POST.get("rating")
 
     if request.method == "POST":
-        review = {
-            "user_name": user,
-            "phone_name": phone_name,
-            "review_title": title,
-            "review_body": body,
-            "rating": rating,
-        }
-        # review.save()
-        print(review)
+
         print(phone)
         print(user)
 
