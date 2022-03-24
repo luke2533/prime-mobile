@@ -775,6 +775,14 @@ Additions:
 
 Issue: No reviews message repeats based on how many reviews there are due to being in for loop
 
+### 6.81 Added forms file and changes to review views
+
+Additions:
+
+- Review function for views.py
+- Changes to add review
+- Added forms.py
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

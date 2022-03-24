@@ -5,12 +5,11 @@ from .models import PhoneReview
 class PhoneReviewAdmin(admin.ModelAdmin):
     list_display = (
         "user_name",
-        "date",
         "phone_name",
         "rating",
     )
 
-    ordering = ("date",)
+    ordering = ("rating",)
 
 
 admin.site.register(PhoneReview, PhoneReviewAdmin)

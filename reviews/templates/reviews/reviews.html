@@ -29,7 +29,7 @@
 
         <div class="row justify-content-center">
             <div class="col-4 review-test">
-                <img src="{{ phone.img_1.url }}" class="review-image" alt="{{ phone.name }}">
+                <a href=""><img src="{{ phone.img_1.url }}" class="review-image" alt="{{ phone.name }}"></a>
             </div>
             <div class="col-6 review-test">
                 <form action="{% url 'add_review' phone.id %}" method="POST">
@@ -41,6 +41,7 @@
                     <input type="textbox" name="body" id="body">
 
                     <input type="hidden" id="rating" name="rating">
+                    <input type="hidden" id="phone" name="phone" value="{{ phone.name }}">
 
                     <button type="submit">Submit review</button>
                 </form>
