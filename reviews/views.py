@@ -27,12 +27,10 @@ def review(request, phone_id):
 def add_review(request, phone_id):
     phone = get_object_or_404(Phone, pk=phone_id)
     user = get_object_or_404(UserProfile, user=request.user)
-    phone_name = phone.name
-    name = phone_name
 
     review_data = {
         "user_name": user,
-        "phone_name": "",
+        "phone_name": phone,
         "review_title": request.POST.get("review_title"),
         "review_body": request.POST.get("review_body"),
         "rating": request.POST.get("rating"),
@@ -41,24 +39,18 @@ def add_review(request, phone_id):
     if request.method == "POST":
         review_form = ReviewForm(review_data)
         
-        print(phone_name)
-        
+        print(review_form.errors)
+
         if review_form.is_valid():
             phone_review = review_form.save(commit=False)
 
-            phone_review.phone_name = name
-
-            print(phone_name)
             print("Success")
 
             phone_review.save()
 
             messages.success(request, "Review successful")
             return redirect("phone_detail", phone_id)
-        
         else:
             messages.error(request, "Review failed to POST")
 
-    review_form.errors.as_data()
-    print(name)
     return redirect("review", phone_id)

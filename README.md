@@ -792,6 +792,12 @@ Additions:
 - Changed review models and migrated them
 
 Note: Still have not successfully posted to django
+ 
+### 6.83 Reviews successfully POST
+
+Additions:
+
+- Reviews successfully POST
 
 ## 7.0 Deployment
 
