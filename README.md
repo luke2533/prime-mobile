@@ -799,6 +799,12 @@ Additions:
 
 - Reviews successfully POST
 
+### 6.84 Admin can remove reviews
+
+Additions:
+
+- Admin can remove reviews
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

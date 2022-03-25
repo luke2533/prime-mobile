@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, redirect, HttpResponse
+from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, reverse
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
@@ -42,9 +42,7 @@ def add_review(request, phone_id):
         print(review_form.errors)
 
         if review_form.is_valid():
-            phone_review = review_form.save(commit=False)
-
-            print("Success")
+            phone_review = review_form.save()
 
             phone_review.save()
 
@@ -54,3 +52,11 @@ def add_review(request, phone_id):
             messages.error(request, "Review failed to POST")
 
     return redirect("review", phone_id)
+
+
+def delete_review(request, review_id):
+    reviews = get_object_or_404(PhoneReview, pk=review_id)
+
+    reviews.delete()
+    messages.success(request, "Review successfully removed")
+    return redirect("store")
