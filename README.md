@@ -783,6 +783,16 @@ Additions:
 - Changes to add review
 - Added forms.py
 
+### 6.82 Added review form, updated views, models and migrated changes
+
+Additions:
+
+- Added review form
+- Updated view add review
+- Changed review models and migrated them
+
+Note: Still have not successfully posted to django
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

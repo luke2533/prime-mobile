@@ -34,15 +34,14 @@
             <div class="col-6 review-test">
                 <form action="{% url 'add_review' phone.id %}" method="POST">
                     {% csrf_token %}
+
                     <label for="title">Review title</label>
-                    <input type="text" name="title" id="title">
+                    <input type="text" name="review_title" id="title">
 
                     <label for="body">Review body</label>
-                    <input type="textbox" name="body" id="body">
+                    <input type="textbox" name="review_body" id="body">
 
                     <input type="hidden" id="rating" name="rating">
-                    <input type="hidden" id="phone" name="phone" value="{{ phone.name }}">
-
                     <button type="submit">Submit review</button>
                 </form>
             </div>
