@@ -814,6 +814,13 @@ Additions:
 
 Issue: Phones with more then one review share the same rating or add together 
 
+### 6.86 Nav and footer updated to be responsive on all devices
+
+Additions:
+
+- Nav updated to be responsive on all devices
+- Footer updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

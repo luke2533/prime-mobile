@@ -204,16 +204,16 @@
 
     <script type="text/javascript">
         const reviewStar = [...document.getElementsByClassName("review-star")];
-        const rating = document.getElementById("review-rating").value;
-        
-        console.log(reviewStar)
-        console.log(rating)
+        // const rating = document.getElementById("review-rating").value;
 
         function reviewRatings(stars) {
             var starActive = "review-star fas fa-star";
             var starInactive = "review-star far fa-star";
             var starsLength = stars.length;
             let i;
+
+            var rating = document.getElementById("review-rating").value;
+
 
             stars.map((star) => {
                 i = stars.indexOf(star);
