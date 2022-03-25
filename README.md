@@ -821,6 +821,13 @@ Additions:
 - Nav updated to be responsive on all devices
 - Footer updated to be responsive on all devices
 
+### 6.87 Home updated to be responsive on all devices
+
+Additions:
+
+- Removed home page SIM type links
+- Home updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

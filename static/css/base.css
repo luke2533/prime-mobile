@@ -516,6 +516,7 @@ h1, h2 {
         color: black;
         font-size: 1.1em;
     }
+
 }
 
 
@@ -526,29 +527,43 @@ h1, h2 {
         display: inline-block;   
         margin-top: 10px;          
     }
+
     .footer-mobile-link {
         font-size: 1em;
         display: block;
         
     }
+
     .banner-title{
         color: white;
         font-size: 3.5em;
     }
+
     .phone-image-slideshow {
         height: 550px;
         width: 400px;
         display: inline-block;
     }
+
     .phone-image {
         height: 500px;
         max-width: 400px;
     }
+
     .mobile-menu {
         margin-left: 10px;
     }
+
     .search-sm {
         width: 225px !important;
+    }
+
+    .mobile-home {
+        padding-left: 40px;
+    }
+
+    .banner-subtitle {
+        font-size: 1.6em;
     }
 }
 
@@ -564,5 +579,11 @@ h1, h2 {
     }
     .total-bag {
         margin-right: 5px;
+    }
+    .mobile-home {
+        padding-left: 15px;
+    }
+    .banner-subtitle {
+        font-size: 1.4em;
     }
 }
