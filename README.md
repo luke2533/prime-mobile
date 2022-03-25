@@ -805,6 +805,15 @@ Additions:
 
 - Admin can remove reviews
 
+### 6.85 Stars have color when checked on review page and issue with review ratings
+
+Additions:
+
+- Stars have color when checked (Review page)
+- Phone detail review section star rating
+
+Issue: Phones with more then one review share the same rating or add together 
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

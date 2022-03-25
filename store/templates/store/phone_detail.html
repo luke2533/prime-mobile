@@ -162,11 +162,12 @@
                                 <h5>{{ review.user_name }}</h5>
                                 <h3>{{ review.review_title }}</h3>
                                 <h4>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
+                                    <i data-rating="1" class="review-star far fa-star"></i>
+                                    <i data-rating="2" class="review-star far fa-star"></i>
+                                    <i data-rating="3" class="review-star far fa-star"></i>
+                                    <i data-rating="4" class="review-star far fa-star"></i>
+                                    <i data-rating="5" class="review-star far fa-star"></i>
+                                    <input type="text" value="{{ review.rating }}" name="rating" id="review-rating"><p>{{ review.rating }} Stars</p>
                                 </h4>
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'delete_review' review.id %}">Remove</a>
@@ -199,5 +200,42 @@
             document.getElementById("storage").value = document.getElementById(`storage_${value}`).value;
             document.getElementById("price").value = document.getElementById(`price_${value}`).value;
         }
+    </script>
+
+    <script type="text/javascript">
+        const reviewStar = [...document.getElementsByClassName("review-star")];
+        const rating = document.getElementById("review-rating").value;
+        
+        console.log(reviewStar)
+        console.log(rating)
+
+        function reviewRatings(stars) {
+            var starActive = "review-star fas fa-star";
+            var starInactive = "review-star far fa-star";
+            var starsLength = stars.length;
+            let i;
+
+            stars.map((star) => {
+                i = stars.indexOf(star);
+                if (rating == star.dataset.rating) {
+                    if (star.className===starInactive) {
+                        for (i; i >= 0; --i) {
+                            stars[i].className = starActive;
+                            if (i === 5) { 
+                                break;
+                            }
+                        }
+                    } else {
+                        for (i; i < starsLength; ++i) {
+                            stars[i].className = starInactive;
+                        }
+                    }
+                }      
+            });
+        };
+        
+        reviewRatings(reviewStar);
+
+    </script>
     </script>
 {% endblock %}

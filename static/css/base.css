@@ -429,9 +429,10 @@ h1, h2 {
 .review-image {
     height: 350px;
 }
-
-.checked {
-    color: orange;
+ 
+.rating-star {
+    cursor: pointer;
+    color: #dabd18b2;
 }
 
 /* Reviews */
