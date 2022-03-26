@@ -828,6 +828,12 @@ Additions:
 - Removed home page SIM type links
 - Home updated to be responsive on all devices
 
+### 6.88 Store page updated to be responsive on all devices
+
+Additions:
+
+- Store page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
