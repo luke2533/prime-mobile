@@ -841,6 +841,14 @@ Additions:
 - Desktop phone detail page review section displays as a sidebar
 - Phone detail page updated to be responsive on all devices
 
+### 6.90 Phone details page fully responsive on all devices and small changes to add to bag form design
+
+Additions:
+
+- Changes to phone details review section design
+- Changes to phone details phone options design
+- Phone details page fully responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
