@@ -87,13 +87,13 @@
                     <!-- Taken from django mini project -->
                     
                     <form class="form-inline" method="GET" action="{% url 'store' %}">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %} total-bag{% endif %} nav-link" href="{% url 'bag' %}">
+                        <a class="{% if grand_total %}total-bag{% else %} total-bag{% endif %} nav-link" href="{% url 'bag' %}">
                             <div class="text-center">
                                 <!-- <div><i class="fas fa-shopping-bag fa-lg"></i></div> -->
                                 <h5 class="my-0">
-                                    <i class="fas fa-shopping-bag"></i>
+                                    <i class="fas fa-shopping-bag bag-icon"></i>
                                     {% if grand_total %}
-                                        ${{ grand_total|floatformat:2 }}
+                                        £{{ grand_total|floatformat:2 }}
                                     {% else %}
                                         £0.00
                                     {% endif %}

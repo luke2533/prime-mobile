@@ -849,6 +849,13 @@ Additions:
 - Changes to phone details phone options design
 - Phone details page fully responsive on all devices
 
+### 6.91 Bag page updated to be responsive on all devices
+
+Additions:
+
+- Fixed bag button on nav from changing shape when items are in the bag
+- Bag page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

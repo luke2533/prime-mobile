@@ -84,6 +84,12 @@ h1, h2 {
     border-radius: 45px;
     box-shadow: 1px 1px 1px 1px #C31a8f;
     transition: all .3s cubic-bezier(0,0,.5,1);
+    font-size: 1.2em !important;
+    padding: 0.5rem 0.5em;
+}
+
+.bag-icon {
+    font-size: 0.9em !important;
 }
 
 .total-bag:hover {
@@ -179,7 +185,6 @@ h1, h2 {
     border-radius: 90px;
     width: 45px;
     height: 45px;
-
 }
 
 /* Home */
@@ -386,8 +391,8 @@ h1, h2 {
 /* Bag page */
 
 #bag-btn-submit {
-    width: 150px;
-    font-size: 1.3em;
+    width: 125px;
+    text-align: center;
 }
 
 .bag-background {
@@ -405,14 +410,44 @@ h1, h2 {
 
 .bag-btn {
     border: solid black 1px;
-    padding: 7px;
+    padding: 7.5px 15px;
+    padding-bottom: 10px;
     border-radius: 40px;
     background-color: #04162e;
     box-shadow: 1px 1px 1px #C31a8f;
     transition: all .3s cubic-bezier(0,0,.5,1);
     color: white;
-    font-size: 1.3em;
-    width: 100px;
+    font-size: 1.4em;
+    width: 100px !important;
+    height: 45px !important;
+}
+
+.update-bag-btn {
+    border: solid black 1px;
+    padding: 7.5px 10px;
+    border-radius: 40px;
+    background-color: #04162e;
+    box-shadow: 1px 1px 1px #C31a8f;
+    transition: all .3s cubic-bezier(0,0,.5,1);
+    color: white;
+    height: 45px !important;
+    font-size: 1.4em;
+}
+
+.update {
+    height: 45px !important;
+    width: 40px !important;
+    border: solid black 1px;
+    background-color: #04162e;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #C31a8f;
+    font-size: 1.45em;
+}
+
+.update-form {
+    height: 45px;
+    margin-top: 15px;
 }
 
 .bag-btn:hover {
@@ -442,11 +477,19 @@ h1, h2 {
 
 .bag-total {
     display: flex;
+    justify-content: center;
+    background-color: #04162e;
+    padding: 10px;
+    border-radius: 18px;
+    border: 1px solid black;
+}
+
+.bag-total-title {
+    margin-right: 20px;
 }
 
 .edit-card {
     padding: 5px;
-    
 }
 
 /* Bag page */
@@ -519,10 +562,10 @@ h1, h2 {
     .btn-link{
         border: 1px solid white;
         border-radius: 45px;
-        margin: 5px;
+        margin: 3px;
         padding: 5px;
         padding-top: 7px;
-        width: 100px;
+        width: 90px;
         height: 42px;
         text-align: center;
         font-size: 1.04em;
@@ -596,7 +639,7 @@ h1, h2 {
 
 @media (max-width: 991px) {
     .mobile-menu {
-        margin-left: 110px;
+        margin-left: 100px;
         border-radius: 8px;
     }
 
@@ -653,6 +696,9 @@ h1, h2 {
         position: static;
         width: 610px !important; 
     }
+    .bag-total-title {
+        margin-right: 15px;
+    }
 }
 
 @media (max-width: 426px) {
@@ -689,7 +735,10 @@ h1, h2 {
     }
 
     .search-sm {
-        width: 225px !important;
+        width: 200px !important;
+    }
+    .search-submit {
+        width: 45px;
     }
 
     .mobile-home {
@@ -717,11 +766,36 @@ h1, h2 {
         position: static;
         width: 395px !important; 
     }
+    .bag-img {
+        height: 400px;
+        width: 335px;
+    }
+    .bag-detail {
+        text-align: center;
+    }
+    .bag-items {
+        padding: 35px;
+    }
+    .bag-total-title {
+        font-size: 1.6em;
+        margin-right: 5px;
+        margin-bottom: 0px;
+    }
+    #bag-btn-submit {
+        font-size: 1.1em;
+        padding: 5px;
+        width: 95px;
+        height: 40px !important;
+    }
 }
 
 @media (max-width: 376px) {
     .search-sm {
-        width: 175px !important;
+        width: 155px !important;
+    }
+
+    .search-submit {
+        width: 40px;
     }
 
     .product-card {
@@ -761,11 +835,21 @@ h1, h2 {
         position: static;
         width: 345px !important; 
     }
+    .bag-img {
+        height: 400px;
+        width: 325px;
+    }
+    .bag-items {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 321px) {
     .search-sm {
-        width: 125px !important;
+        width: 110px !important;
+    }
+    .search-submit {
+        width: 35px;
     }
     .total-bag {
         margin-right: 5px;
@@ -805,5 +889,12 @@ h1, h2 {
     }
     .phone-select-title {
         font-size: 1.5em;
+    }
+    .bag-img {
+        height: 350px;
+        width: 275px;
+    }
+    .bag-items {
+        padding: 15px;
     }
 }

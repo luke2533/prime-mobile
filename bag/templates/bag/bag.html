@@ -4,27 +4,26 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-6 bag-background bag-items">
+            <div class="col-xl-5 col-lg-8 col-md-10 col-sm-8 bag-background bag-items">
                 {% if bag_items %}
                     {% for item in bag_items %}    
                         <div class="bag-detail">
                             <img src="{{ item.phone.img_1.url }}" alt="{{ item.phone.name }}" class="bag-img">
-                            <h2>{{ item.phone }}</h2>
+                            <h2 class="bag-detail-title">{{ item.phone }}</h2>
                             <h3>{{ item.phone.sku|upper }}</h3>
                             <h3>Capacity: {{ item.item_data.storage }} GB</h3>
                             <h3>Qty: {{ item.item_data.quantity }}</h3>
                             <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
-                            <br>
-                            
+                            <!-- <br> -->
+                            <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
+
                             <form class="update-form" method="POST" action="{% url 'edit_phone_bag' item.item_id %}">
                                 {% csrf_token %}
-                                <input type="number" name="quantity" value="{{ item.item_data.quantity }}" id="it_qty_{{ item.item_data.quantity }}" min="1" max="5">
-                                <button class="btn-bag update-item" type="submit">Update</button>
-                                <!-- <input type="hidden" name="redirect_url" value="{{ request.path }}"> -->
+                                <input type="number" name="quantity" class="update" value="{{ item.item_data.quantity }}" id="it_qty_{{ item.item_data.quantity }}" min="1" max="5">
+                                <button class="update-bag-btn update-item" type="submit">Update</button>
                             </form>
                             <br>
-                            <!-- <a class="bag-btn update-item">Update</a> -->
-                            <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
+                            <!-- <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a> -->
                             <hr class="bag-hr">
                         </div>
                     {% endfor %}
@@ -32,17 +31,17 @@
                 {% else %}
                 <!-- Your bag is empty -->
                 <div>
-                    <h1>Your bag is empty</h1>   
+                    <h1>Your bag is empty</h1>
                 </div>
-                {% endif %} 
+                {% endif %}
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-6 bag-total bag-background">
-                <h1>Bag total: £{{ grand_total|floatformat:2 }}</h1>
-                <h1>Delivery: £{{ delivery|floatformat:2 }}</h1>
-                <a class="bag-btn" id="bag-btn-submit" href="{% url 'checkout' %}">Checkout</a>
+            <div class="col-xl-5 col-lg-8 col-md-10 col-sm-8 bag-total">
+                <h1 class="bag-total-title">Bag total: £{{ grand_total|floatformat:2 }}</h1>
+                <h1 class="bag-total-title">Delivery: £{{ delivery|floatformat:2 }}</h1>
+                <a class="update-bag-btn" id="bag-btn-submit" href="{% url 'checkout' %}">Checkout</a>
             </div>
         </div>
     </div>
