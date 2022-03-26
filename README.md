@@ -834,6 +834,13 @@ Additions:
 
 - Store page updated to be responsive on all devices
 
+### 6.89 Desktop phone detail page review section displays as a sidebar and responsive on all devices
+
+Additions:
+
+- Desktop phone detail page review section displays as a sidebar
+- Phone detail page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

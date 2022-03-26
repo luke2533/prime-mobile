@@ -61,9 +61,8 @@
                         <i class="fas fa-hdd phone-icon"><span class="phone-text"> {{ phone.capacity }}</span></i>
                     </div>
                 </div>
-
+                
                 <div class="phone-options">
-
                     <h3>Color:</h3>
                     <ul class="phone-list">
                         <li>
@@ -86,11 +85,11 @@
                             <li>
                                 <input type="hidden" name="color" id="color_4" value="{{ phone.color_4 }}">
                                 <a class="phone-form" id="color-4" onclick="setColor(4);"><p class="hide">{{ phone.color_4 }}</p></a>
-                             </li>
+                            </li>
                         {% endif %}
                         <!-- Use JS for colors -->
                     </ul>
-                       
+                        
                     <h3>Storage:</h3> 
                     <ul class="phone-list">
                         <!-- value of storage and data-set of price -->
@@ -118,13 +117,13 @@
                                 <input type="hidden" name="storage" id="storage_4" value="{{ phone.storage_4 }}">
                                 <input type="hidden" name="price" id="price_4" value="{{ phone.price_4 }}">
                                 <a class="phone-form" onclick="setStorage(4);">{{ phone.storage_4 }} GB</a>                          
-                             </li>
+                            </li>
                         {% endif %}
                     </ul>
 
                     <form action="{% url 'add_phone_bag' phone.pk %}" method="POST">
                         {% csrf_token %}
-                
+                    
                         <div class="phone-bag">
                             <h3>Total cost: £<input class="phone-select" id="price" name="price" value="{{ phone.price_1 }}" readonly></h3>
                             <input type="hidden" id="color" name="color" value="{{ phone.color_1 }}" style="background-color: {{ phone.color_1 }}; border-radius: 10px; color: {{phone.color_1 }};">
@@ -143,41 +142,42 @@
                             <button type="submit" class="bag-btn" id="add-bag-btn">Add to basket</button>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
-                        
                     </form>
                 </div>
+            </div>
 
-                <div class="phone-review">
-                    <h2 class="text-center">{{ phone.name }} Reviews</h2>
-                    {% if request.user.is_authenticated %}
-                        <a href="{% url 'review' phone.id %}"><h6 class="text-center">Add review</h6></a>
-                    {% else %}
-                        <a href="{% url 'account_signup' %}"><h6 class="text-center">Want to leave a review? Sign up here</h6></a>
-                        <a href="{% url 'account_login' %}"><h6 class="text-center">Want to leave a review? Log in</h6></a>
-                    {% endif %}
+            <div class="phone-review">
+                <h2 class="text-center">{{ phone.name }} Reviews</h2>
+                {% if request.user.is_authenticated %}
+                    <a href="{% url 'review' phone.id %}"><h6 class="text-center">Add review</h6></a>
+                {% else %}
+                    <a href="{% url 'account_signup' %}"><h6 class="text-center">Want to leave a review? Sign up here</h6></a>
+                    <a href="{% url 'account_login' %}"><h6 class="text-center">Want to leave a review? Log in</h6></a>
+                {% endif %}
 
-                    <div class="user-review">
-                        {% for review in reviews %}
+                <div class="user-review">
+                    {% for review in reviews %}
+                        <div class="review-box">
                             {% if review.phone_name == phone %}
-                                <h5>{{ review.user_name }}</h5>
-                                <h3>{{ review.review_title }}</h3>
+                                <h5>Rated {{ review.rating }} star by {{ review.user_name }}</h5>
+                                <h4 class="review-body">{{ review.review_title }}</h4>
                                 <h4>
                                     <i data-rating="1" class="review-star far fa-star"></i>
                                     <i data-rating="2" class="review-star far fa-star"></i>
                                     <i data-rating="3" class="review-star far fa-star"></i>
                                     <i data-rating="4" class="review-star far fa-star"></i>
                                     <i data-rating="5" class="review-star far fa-star"></i>
-                                    <input type="text" value="{{ review.rating }}" name="rating" id="review-rating"><p>{{ review.rating }} Stars</p>
+                                    <input type="hidden" value="{{ review.rating }}" name="rating" id="review-rating">
                                 </h4>
+                                <p class="review-body">{{ review.review_body }}</p>
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'delete_review' review.id %}">Remove</a>
                                 {% endif %}
-                                <p>{{ review.review_body }}</p>
                             {% else %}
                                 <h2 class="text-center">There a currently no reviews on this phone</h2>
                             {% endif %}
-                        {% endfor %}
-                    </div>
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
         </div> 
@@ -191,8 +191,6 @@
         function setColor(value){
             console.log(value);
             document.getElementById("color").value = document.getElementById(`color_${value}`).value;
-            // document.getElementById("color-selected").style.background = value;
-
         }
         
         function setStorage(value){

@@ -301,8 +301,11 @@ h1, h2 {
 
 .phone-options {
     border: white 1px solid;
+    border-radius: 15px;
     margin-bottom: 10px;
     padding: 20px;
+    background-color: rgba(85, 85, 85, 0.15);
+    backdrop-filter: blur(15px);
 }
 
 .phone-bag {
@@ -311,9 +314,10 @@ h1, h2 {
 
 .phone-select {
     border: none;
-    background-color: #04162e;
+    /* background-color: #04162e; */
     color: white;
     width: 110px;
+    background-color: rgba(85, 85, 85, 0.15);
 }
 
 .phone-form {
@@ -342,11 +346,27 @@ h1, h2 {
 .phone-review {
     border: black 1px solid;
     margin-bottom: 10px;
+    border-radius: 15px;
     padding: 20px;
+    background-color: rgba(85, 85, 85, 0.15);
+    backdrop-filter: blur(15px);
 }
 
 .user-review {
     font-size: 1.2em;
+}
+
+.review-box {
+    background-color: grey;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.review-body {
+    overflow-wrap: break-word;
+    max-height: 100px;
 }
 
 /* Phone details page */
@@ -443,6 +463,21 @@ h1, h2 {
     .product-card {
         margin-left: 50px !important;
     }
+    .phone-review {
+        position: relative !important;
+        max-height: 1327px !important;
+        width: 300px !important;
+        padding: 10px;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 1849px) {
+    .phone-review {
+        align-content: flex-end;
+        position: static;
+        width: 1170px !important;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -492,6 +527,10 @@ h1, h2 {
 
     .rating-star {
         font-size: 0.955em;
+    }
+    .phone-review {
+        position: static;
+        width: 823px !important; 
     }
 }
 
@@ -554,7 +593,10 @@ h1, h2 {
     .rating-star {
         font-size: 1em;
     }
-
+    .phone-review {
+        position: static;
+        width: 610px !important; 
+    }
 }
 
 @media (max-width: 426px) {
@@ -605,6 +647,20 @@ h1, h2 {
     .product-card {
         margin-left: 25px !important;
     }
+
+    .phone-options {
+        padding: 12.5px;
+    }
+
+    .phone-form {
+        width: 80px;
+        margin: 5px;
+        font-size: 1em;
+    }
+    .phone-review {
+        position: static;
+        width: 395px !important; 
+    }
 }
 
 @media (max-width: 376px) {
@@ -629,6 +685,26 @@ h1, h2 {
     .rating-star {
         font-size: 0.9em;
     }
+
+    .phone-form {
+        width: 70px;
+        margin: 5px;
+        font-size: 0.92em;
+    }
+
+    .phone-image-slideshow {
+        height: 450px;
+        width: 350px;
+    }
+
+    .phone-image {
+        height: 400px;
+        width: 300px;
+    }
+    .phone-review {
+        position: static;
+        width: 345px !important; 
+    }
 }
 
 @media (max-width: 321px) {
@@ -646,5 +722,29 @@ h1, h2 {
     }
     .product-card {
         margin-left: 0 !important;
+    }
+    .phone-form {
+        width: 62.5px;
+        margin: 3px;
+        font-size: 0.78em;
+        height: 45px;
+    }
+    .phone-image-slideshow {
+        height: 450px;
+        width: 300px;
+    }
+    .phone-image {
+        height: 400px;
+        width: 275px;
+    }
+    .phone-icon {
+        font-size: 1.5em;
+    }
+    .phone-options {
+        padding: 7.5px;
+    }
+    .phone-review {
+        position: static;
+        width: 290px !important; 
     }
 }
