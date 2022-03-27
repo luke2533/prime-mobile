@@ -9,11 +9,44 @@
                 <div class="phone-details">
                     <h1>{{ phone.name }}</h1>
                     <h4>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
+                        {% if phone.rating == 1 %}
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                        {% elif phone.rating == 2 %}
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                        {% elif phone.rating == 3 %}
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                        {% elif phone.rating == 4 %}
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                        {% elif phone.rating == 5 %}
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                            <i class="review-star fas fa-star"></i>
+                        {% else %}
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <i class="review-star far fa-star"></i>
+                            <h6>There are no reviews for this phone</h6>
+                        {% endif %}
                     </h4>
                     
                     <div id="phoneImages" class="carousel slide phone-image-slideshow" data-ride="carousel">
@@ -158,28 +191,55 @@
                 {% endif %}
 
                 <div class="user-review">
-                    {% for review in reviews %}
-                        <div class="review-box">
+                    <div class="review-box">
+                        {% for review in reviews %}
                             {% if review.phone_name == phone %}
                                 <h5>Rated {{ review.rating }} star by {{ review.user_name }}</h5>
                                 <h4>{{ review.review_title }}</h4>
                                 <h4>
-                                    <i data-rating="1" class="review-star far fa-star"></i>
-                                    <i data-rating="2" class="review-star far fa-star"></i>
-                                    <i data-rating="3" class="review-star far fa-star"></i>
-                                    <i data-rating="4" class="review-star far fa-star"></i>
-                                    <i data-rating="5" class="review-star far fa-star"></i>
-                                    <input type="hidden" value="{{ review.rating }}" name="rating" id="review-rating">
+                                    {% if review.rating == 1 %}
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                    {% elif review.rating == 2 %}
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                    {% elif review.rating == 3 %}
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                    {% elif review.rating == 4 %}
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star far fa-star"></i>
+                                    {% elif review.rating == 5 %}
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                        <i class="review-star fas fa-star"></i>
+                                    {% endif %}
                                 </h4>
                                 <p class="review-body">{{ review.review_body }}</p>
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'delete_review' review.id %}">Remove</a>
                                 {% endif %}
-                            {% else %}
-                                <h2 class="text-center">There a currently no reviews on this phone</h2>
+                                <hr class="border-white">
+                            {% elif review.phone_name != phone %}
+                                <div  style="display: none;"></div>
                             {% endif %}
-                        </div>
-                    {% endfor %}
+                        {% endfor %}
+                        <h2 class="text-center">There are no more reviews for this phone</h2>
+                    </div>
                 </div>
             </div>
         </div> 
@@ -200,42 +260,5 @@
             document.getElementById("storage").value = document.getElementById(`storage_${value}`).value;
             document.getElementById("price").value = document.getElementById(`price_${value}`).value;
         }
-    </script>
-
-    <script type="text/javascript">
-        const reviewStar = [...document.getElementsByClassName("review-star")];
-        // const rating = document.getElementById("review-rating").value;
-
-        function reviewRatings(stars) {
-            var starActive = "review-star fas fa-star";
-            var starInactive = "review-star far fa-star";
-            var starsLength = stars.length;
-            let i;
-
-            var rating = document.getElementById("review-rating").value;
-
-
-            stars.map((star) => {
-                i = stars.indexOf(star);
-                if (rating == star.dataset.rating) {
-                    if (star.className===starInactive) {
-                        for (i; i >= 0; --i) {
-                            stars[i].className = starActive;
-                            if (i === 5) { 
-                                break;
-                            }
-                        }
-                    } else {
-                        for (i; i < starsLength; ++i) {
-                            stars[i].className = starInactive;
-                        }
-                    }
-                }      
-            });
-        };
-        
-        reviewRatings(reviewStar);
-
-    </script>
     </script>
 {% endblock %}

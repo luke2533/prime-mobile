@@ -33,6 +33,10 @@ body a:hover {
     color: #181818!important;
 }
 
+.border-white {
+    border-bottom: 1px solid white!important;
+}
+
 .overlay{
     height: 100%;
 	width: 100%;
@@ -392,7 +396,10 @@ h1, h2 {
 
 #bag-btn-submit {
     width: 125px;
-    text-align: center;
+    height: 48px !important;
+    text-align: center !important;
+    font-size: 1.25em;
+    padding-top: 10px !important;
 }
 
 .bag-background {
@@ -409,40 +416,31 @@ h1, h2 {
 }
 
 .bag-btn {
-    border: solid black 1px;
-    padding: 7.5px 15px;
-    padding-bottom: 10px;
-    border-radius: 40px;
-    background-color: #04162e;
-    box-shadow: 1px 1px 1px #C31a8f;
-    transition: all .3s cubic-bezier(0,0,.5,1);
+    background-color: #181818 !important;
+    box-shadow: rgb(0 0 0 / 20%) 0 3px 5px -1px, rgb(0 0 0 / 14%) 0 6px 10px 0, rgb(0 0 0 / 12%) 0 1px 18px 0;
+    border-radius: 24px;
+    cursor: pointer;
     color: white;
-    font-size: 1.4em;
-    width: 100px !important;
-    height: 45px !important;
+    padding: 5px 15px !important;
+    border: none !important;
+    text-align: center;
+    font-size: 1.25em;
 }
 
-.update-bag-btn {
-    border: solid black 1px;
-    padding: 7.5px 10px;
-    text-align: center;
-    border-radius: 40px;
-    background-color: #04162e;
-    box-shadow: 1px 1px 1px #C31a8f;
-    transition: all .3s cubic-bezier(0,0,.5,1);
-    color: white;
-    height: 45px !important;
-    font-size: 1.4em;
+.bag-delete-link {
+    height: 40px !important;
+    padding: 7.5px 17.5px !important;
+
 }
 
 .update {
-    height: 45px !important;
+    height: 40px !important;
     width: 40px !important;
     border: solid black 1px;
-    background-color: #04162e;
     color: white;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px #C31a8f;
+    background-color: #181818 !important;
+    box-shadow: rgb(0 0 0 / 20%) 0 3px 5px -1px, rgb(0 0 0 / 14%) 0 6px 10px 0, rgb(0 0 0 / 12%) 0 1px 18px 0;
     font-size: 1.45em;
 }
 
@@ -566,9 +564,11 @@ h1, h2 {
     outline: none !important;
     background-color: #181818 !important;
     border: 2px solid #4285f4 !important;
-  }
-  
-
+}
+.checkout-img {
+    float: left;
+    height: 255px;  
+}
 /* Checkout */
 
 /* Checkout success */
@@ -1171,6 +1171,10 @@ h1, h2 {
         margin-top: 25px !important;
         margin-bottom: 150px !important;
     }
+    .checkout-img {
+        height: 255px;
+        margin-left: 75px;
+    }
 }
 
 @media (max-width: 376px) {
@@ -1258,6 +1262,10 @@ h1, h2 {
     }
     .allauth-btn {
         margin-left: 90px !important; 
+    }
+    .checkout-img {
+        height: 255px;
+        margin-left: 62.5px;
     }
 }
 
@@ -1360,5 +1368,9 @@ h1, h2 {
     }
     .allauth-btn {
         margin-left: 67.5px !important; 
+    }
+    .checkout-img {
+        height: 255px;
+        margin-left: 40px;
     }
 }

@@ -15,12 +15,12 @@
                             <h3>Qty: {{ item.item_data.quantity }}</h3>
                             <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
                             <!-- <br> -->
-                            <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
+                            <a class="bag-btn delete-item bag-delete-link" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
 
                             <form class="update-form" method="POST" action="{% url 'edit_phone_bag' item.item_id %}">
                                 {% csrf_token %}
                                 <input type="number" name="quantity" class="update" value="{{ item.item_data.quantity }}" id="it_qty_{{ item.item_data.quantity }}" min="1" max="5">
-                                <button class="update-bag-btn update-item" type="submit">Update</button>
+                                <button class="bag-btn update-item" type="submit">Update</button>
                             </form>
                             <br>
                             <!-- <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a> -->
@@ -31,7 +31,7 @@
                 {% else %}
                 <!-- Your bag is empty -->
                 <div>
-                    <h1>Your bag is empty</h1>
+                    <h1 class="text-center">Your bag is empty</h1>
                 </div>
                 {% endif %}
             </div>
@@ -41,7 +41,7 @@
             <div class="col-xl-5 col-lg-8 col-md-10 col-sm-8 bag-total">
                 <h1 class="bag-total-title">Bag total: £{{ grand_total|floatformat:2 }}</h1>
                 <h1 class="bag-total-title">Delivery: £{{ delivery|floatformat:2 }}</h1>
-                <a class="update-bag-btn" id="bag-btn-submit" href="{% url 'checkout' %}">Checkout</a>
+                <a class="bag-btn" id="bag-btn-submit" href="{% url 'checkout' %}">Checkout</a>
             </div>
         </div>
     </div>

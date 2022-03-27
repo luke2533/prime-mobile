@@ -903,6 +903,17 @@ Additions:
 - Vefication sent (Allauth) updated to be responsive on all devices
 - Sign up page updated to be responsive on all devices
 
+### 6.99 Quick CSS fixes and user review ratings showing correct stars
+
+Additions:
+
+- Centered bag is empty text
+- Checkout images don't overlap
+- Bag buttons look and fit better
+- Phone's without reviews don't have the "No reviews" text multiple times
+- Fixed user reviews star ratings which no show correct stars
+- Overall phone ratings show correctly (When changed manually by admin)
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
