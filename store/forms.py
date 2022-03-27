@@ -16,5 +16,4 @@ class StoreForm(forms.ModelForm):
 
         self.fields["category"].choices = friendly_names
         for field_name, filed in self.fields.items():
-            filed.widget.attrs["class"] = "border-black rounded-0"
-            # CHANGE
+            filed.widget.attrs["class"] = "border-black rounded-0 admin-input"

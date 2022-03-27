@@ -4,14 +4,14 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-4">
-                <h1>Edit Phone</h1>
+            <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4 admin">
+                <h1 style="text-align: center;">Edit Phone</h1>
                 <form action="{% url 'edit_phone' phone.id %}" method="POST" enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="">
-                        <a href="{% url 'store' %}">Cancel</a>
-                        <button type="submit">Update Phone</button>
+                        <button class="prime-btn" type="submit">Update Phone</button>
+                        <a class="prime-btn" href="{% url 'store' %}">Cancel</a>
                     </div>
                 </form>
             </div>

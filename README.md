@@ -868,6 +868,14 @@ Additions:
 
 - Checkout success page updated to be responsive on all devices
 
+### 6.94 Toasts fixed empty space issue and updated admin pages to be responsive on all devices
+
+Additions:
+
+- Toasts updated and fixed empty space issue
+- Admin add page updated to be responsive on all devices
+- Admin edit page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

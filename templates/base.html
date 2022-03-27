@@ -154,9 +154,15 @@
             <script type="text/javascript">
                 $(".toast").toast("show", {
                     animation: true,
-                    autohide: true,
-                    delay: 10000,
+                    autohide: false,
+                    delay: 1000000,
                 });
+
+                // $('.toast').on('hidden.bs.toast', function () {
+                //     animation: true,
+                //     autohide: false,
+                //     delay: 1000,
+                // });
             </script>
         {% endblock %}
 
