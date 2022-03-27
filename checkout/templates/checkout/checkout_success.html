@@ -8,40 +8,81 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-6 bag-background bag-items">
+            <div class="col-sm-11 col-md-10 col-lg-8 col-xl-6 bag-background bag-items success-box">
                 <h1>Order Information:</h1>
-                <h5>Order Number: {{ order.order_number }}</h5>
-                <h5>Order Date: {{ order.date }}</h5>
-
+                <div class="success-details pl-0">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-4 text-right pl-0 success-mobile">
+                            <h5 class="success-sm-title">Order Number:</h5>
+                            <h5 class="success-sm-title">Order Date:</h5>
+                        </div>
+                        <div class="col-sm-6 col-md-7 col-6">
+                            <h5 class="success-sm" id="order-number">{{ order.order_number }}</h5>
+                            <h5 class="success-sm">{{ order.date }}</h5>
+                        </div>
+                    </div>
+                </div>
                 <hr>
 
                 <h3>Delivery Details:</h3>
-                <h5>Full Name: {{ order.full_name }}</h5>
-                <h5>Email: {{ order.email }}</h5>
-                <h5>Phone Number: {{ order.phone_number }}</h5>
-                <h5>Address line 1: {{ order.street_address1 }}</h5>
-                <h5>Address line 2: {{ order.street_address2 }}</h5>
-                <h5>Town or City: {{ order.town_or_city }}</h5>
-                <h5>Postcode: {{ order.postcode }}</h5>
-                <h5>Country: {{ order.country }}</h5>
-
+                <div class="success-details pl-0">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-4 text-right pl-0 success-mobile">          
+                            <h5 class="success-sm-title">Full Name:</h5>
+                            <h5 class="success-sm-title">Email:</h5>
+                            <h5 class="success-sm-title">Phone Number:</h5>
+                            <h5 class="success-sm-title">Street address 1:</h5>
+                            <h5 class="success-sm-title">Street address 2:</h5>
+                            <h5 class="success-sm-title">Town or City</h5>
+                            <h5 class="success-sm-title">Postcode</h5>
+                            <h5 class="success-sm-title">Country</h5>
+                        </div>
+                        <div class="col-sm-6 col-md-7 col-6">          
+                            <h5 class="success-sm">{{ order.full_name }}</h5>
+                            <h5 class="success-sm">{{ order.email }}</h5>
+                            <h5 class="success-sm">{{ order.phone_number }}</h5>
+                            <h5 class="success-sm">{{ order.street_address1 }}</h5>
+                            <h5 class="success-sm">{{ order.street_address2 }}</h5>
+                            <h5 class="success-sm">{{ order.town_or_city }}</h5>
+                            <h5 class="success-sm">{{ order.postcode }}</h5>
+                            <h5 class="success-sm">{{ order.country }}</h5>
+                        </div>
+                    </div>
+                </div>
                 <hr>
 
                 <h3>Order Item's:</h3>
-                {% for item in order.orderitems.all %}
-                    <h5>Phone: {{ item.phone }}</h5>
-                    <!-- <h5>SKU: {{ phone.SKU }}</h5> -->
-                    <h5>Color: {{ item.phone_color }}</h5>
-                    <h5>Storage: {{ item.phone_size }} GB</h5>
-                    <h5>Quantity: {{ item.phone_quantity }}</h5>
-                    <h5>Cost: £{{ item.phone_price }}</h5>
-                    <hr>
-                {% endfor %}
+                <div class="table-overflow">
+                    <table class="table table-sm table-borderless success-table">
+                        <thead>
+                            <tr>
+                                <th>Phone</th>
+                                <th>Color</th>
+                                <th>Storage</th>
+                                <th>Quantity</th>
+                                <th>Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in order.orderitems.all %}
+                                <tr>
+                                    <td>{{ item.phone }}</td>
+                                    <td>{{ item.phone_color }}</td>
+                                    <td>{{ item.phone_storage }} GB</td>
+                                    <td>{{ item.phone_quantity }}</td>
+                                    <td>£{{ item.phone_price }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
 
-                <h3>Order Total:</h3>
-                <h5>Total: £{{ order.order_total }}</h5>
-                <h5>Delivery cost: £{{ order.delivery_cost }}</h5>
-                <h5>Grand Total: £{{ order.grand_total }}</h5>
+                <div class="success-total">
+                    <h2 id="success-order-total">Order Total:</h2>
+                    <h5 class="success-total-title">Total: £{{ order.order_total }} |</h5>
+                    <h5 class="success-total-title">Delivery cost: £{{ order.delivery_cost }} |</h5>
+                    <h5 class="success-total-title">Grand Total: £{{ order.grand_total }}</h5>
+                </div>
 
                 {% if from_profile %}
                     <a href="{% url 'profile' %}">Back to Profile</a>

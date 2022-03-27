@@ -568,6 +568,47 @@ h1, h2 {
 
 /* Checkout */
 
+/* Checkout success */
+
+#success-order-total {
+    font-size: 2em;
+}
+#order-number {
+    overflow: auto;
+}
+.success-box {
+    padding: 20px;
+}
+.success-details {
+    background-color: #04162e;
+    padding: 15px;
+    border-radius: 18px;
+}
+.success-table {
+    color: white;
+    border-radius: 18px 18px 0px 0px !important;
+    background-color: #04162e;
+    border-radius: 5px;
+    border-bottom: white solid 1px;
+}
+.table {
+    margin-bottom: 0rem !important;
+}
+.success-total {
+    display: flex;
+    justify-content: center;
+    background-color: #04162e;
+    border-radius: 0px 0px 18px 18px;
+    border: black 1px 1px 0px 1px solid;
+    padding: 15px;
+}
+.success-total-title {
+    margin-left: 12.5px;
+    font-size: 1.5em;
+    margin-top: 4px;
+}
+/* Checkout success */
+
 /* Reviews */
 
 /* DELETE */
@@ -867,6 +908,28 @@ h1, h2 {
     .checkout-bag-background {
         padding-bottom: 0px;
     }
+    .success-box {
+        padding: 15px;
+    }
+    .success-sm-title {
+        /* display: none; */
+        width: 180px;
+        margin: 0px !important;
+        margin-bottom: 5px !important;
+    }
+    .success-sm {
+        font-size: 1em;
+    }
+    .success-mobile{
+        width: 50%;
+    }
+    .success-total-title {
+        font-size: 1em;
+        margin-left: 7.5px;
+    }
+    #success-order-total {
+        font-size: 1.25em;
+    }
 }
 
 @media (max-width: 376px) {
@@ -923,6 +986,16 @@ h1, h2 {
         padding: 15px;
     }
     .checkout-total-title {
+        font-size: 1.1em;
+    }
+    .table-overflow {
+        overflow: auto;
+    }
+    .success-total-title {
+        font-size: 0.9em;
+        margin-left: 5px;
+    }
+    #success-order-total {
         font-size: 1.1em;
     }
 }
@@ -982,5 +1055,27 @@ h1, h2 {
     }
     .checkout-total-title {
         font-size: 0.9em;
+    }
+    .success-total-title {
+        font-size: 0.775em;
+        margin-left: 3px;
+    }
+    #success-order-total {
+        font-size: 1em;
+    }
+    .success-sm {
+        font-size: 1em;
+    }
+    .success-sm-title {
+        font-size: 1em;
+        padding-left: 25px;
+    }
+    .success-details {
+        overflow: auto;
+        /* padding-right: 10px !important; */
+    }
+    .success-mobile {
+        /* padding-right: 10px !important; */
+        text-align: left !important;
     }
 }

@@ -862,6 +862,12 @@ Additions:
 
 - Checkout page updated to be responsive on all devices
 
+### 6.93 Checkout success page updated to be responsive on all devices
+
+Additions:
+
+- Checkout success page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
