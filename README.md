@@ -896,6 +896,13 @@ Additions:
 - Log out updated to be responsive on all devices
 - Log in updated to be responsive on all devices
 
+### 6.98 Allauth vefication and sign up pages updated to be responsive on all devices
+
+Additions:
+
+- Vefication sent (Allauth) updated to be responsive on all devices
+- Sign up page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

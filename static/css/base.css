@@ -766,6 +766,11 @@ h1, h2 {
 
 /* Allauth */
 
+.allauth-email {
+    margin-top: 100px !important;
+    margin-bottom: 350px !important;
+}
+
 .allauth-section {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
@@ -1002,6 +1007,10 @@ h1, h2 {
     .profile-order-total {
         font-size: 1.3em;
     }
+    .allauth-email {
+        margin-top: 75px !important;
+        margin-bottom: 300px !important;
+    }
 }
 
 @media (max-width: 426px) {
@@ -1157,6 +1166,10 @@ h1, h2 {
     }
     .allauth-btn {
         margin-left: 110px !important; 
+    }
+    .allauth-email {
+        margin-top: 25px !important;
+        margin-bottom: 150px !important;
     }
 }
 
