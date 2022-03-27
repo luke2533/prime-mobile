@@ -8,17 +8,17 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-8">
-                <a class="btn btn-primary" data-toggle="collapse" href="#deliveryInfo" role="button" aria-expanded="false" aria-controls="deliveryInfo">
+            <div class="col-sm-11 col-md-12 col-lg-11 col-xl-8">
+                <a class="btn btn-primary prime-btn profile-btn" data-toggle="collapse" href="#deliveryInfo" role="button" aria-expanded="false" aria-controls="deliveryInfo">
                     Set default delivery information:
                 </a>
                 
                 <div class="collapse" id="deliveryInfo">
-                    <div class="">
+                    <div class="profile-default">
                         <form action="{% url 'profile' %}" method="POST" id="profile-save-form">
                             {% csrf_token %}
                             {{ form|crispy }}
-                            <button type="submit">Set Default</button>
+                            <button class="prime-btn" type="submit">Set Default</button>
                         </form>
                     </div>
                 </div>
@@ -26,30 +26,48 @@
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-8">
-                <h1>Order History:</h1>
-                <div class="bag-background bag-items">
-                    {{ orders }}
+            <div class="col-sm-12 col-md-12 col-lg-11 col-xl-8">
+                <h1 class="text-center">Order History</h1>
+                <div class="bag-background bag-items profile-box">
                     {% for order in orders %}    
                         <div class="bag-detail">
-                            <h2>Order Details:</h2>
-                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}"><h3>{{ order.order_number }}<h3></a>
-                            <h3>{{ order.date }}</h3>
+                            <h2 class="text-left pl-2 profile-title-sm">Order Details:</h2>
+                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}"><h3 class="text-left pl-2 profile-title-sm order-number">{{ order.order_number }}<h3></a>
+                            <h3 class="text-left pl-2 profile-title-sm">{{ order.date }}</h3>
                             <hr class="bag-hr">
                             
-                            <h2>Order Items:</h2>
-                            {% for item in order.orderitems.all %}
-                                <h3>Phone: {{ item.phone }}</h3>
-                                <h3>Color: {{ item.phone_color }}</h3>
-                                <h3>Capacity: {{ item.phone_storage }} GB</h3>
-                                <h3>Qty: {{ item.phone_quantity }}</h3>
-                                <hr class="bag-hr">
-                            {% endfor %}
+                            <h2 class="text-left pl-2 profile-title-sm">Order Items:</h2>
+                            <div class="table-overflow">
+                                <table class="table table-sm table-borderless success-table">
+                                    <thead class="text-left">
+                                        <tr>
+                                            <th class="profile-items">Phone</th>
+                                            <th class="profile-items">Color</th>
+                                            <th class="profile-items">Storage</th>
+                                            <th class="profile-items">Quantity</th>
+                                            <th class="profile-items">Cost</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-left">
+                                        {% for item in order.orderitems.all %}
+                                            <tr>
+                                                <td class="profile-items">{{ item.phone }}</td>
+                                                <td class="profile-items">{{ item.phone_color }}</td>
+                                                <td class="profile-items">{{ item.phone_storage }} GB</td>
+                                                <td class="profile-items">{{ item.phone_quantity }}</td>
+                                                <td class="profile-items">£{{ item.phone_price }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
                             
-                            <h2>Order Cost:</h2>
-                            <h5>Order Total: £{{ order.order_total }}</h5>
-                            <h5>Delivery Fee: £{{ order.delivery_cost }}</h5>
-                            <h5>Grand Total: £{{ order.grand_total }}</h5>
+                            <div class="profile-total">
+                                <h2 class="profile-order-total">Order Total:</h2>
+                                <h5 class="profile-total-title">Total: £{{ order.order_total }} |</h5>
+                                <h5 class="profile-total-title">Delivery cost: £{{ order.delivery_cost }} |</h5>
+                                <h5 class="profile-total-title">Grand Total: £{{ order.grand_total }}</h5>
+                            </div>
                             
                             <hr class="bag-hr">
                         </div>

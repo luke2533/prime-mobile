@@ -876,6 +876,12 @@ Additions:
 - Admin add page updated to be responsive on all devices
 - Admin edit page updated to be responsive on all devices
 
+### 6.95 Profile page updated to be responsive on all devices
+
+Additions:
+
+- Profile page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
