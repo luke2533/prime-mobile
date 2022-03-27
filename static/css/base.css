@@ -764,6 +764,33 @@ h1, h2 {
 
 /* Reviews */
 
+/* Allauth */
+
+.allauth-section {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 18px;
+    padding: 20px;
+}
+.allauth-btn {
+    margin-left: 115px !important; 
+}
+.textinput {
+    width: 100% !important;
+    color: white !important;
+    padding: 5px !important;
+    background-color: #181818 !important;
+}
+.allauth-link {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.allauth-text {
+    margin-top: 7.5px !important;
+}
+
+/* Allauth */
+
 /* Breakpoints */
 
 @media (min-width: 1850px) {
@@ -798,6 +825,9 @@ h1, h2 {
     }
     #review-phone-rating {
         margin-right: 125px;
+    }
+    .allauth-btn {
+        margin-left: 170px !important; 
     }
 }
 
@@ -892,6 +922,9 @@ h1, h2 {
     }
     #review-phone-rating {
         margin-right: 57.5px;
+    }
+    .allauth-btn {
+        margin-left: 100px !important; 
     }
 }
 
@@ -1122,6 +1155,9 @@ h1, h2 {
         padding-bottom: 20px;
         border-radius: 0px 0px 18px 18px;
     }
+    .allauth-btn {
+        margin-left: 110px !important; 
+    }
 }
 
 @media (max-width: 376px) {
@@ -1206,6 +1242,9 @@ h1, h2 {
     }
     .rating-star {
         font-size: 1.5em !important;
+    }
+    .allauth-btn {
+        margin-left: 90px !important; 
     }
 }
 
@@ -1305,5 +1344,8 @@ h1, h2 {
     .rating-star {
         margin-top: 2px;
         font-size: 1.35em !important;
+    }
+    .allauth-btn {
+        margin-left: 67.5px !important; 
     }
 }

@@ -889,11 +889,12 @@ Addition:
 - Updated review button on phone details page to be more visable
 - Review page updated to be responsive on all devices
 
-### 6.97
+### 6.97 Allauth log in / out pages updated to be responsive on all devices
 
 Additions:
 
-
+- Log out updated to be responsive on all devices
+- Log in updated to be responsive on all devices
 
 ## 7.0 Deployment
 
