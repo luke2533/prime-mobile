@@ -856,6 +856,12 @@ Additions:
 - Fixed bag button on nav from changing shape when items are in the bag
 - Bag page updated to be responsive on all devices
 
+### 6.92 Checkout page updated to be responsive on all devices
+
+Additions:
+
+- Checkout page updated to be responsive on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

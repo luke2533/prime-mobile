@@ -425,6 +425,7 @@ h1, h2 {
 .update-bag-btn {
     border: solid black 1px;
     padding: 7.5px 10px;
+    text-align: center;
     border-radius: 40px;
     background-color: #04162e;
     box-shadow: 1px 1px 1px #C31a8f;
@@ -494,6 +495,79 @@ h1, h2 {
 
 /* Bag page */
 
+/* Checkout */
+
+#card-element {
+    background-color: #181818 !important;
+    color: white !important;
+
+}
+
+#checkout-form {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 18px;
+}
+
+.checkout-title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #04162e;
+    border-radius: 18px 18px 0px 0px;
+    border: black 1px solid;
+}
+
+.checkout-total-title {
+    font-size: 2em;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.stripe-style-input {
+    color: white;
+    background-color: #181818 !important;
+}
+
+.checkout-complete {
+    display: flex;
+    justify-content: baseline;
+    margin-top: 20px;
+}
+.total-charge {
+    font-size: 2em;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.prime-btn {
+    background-color: #181818;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    border-radius: 24px;
+    cursor: pointer;
+    color: white;
+    padding: 5px 15px !important;
+}
+.prime-btn:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+}
+
+.prime-btn:focus {
+    outline: none;
+    border: 3px solid #4285f4;
+    color: #4285f4;
+}
+
+.prime-btn:hover {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+
+/* Checkout */
+
 /* Reviews */
 
 /* DELETE */
@@ -508,7 +582,7 @@ h1, h2 {
 .review-image {
     height: 350px;
 }
- 
+
 .rating-star {
     cursor: pointer;
     color: #dabd18b2;
@@ -787,6 +861,12 @@ h1, h2 {
         width: 95px;
         height: 40px !important;
     }
+    .checkout-total-title {
+        font-size: 1.25em;
+    }
+    .checkout-bag-background {
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 376px) {
@@ -842,6 +922,9 @@ h1, h2 {
     .bag-items {
         padding: 15px;
     }
+    .checkout-total-title {
+        font-size: 1.1em;
+    }
 }
 
 @media (max-width: 321px) {
@@ -896,5 +979,8 @@ h1, h2 {
     }
     .bag-items {
         padding: 15px;
+    }
+    .checkout-total-title {
+        font-size: 0.9em;
     }
 }
