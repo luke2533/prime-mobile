@@ -882,6 +882,19 @@ Additions:
 
 - Profile page updated to be responsive on all devices
 
+### 6.96 Review button and page updated to be responsive on all devices
+
+Addition:
+
+- Updated review button on phone details page to be more visable
+- Review page updated to be responsive on all devices
+
+### 6.97
+
+Additions:
+
+
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
