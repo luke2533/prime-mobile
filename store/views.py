@@ -11,8 +11,6 @@ def all_phones(request):
     
     # Displays all of the phones on store page
 
-    total_rating = []
-    reviews = PhoneReview.objects.all()
     phones = Phone.objects.all()
     query = None
     sort = None
@@ -44,21 +42,10 @@ def all_phones(request):
     current_sorting = f"{sort}_{direction}"
     # Search and filter Mini Project
 
-    # Overall Star rating
-    for review in reviews:
-        user_rating = review.rating
-        total_rating.append(user_rating)
-    
-    star_total = sum(total_rating)
-    review_total = len(total_rating)
-    overall_rating = star_total / review_total
-    phone_rating = round(overall_rating)
 
     context = {
         "phones": phones,
         "search_term": query,
-        "reviews": reviews,
-        "phone_rating": phone_rating,
         "current_sorting": current_sorting,
     }
 
@@ -70,17 +57,19 @@ def phone_detail(request, phone_id):
     phone = get_object_or_404(Phone, pk=phone_id)
     reviews = PhoneReview.objects.all()
     total_rating = []
+    phone_rating = 0
 
-
-    # Overall Star rating
     for review in reviews:
-        user_rating = review.rating
-        total_rating.append(user_rating)
-    
-    star_total = sum(total_rating)
-    review_total = len(total_rating)
-    overall_rating = star_total / review_total
-    phone_rating = round(overall_rating)
+        if review.phone_name == phone:
+            user_rating = review.rating
+            total_rating.append(user_rating)
+        
+            star_total = sum(total_rating)
+            review_total = len(total_rating)
+            overall_rating = star_total / review_total
+            phone_rating = round(overall_rating)
+            phone.rating = phone_rating
+            phone.save()
 
     context = {
         "phone": phone,

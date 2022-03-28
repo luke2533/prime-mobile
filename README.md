@@ -923,6 +923,14 @@ Additions:
 
 Issue: The overall score is made up of ALL reviews from ALL phones causing every phone to share the same score
 
+### 6.101 Overall score issue RESOLVED overall phone rating displays correct rating
+
+Additions:
+
+- Overall score issue RESOLVED (6.100)
+- Phone detail page shows overall indivdial phone rating
+- Store page shows overall indivdial phone rating
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
