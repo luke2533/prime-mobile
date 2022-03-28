@@ -77,7 +77,7 @@
                     </table>
                 </div>
 
-                <div class="success-total">
+                <div class="success-total" style="margin-bottom: 10px !important;">
                     <h2 id="success-order-total">Order Total:</h2>
                     <h5 class="success-total-title">Total: £{{ order.order_total }} |</h5>
                     <h5 class="success-total-title">Delivery cost: £{{ order.delivery_cost }} |</h5>
@@ -85,7 +85,7 @@
                 </div>
 
                 {% if from_profile %}
-                    <a href="{% url 'profile' %}">Back to Profile</a>
+                    <a class="prime-btn" href="{% url 'profile' %}">Back to Profile</a>
                 {% endif %}
             </div>
         </div>

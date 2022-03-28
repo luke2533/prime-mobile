@@ -949,6 +949,16 @@ Additions:
 - Small CSS quick fixes on smaller devices
 - Footer links to profile, store and bag pages
 
+### 6.104 Added testing.md, added Samsung S22 during admin testing and minor CSS fixes
+
+Additions:
+
+- Added free delviery message at top of bag page
+- Added Samsung S22
+- Updated Samsung S22
+- Added S22 images
+- Added testing.md file
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

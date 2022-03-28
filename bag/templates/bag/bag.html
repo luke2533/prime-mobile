@@ -4,9 +4,14 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-8 col-md-10 col-sm-8">
+                <p class="allauth-text allauth-text-info text-center" id="checkout-text-info">Free Delivery for purchases over £799.99</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
             <div class="col-xl-5 col-lg-8 col-md-10 col-sm-8 bag-background bag-items">
                 {% if bag_items %}
-                    {% for item in bag_items %}    
+                    {% for item in bag_items %}
                         <div class="bag-detail">
                             <img src="{{ item.phone.img_1.url }}" alt="{{ item.phone.name }}" class="bag-img">
                             <h2 class="bag-detail-title">{{ item.phone }}</h2>
@@ -23,7 +28,6 @@
                                 <button class="bag-btn update-item" type="submit">Update</button>
                             </form>
                             <br>
-                            <!-- <a class="bag-btn delete-item" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a> -->
                             <hr class="bag-hr">
                         </div>
                     {% endfor %}
