@@ -495,6 +495,13 @@ h1, h2 {
 
 /* Checkout */
 
+#checkout-text-info {
+    color: white;
+    font-weight: 700;
+    background-color: #04162e;
+    box-shadow: #f0cc00 1px 1px 1px 1px;
+}
+
 #card-element {
     background-color: #181818 !important;
     color: white !important;
@@ -766,6 +773,12 @@ h1, h2 {
 
 /* Allauth */
 
+#id_email {
+    width: 100% !important;
+    color: white !important;
+    padding: 5px !important;
+    background-color: #181818 !important;
+}
 .allauth-email {
     margin-top: 100px !important;
     margin-bottom: 350px !important;
@@ -792,6 +805,13 @@ h1, h2 {
 }
 .allauth-text {
     margin-top: 7.5px !important;
+}
+.allauth-text-info {
+    background-color: #04162e;
+    padding: 10px;
+    border-radius: 18px;
+    border: black 1px solid;
+    font-size: 1.1em;
 }
 
 /* Allauth */
@@ -829,10 +849,14 @@ h1, h2 {
         left: 0;
     }
     #review-phone-rating {
-        margin-right: 125px;
+        margin-right: 65px !important;
     }
     .allauth-btn {
         margin-left: 170px !important; 
+    }
+    .review-body {
+        overflow: auto;
+        max-height: 250px !important;
     }
 }
 
@@ -886,6 +910,9 @@ h1, h2 {
     .phone-select-title {
         padding-bottom: 15px;
     }
+    #review-phone-rating {
+        margin-right: 5px;
+    }
 }
 
 @media (max-width: 1025px) {    
@@ -926,7 +953,7 @@ h1, h2 {
         font-size: 1.75em;
     }
     #review-phone-rating {
-        margin-right: 57.5px;
+        margin-right: 7.5px;
     }
     .allauth-btn {
         margin-left: 100px !important; 
@@ -1157,6 +1184,12 @@ h1, h2 {
     .review-input {
         width: 100%;
     }
+    .review-title-sm {
+        font-size: 2.25em;
+    }
+    .star-sm {
+        font-size: 1.75em;
+    }
     #review-section-bottom-left {
         border-radius: 0px;
     }
@@ -1267,6 +1300,9 @@ h1, h2 {
         height: 255px;
         margin-left: 62.5px;
     }
+    .star-xs {
+        font-size: 0.9em !important;
+    }
 }
 
 @media (max-width: 321px) {
@@ -1372,5 +1408,8 @@ h1, h2 {
     .checkout-img {
         height: 255px;
         margin-left: 40px;
+    }
+    .star-xs {
+        font-size: 0.9em !important;
     }
 }

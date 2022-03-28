@@ -135,10 +135,10 @@
     
                     <div class="col-5">
                         <h2 class="footer-mobile">Navigation</h2>
-                        <a href="" class="footer-link footer-mobile-link"><i class="fas fa-home"></i> Home</a>
+                        <a href="{% url 'home' %}" class="footer-link footer-mobile-link"><i class="fas fa-home"></i> Home</a>
                         <a href="{% url 'profile' %}" class="footer-link footer-mobile-link"><i class="fas fa-user"></i> Profile</a>
-                        <a href="" class="footer-link footer-mobile-link"><i class="fas fa-mobile"></i> Shop</a>
-                        <a href="" class="footer-link footer-mobile-link"><i class="fas fa-shopping-basket"></i> Basket</a>
+                        <a href="{% url 'store' %}" class="footer-link footer-mobile-link"><i class="fas fa-mobile"></i> Shop</a>
+                        <a href="{% url 'bag' %}" class="footer-link footer-mobile-link"><i class="fas fa-shopping-basket"></i> Basket</a>
                     </div>
                 </div>
             </div>    
@@ -156,12 +156,6 @@
                     autohide: false,
                     delay: 1000000,
                 });
-
-                // $('.toast').on('hidden.bs.toast', function () {
-                //     animation: true,
-                //     autohide: false,
-                //     delay: 1000,
-                // });
             </script>
         {% endblock %}
 

@@ -10,17 +10,19 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-11 col-md-6 col-lg-6 col-xl-4 allauth-section">
-            <h1>{% trans "Confirm E-mail Address" %}</h1>
+            <h1 class="text-center">{% trans "Confirm E-mail Address" %}</h1>
 
             {% if confirmation %}
 
             {% user_display confirmation.email_address.user as user_display %}
 
-            <p>{% blocktrans with confirmation.email_address.email as email %}Please confirm that <a href="mailto:{{ email }}">{{ email }}</a> is an e-mail address for user {{ user_display }}.{% endblocktrans %}</p>
+            <p class="text-center">{% blocktrans with confirmation.email_address.email as email %}Please confirm that <a href="mailto:{{ email }}">{{ email }}</a> is an e-mail address for user {{ user_display }}.{% endblocktrans %}</p>
 
             <form method="post" action="{% url 'account_confirm_email' confirmation.key %}">
             {% csrf_token %}
-                <button type="submit">{% trans 'Confirm' %}</button>
+                <div class="row justify-content-center">
+                    <button type="submit" class="prime-btn">{% trans 'Confirm' %}</button>
+                </div>
             </form>
 
             {% else %}

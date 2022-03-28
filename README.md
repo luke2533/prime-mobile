@@ -941,6 +941,14 @@ Additions:
 
 Issue RESLOVED (6.102): Checkout phone_price would become a string if the quantity was 2 or higher
 
+### 6.103 Minor fixes to CSS, allauth pages and footer links for profile, store and bag
+
+Additions:
+
+- Minor changes to allauth pages
+- Small CSS quick fixes on smaller devices
+- Footer links to profile, store and bag pages
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment

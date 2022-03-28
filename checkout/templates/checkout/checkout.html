@@ -7,6 +7,16 @@
 
 {% block content %}
     <div class="container-fluid">
+        {% if request.user.is_authenticated %}
+        {% else %}
+        <div class="row justify-content-center">
+            <div class="col-sm-10 col-md-10 col-lg-8 col-xl-6">
+                <p class="allauth-text allauth-text-info text-center" id="checkout-text-info">Sign in for faster checkout and keep track of all your orders in one place!</p>
+                <p class=""><a href="{% url 'account_login' %}">Log in here</a> or <a href="">Sign up here</a></p>
+            </div>
+        </div>
+        {% endif %}
+
         <div class="row justify-content-center">
             <div class="col-sm-10 col-md-10 col-lg-8 col-xl-6 bag-background checkout-bag-background bag-items">
                 {% for item in bag_items %}    

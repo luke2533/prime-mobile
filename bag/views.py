@@ -26,7 +26,6 @@ def add_phone_bag(request, item_id):
     else:
         bag[item_id] = {"color": color, "storage": storage, "price": price, "quantity": quantity}
         messages.success(request, f'{phone.name} added to your bag')
-
         # Adding a new phone
             
     request.session["bag"] = bag
