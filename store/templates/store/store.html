@@ -32,12 +32,43 @@
                                 <div class="col-7 product-content">
                                     <h2>£{{ phone.price_1 }}</h2>
                                     <h4 class="rating">
-                                        <i class="rating-star fas fa-star"></i>
-                                        <i class="rating-star fas fa-star"></i>
-                                        <i class="rating-star fas fa-star"></i>
-                                        <i class="rating-star fas fa-star"></i>
-                                        <i class="rating-star fas fa-star-half-alt"></i>
-                                        <!-- <p>{{ phone.rating }}</p> -->
+                                        {% if phone_rating == 1 %}
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                        {% elif phone_rating == 2 %}
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                        {% elif phone_rating == 3 %}
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                        {% elif phone_rating == 4 %}
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                        {% elif phone_rating == 5 %}
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                            <i class="rating-star fas fa-star"></i>
+                                        {% else %}
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                            <i class="rating-star far fa-star"></i>
+                                        {% endif %}
                                     </h4>
                                 </div>
                                 <div class="col-5 product-details">

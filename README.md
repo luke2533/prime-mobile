@@ -914,6 +914,15 @@ Additions:
 - Fixed user reviews star ratings which no show correct stars
 - Overall phone ratings show correctly (When changed manually by admin)
 
+### 6.100 Store / phone detail page shows overall rating but score accounts for all reviews giving every phone the same score
+
+Additions:
+
+- Phone detail page shows overall phone rating
+- Store page shows overall phone rating
+
+Issue: The overall score is made up of ALL reviews from ALL phones causing every phone to share the same score
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
