@@ -47,10 +47,10 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{% url 'store' %}">Shop Now!</a>
+                                <a class="dropdown-item" href="{% url 'store' %}?sort=rating&direction=desc">High to Low Ratings</a>
+                                <a class="dropdown-item" href="{% url 'store' %}?sort=rating&direction=asc">Low to High Ratings</a>
                                 <a class="dropdown-item" href="{% url 'store' %}?sort=price_1&direction=asc">Low to High Price</a>
                                 <a class="dropdown-item" href="{% url 'store' %}?sort=price_1&direction=desc">High to Low Price</a>
-                                <!-- <a class="dropdown-item" href="#">Low to High Ratings</a> -->
-                                <!-- <a class="dropdown-item" href="#">High to Low Ratings</a> -->
                             </div>
                         </li>
                         <li class="nav-item">
@@ -63,7 +63,6 @@
                                     <a class="nav-link dropdown-toggle btn-link" id="adminDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Admin</a>
                                     <div class="dropdown-menu" aria-labelledby="adminDropdown">
                                         <a class="dropdown-item" href="{% url 'add_phone' %}">Add Phone</a>
-                                        <!-- <a class="dropdown-item" href="">Reviews?? or delete this link</a> -->
                                     </div>
                                 </li>
                             {% endif %}

@@ -931,6 +931,16 @@ Additions:
 - Phone detail page shows overall indivdial phone rating
 - Store page shows overall indivdial phone rating
 
+### 6.102 Rating low to high / high to low working and quantity error resolved
+
+Additions:
+
+- Sort low to high / high to low by rating on store page filter
+- Sort low to high / high to low by rating on navbar link
+- Issue RESLOVED price is now a float when the quantity is 2 or higher
+
+Issue RESLOVED (6.102): Checkout phone_price would become a string if the quantity was 2 or higher
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
