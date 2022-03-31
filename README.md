@@ -4,6 +4,58 @@ PrimeMobile is an online phone provider offering a wide range of mobiles from bu
 
 ## Table of contents
 
+- [PrimeMobile - Project 4](#primemobile---project-4)
+    * [Table of contents](#table-of-contents)
+    * [1.0 UX](#10-ux)
+        + [1.1 User goals](#11-user-goals)
+        - [1.1.1 Target audience](#111-target-audience)
+        + [User needs and goals](#user-needs-and-goals)
+        - [1.2.1 User needs:](#121-user-needs-)
+        - [1.2.2 How the user needs are met](#122-how-the-user-needs-are-met)
+        + [1.3 Devloper and business goals](#13-devloper-and-business-goals)
+        - [1.3.1 Goals of the business](#131-goals-of-the-business)
+        + [1.4 User stories](#14-user-stories)
+    * [2.0 Design choices](#20-design-choices)
+        + [2.1 Fonts](#21-fonts)
+        + [2.2 Icons](#22-icons)
+        + [2.3 Colours](#23-colours)
+        + [2.4 Wireframes](#24-wireframes)
+        + [2.5 Mockups](#25-mockups)
+    * [3.0 Features](#30-features)
+        + [3.1 Existing features](#31-existing-features)
+        + [3.2 Features left to implement](#32-features-left-to-implement)
+    * [4.0 Technologies used](#40-technologies-used)
+        + [4.1 HTML](#41-html)
+        + [4.2 CSS](#42-css)
+        + [4.3 Bootstrap 4.6](#43-bootstrap-46)
+        + [4.4 JavaScript](#44-javascript)
+        + [4.5 jQuery](#45-jquery)
+        + [4.6 Python](#46-python)
+        + [4.7 Django](#47-django)
+        + [4.8 Stripe](#48-stripe)
+    * [5.0 Testing](#50-testing)
+    * [6.0 Development life cycle](#60-development-life-cycle)
+        + [6.1 Initial commit](#61-initial-commit)
+        + [6.10 Store models and updates to sim_free json file](#610-store-models-and-updates-to-sim-free-json-file)
+        + [6.20 Updates to README 1.3 - 1.4](#620-updates-to-readme-13---14)
+        + [6.30 Changes to phone models and fixture structure](#630-changes-to-phone-models-and-fixture-structure)
+        + [6.40 Phone selections store in bag_items](#640-phone-selections-store-in-bag-items)
+        + [6.50 Delivey cost displays correctly and change to store models price field](#650-delivey-cost-displays-correctly-and-change-to-store-models-price-field)
+        + [6.60 Basic profiles app set up and small change to checkout models](#660-basic-profiles-app-set-up-and-small-change-to-checkout-models)
+        + [6.70 Admin add phone page and form](#670-admin-add-phone-page-and-form)
+        + [6.80 Reviews display on correct phone page](#680-reviews-display-on-correct-phone-page)
+        + [6.90 Phone details page fully responsive on all devices and small changes to add to bag form design](#690-phone-details-page-fully-responsive-on-all-devices-and-small-changes-to-add-to-bag-form-design)
+        + [6.100 Store / phone detail page shows overall rating but score accounts for all reviews giving every phone the same score](#6100-store---phone-detail-page-shows-overall-rating-but-score-accounts-for-all-reviews-giving-every-phone-the-same-score)
+    * [7.0 Deployment](#70-deployment)
+        + [7.1 Local deployment](#71-local-deployment)
+        + [7.2 Heroku deployment](#72-heroku-deployment)
+    * [8.0 Credits](#80-credits)
+        + [8.1 Content](#81-content)
+        + [8.2 Code](#82-code)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## 1.0 UX
 
 ### 1.1 User goals
@@ -1019,6 +1071,12 @@ Additions:
 - Updated 8.0 README Credits
 - Added testing.md links to README
 - Comments to all files
+
+### 6.107 README table of contents
+
+Additions:
+
+- README table of contents
 
 ## 7.0 Deployment
 
