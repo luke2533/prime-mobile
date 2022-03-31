@@ -18,3 +18,5 @@ class PhoneReview(models.Model):
 
     def __str__(self):
         return f"{self.phone_name} review by {self.user_name}"
+
+    # Add's phone review to database

@@ -78,9 +78,35 @@ PrimeMobile’s target audience are those in need of accessibility to high speed
 
 ### 2.1 Fonts
 
+Title / subtitles font is [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=Bebas+Neue):
+
+Text font is [Ubuntu](https://fonts.google.com/specimen/Ubuntu?query=Ubuntu):
+
 ### 2.2 Icons
 
+[Font awesome:](https://fontawesome.com/)
+
+- Bag icon
+- Facebook icon
+- YouTube icon 
+- Twitter icon
+- Instagram icon
+- Home icon
+- Account icom
+- Phone icon
+- Basket icon
+- Star icon
+- Camera icon
+- CPU icon
+- Storage icon
+
 ### 2.3 Colours
+
+- #fff - Primary color
+- #04162e - Background color
+- #181818 - Input / button background color
+- #c31a8f - Secondary color
+- #21fdda - Highlighted color
 
 ### 2.4 Wireframes
 
@@ -114,21 +140,39 @@ PrimeMobile’s target audience are those in need of accessibility to high speed
 
 ### 4.1 HTML
 
+This project uses HTML5 used for templates and structure of the website
+
 ### 4.2 CSS
+
+This project uses CSS3 used to style, more advanced responsive structuring for all devices
 
 ### 4.3 Bootstrap 4.6
 
+This project uses Bootstrap a CSS libary to speed up devlopment and grid structure for more responsive website
+
 ### 4.4 JavaScript
+
+This project uses JavaScript for slideshow, toast messages, phone color options and star rating reviews
 
 ### 4.5 jQuery
 
+This project uses jQuery for more efficient JavaScript
+
 ### 4.6 Python
+
+This project uses Python
 
 ### 4.7 Django
 
+This project uses the Django framework
+
 ### 4.8 Stripe
 
+This project uses stripe for secure checkout
+
 ## 5.0 Testing
+
+[Click here for Testing doc](testing.md)
 
 ## 6.0 Development life cycle
 
@@ -964,7 +1008,17 @@ Additions:
 Additions:
 
 - Updated 1.0 README UX
-- Update 3.0 README Features
+- Updated 3.0 README Features
+
+### 6.106 Updated README 2.0 Design choices, 4.0 Tech used and 8.0 Credits
+
+Additions:
+
+- Updated 2.0 README Design choices
+- Updated 4.0 README Technologies used
+- Updated 8.0 README Credits
+- Added testing.md links to README
+- Comments to all files
 
 ## 7.0 Deployment
 
@@ -976,4 +1030,25 @@ Additions:
 
 ### 8.1 Content
 
+- Icons - [Font Awesome](https://fontawesome.com/)
+- Webhook handlers - Django mini project
+- Webhooks - Django mini project
+- Store page divisble rows - Django mini project
+- Save info - Django mini project
+- Order history - Django mini project
+- Set default information - Django mini project
+- Navbar tablet structure - Django mini project
+- Bag total nav - Django mini project
+- Search bar and results - Django mini project
+
 ### 8.2 Code
+
+- Scroll bar CSS - [Scrollbar](https://stackoverflow.com/questions/12337821/css3-scrollbar-styling-on-a-div)
+- Refresh the cache so CSS updates - [CSS Refresh](https://stackoverflow.com/questions/52682812/django-css-not-updating)
+- Review star form - [Star form](https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3)
+- Bootstrap dropdown - [Dropdown](https://getbootstrap.com/docs/4.6/components/dropdowns/)
+- Bootstrap slideshow - [Carousel](https://getbootstrap.com/docs/4.6/components/carousel/)
+- Bootstrap nav - [Navbar](https://getbootstrap.com/docs/4.6/components/navs/)
+- Bootstrap collapse - [Collapse](https://getbootstrap.com/docs/4.6/components/collapse/)
+- Django mini project - [Mini Project](https://github.com/luke2533/Django-mini-project)
+

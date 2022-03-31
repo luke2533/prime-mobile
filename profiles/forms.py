@@ -1,6 +1,7 @@
 from django import forms
 from .models import UserProfile
 
+
 class UserProfileForm(forms.ModelForm):
 
     class Meta:
@@ -26,7 +27,8 @@ class UserProfileForm(forms.ModelForm):
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs["placeholder"] = placeholder
             self.fields[field].widget.attrs["class"] = "admin-input"
-            # Try when using stripe for card box (CSS Class)
             self.fields[field].label = False
+
+        # Sets default checkout info to database
 
 # Used from django mini project

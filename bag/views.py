@@ -3,12 +3,15 @@ from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, 
 from django.contrib import messages
 from store.models import Phone
 
+
 def user_bag(request):
     
     return render(request, "bag/bag.html")
 
 
 def add_phone_bag(request, item_id):
+
+    # Phone detail page add to bag button
 
     phone = get_object_or_404(Phone, pk=item_id)
     color = request.POST.get("color")
@@ -34,6 +37,8 @@ def add_phone_bag(request, item_id):
 
 def edit_phone_bag(request, item_id):
 
+    # On phone detail page users can add more phone's that are already in their bag
+
     phone = get_object_or_404(Phone, pk=item_id)
     quantity = int(request.POST.get("quantity"))
     bag = request.session.get("bag", {})
@@ -51,9 +56,10 @@ def edit_phone_bag(request, item_id):
     return redirect("bag")
     
 
-
 def delete_phone_bag(request, item_id):
     
+    # Delete's item from user bag
+
     phone = get_object_or_404(Phone, pk=item_id)
     bag = request.session.get("bag", {})
     bag.pop(item_id)

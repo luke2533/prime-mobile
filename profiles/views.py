@@ -25,10 +25,13 @@ def profile(request):
     orders = profile.orders.all()
 
     template = "profiles/profile.html"
+    
     context= {
         "form": form,
         "orders": orders,
     }
+
+    # Profile page
 
     return render(request, template, context)
 
@@ -45,6 +48,8 @@ def order_history(request, order_number):
         "order": order,
         "from_profile": True,
     }
+
+    # Account order history
 
     return render(request, template, context)
 # Django mini project

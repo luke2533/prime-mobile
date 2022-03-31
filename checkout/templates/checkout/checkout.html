@@ -21,13 +21,15 @@
             <div class="col-sm-10 col-md-10 col-lg-8 col-xl-6 bag-background checkout-bag-background bag-items">
                 {% for item in bag_items %}    
                     <div class="bag-detail">
-                        <img src="{{ item.phone.img_1.url }}" alt="{{ item.phone.name }}" class="checkout-img">                            <h2>{{ item.phone }}</h2>
+                        <img src="{{ item.phone.img_1.url }}" alt="{{ item.phone.name }}" class="checkout-img">
+                        <h2>{{ item.phone }}</h2>
                         <h3>{{ item.phone.sku|upper }}</h3>
                         <h3>Capacity: {{ item.item_data.storage }} GB</h3>
                         <h3>Qty: {{ item.item_data.quantity }}</h3>
                         <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
                         <br>
                         <br>
+                        <!-- Checkout bag items -->
                     </div>
                 {% endfor %}
             </div>
@@ -40,6 +42,7 @@
                 <p class="checkout-total-title">Grand total: £{{ grand_total|floatformat:2 }}</p>
             </div>
         </div>
+        <!-- Checkout grand total -->
 
         <div class="row justify-content-center">
             <div class="col-sm-10 col-md-10 col-lg-8 col-xl-6 order-from">
@@ -61,6 +64,7 @@
                         <a href="{ url 'account_signup' }">Create an account</a>
                         <a href="{ url 'account_login' }">Log in here</a>
                     {% endif %}
+                    <!-- User delivery checkout information form -->
                     
                     <!-- Payment input -->
                     <div id="card-element"></div>

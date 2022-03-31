@@ -20,6 +20,7 @@
                             <h5 class="success-sm order-number">{{ order.order_number }}</h5>
                             <h5 class="success-sm">{{ order.date }}</h5>
                         </div>
+                        <!-- Order number / data info -->
                     </div>
                 </div>
                 <hr>
@@ -49,6 +50,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- User delivery information -->
                 <hr>
 
                 <h3>Order Item's:</h3>
@@ -75,6 +77,7 @@
                             {% endfor %}
                         </tbody>
                     </table>
+                    <!-- Order items table -->
                 </div>
 
                 <div class="success-total" style="margin-bottom: 10px !important;">
@@ -82,6 +85,7 @@
                     <h5 class="success-total-title">Total: £{{ order.order_total }} |</h5>
                     <h5 class="success-total-title">Delivery cost: £{{ order.delivery_cost }} |</h5>
                     <h5 class="success-total-title">Grand Total: £{{ order.grand_total }}</h5>
+                    <!-- Order grand total -->
                 </div>
 
                 {% if from_profile %}

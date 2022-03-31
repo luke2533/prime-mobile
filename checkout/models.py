@@ -9,6 +9,7 @@ from django_countries.fields import CountryField
 from store.models import Phone
 from profiles.models import UserProfile
 
+
 class Order(models.Model):
 
     order_number = models.CharField(max_length=32, null=False, editable=False)
@@ -42,6 +43,7 @@ class Order(models.Model):
             self.delivery_cost = 0
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
+        # Total's bag items and delivery cost
 
     def save(self, *args, **kwargs):
         if not self.order_number:
@@ -71,3 +73,5 @@ class OrderItems(models.Model):
 
     def __str__(self):
         return f"SKU {self.phone.sku} on order {self.order.order_number}"
+
+        # Order items information

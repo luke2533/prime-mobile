@@ -10,6 +10,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-xl-5 col-lg-8 col-md-10 col-sm-8 bag-background bag-items">
+                <!-- If the bag has items in it -->
                 {% if bag_items %}
                     {% for item in bag_items %}
                         <div class="bag-detail">
@@ -19,7 +20,7 @@
                             <h3>Capacity: {{ item.item_data.storage }} GB</h3>
                             <h3>Qty: {{ item.item_data.quantity }}</h3>
                             <h2>Cost: <span>£{{ item.item_data.price }}</span></h2>
-                            <!-- <br> -->
+                            <!-- Bag items -->
                             <a class="bag-btn delete-item bag-delete-link" href="javascript:void(0)" id="delete_{{ item.item_id }}">Delete</a>
 
                             <form class="update-form" method="POST" action="{% url 'edit_phone_bag' item.item_id %}">
@@ -48,6 +49,7 @@
                 <a class="bag-btn" id="bag-btn-submit" href="{% url 'checkout' %}">Checkout</a>
             </div>
         </div>
+        <!-- Bag total -->
     </div>
 {% endblock %}
 
@@ -55,26 +57,13 @@
     {{ block.super }}
     <script type="text/javascript" src="{% static 'js/phone.js' %}"></script>
     <script type="text/javascript">
-        function setColor(value){
-            console.log(value);
-            document.getElementById("color").value = document.getElementById(`color_${value}`).value;
-        }
-        
-        function setStorage(value){
-            console.log(value);
-            document.getElementById("storage").value = document.getElementById(`storage_${value}`).value;
-            document.getElementById("price").value = document.getElementById(`price_${value}`).value;
-        }
-        // Move to phone.js file
-    </script>
-
-    <script type="text/javascript">
 
         $(".update-item").click(function(e){
             var form = $(this).prev(".update-form");
             console.log(form)
             form.submit();
         })
+        // Updates phone quantity 
 
         $(".delete-item").click(function(e) {
             var csrfToken = "{{ csrf_token }}";
@@ -87,6 +76,7 @@
                     location.reload();
             });
         })
+        // Deletes phone from bag
         // Used form django mini project
     </script>
     

@@ -24,6 +24,7 @@
                         <input type="hidden" name="rating" id="rating_5" value="5">
                         <a onclick="setRating(5);"><i class="rating-star star-sm fa-2x far fa-star"></i></a>
                     </span>
+                    <!-- Select star rating -->
                 </div>
             </div>
         </div>
@@ -44,6 +45,7 @@
                     <br>
                     <input type="hidden" id="rating" name="rating">
                     <button class="prime-btn review-btn" type="submit">Submit review</button>
+                    <!-- Review form -->
                 </form>
             </div>
         </div>
@@ -56,8 +58,6 @@
         function setRating(value) {
             document.getElementById("rating").value = document.getElementById(`rating_${value}`).value;
             console.log(value)
-
-            // Code below from https://www.youtube.com/watch?v=iz1GB_q5txM
         }
         
     </script>

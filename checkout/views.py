@@ -14,6 +14,7 @@ from bag.context import bag_contents
 import stripe
 import json
 
+
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -77,6 +78,8 @@ def checkout(request):
 
             request.session["save_info"] = "save-info" in request.POST
             return redirect(reverse("checkout_success", args=[order.order_number]))
+
+            # Checkout form validation
             
         else:
             messages.error(request, "There was an error with your form.")
@@ -112,6 +115,8 @@ def checkout(request):
                 order_form = OrderForm()
         else:
             order_form = OrderForm()
+
+            # Saves user's info if user is signed in and save info box is checked
 
     if not stripe_public_key:
         messages.warning(request, "Stripe public key is missing.")
@@ -152,7 +157,7 @@ def checkout_success(request, order_number):
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
-        # Django mini project
+    # Django mini project
     
     if "bag" in request.session:
         del request.session["bag"]
@@ -163,3 +168,4 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
+    # Successful purchases link to checkout success page with order information

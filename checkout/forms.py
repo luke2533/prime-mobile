@@ -1,6 +1,7 @@
 from django import forms
 from .models import Order
 
+
 class OrderForm(forms.ModelForm):
 
     class Meta:
@@ -29,7 +30,7 @@ class OrderForm(forms.ModelForm):
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs["placeholder"] = placeholder
             self.fields[field].widget.attrs["class"] = "stripe-style-input"
-            # Try when using stripe for card box (CSS Class)
             self.fields[field].label = False
 
+# Checkout delivery information
 # Used from django mini project

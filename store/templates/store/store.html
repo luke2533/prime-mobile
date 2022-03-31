@@ -2,7 +2,6 @@
 {% load static %}
 
 {% block content %}
-    <!-- <div class="overlay"></div> -->
     <div class="container-fluid justify-content-center">
         <div class="row">
             <div class="col-12">
@@ -18,6 +17,7 @@
                 <a class="dropdown-item" href="?sort=price_1&direction=asc">Price low to high</a>
                 <a class="dropdown-item" href="?sort=price_1&direction=desc">Price high to low</a>
             </div>
+            <!-- Store filter dropdown -->
         </div>
 
         <div class="row">
@@ -28,7 +28,6 @@
                         <div class="product-card">
                             <h4 class="text-left">{{ phone.name }}</h4>
                             <div class="row justify-content-center">
-                                <!-- justify-content-center JUST ADDED -->
                                 <div class="col-7 product-content">
                                     <h2>£{{ phone.price_1 }}</h2>
                                     <h4 class="rating">
@@ -70,6 +69,7 @@
                                             <i class="rating-star star-xs far fa-star"></i>
                                         {% endif %}
                                     </h4>
+                                    <!-- Phone rating -->
                                 </div>
                                 <div class="col-5 product-details">
                                     <a href="{% url 'phone_detail' phone.pk %}" class="product-btn">More details</a>
@@ -93,7 +93,7 @@
                     {% endif %}
                 {% endif %}
             {% endfor %}
-            
+            <!-- Less phone cards per row on smaller devices -->
         </div>  
         
         

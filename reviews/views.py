@@ -20,6 +20,8 @@ def review(request, phone_id):
         "user": user,
     }
 
+    # Review page
+
     return render(request, template, context)
 
 
@@ -51,6 +53,8 @@ def add_review(request, phone_id):
         else:
             messages.error(request, "Review failed to POST")
 
+        # User can add form
+
     return redirect("review", phone_id)
 
 
@@ -58,5 +62,8 @@ def delete_review(request, review_id):
     reviews = get_object_or_404(PhoneReview, pk=review_id)
 
     reviews.delete()
+
+    # Admin remove forms
+
     messages.success(request, "Review successfully removed")
     return redirect("store")

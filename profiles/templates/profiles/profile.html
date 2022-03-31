@@ -19,6 +19,7 @@
                             {% csrf_token %}
                             {{ form|crispy }}
                             <button class="prime-btn" type="submit">Set Default</button>
+                            <!-- Default checkout information form -->
                         </form>
                     </div>
                 </div>
@@ -71,6 +72,7 @@
                             
                             <hr class="bag-hr">
                         </div>
+                        <!-- Order history -->
                     {% endfor %}
                 </div>
             </div>

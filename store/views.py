@@ -7,6 +7,7 @@ from .models import Phone
 from .forms import StoreForm
 from reviews.models import PhoneReview
 
+
 def all_phones(request):
     
     # Displays all of the phones on store page
@@ -40,8 +41,7 @@ def all_phones(request):
             phones = phones.filter(queries)
     
     current_sorting = f"{sort}_{direction}"
-    # Search and filter Mini Project
-
+    # Search and filter from Mini Project
 
     context = {
         "phones": phones,
@@ -53,6 +53,8 @@ def all_phones(request):
 
     
 def phone_detail(request, phone_id):
+
+    # Phone detail's info from phone model displays
 
     phone = get_object_or_404(Phone, pk=phone_id)
     reviews = PhoneReview.objects.all()
@@ -83,6 +85,8 @@ def phone_detail(request, phone_id):
 @login_required
 def add_phone(request):
 
+    # Admin can add phones to store and datebase
+
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store admins can do that")
         return redirect(reverse("home"))    
@@ -108,6 +112,8 @@ def add_phone(request):
 
 @login_required
 def edit_phone(request, phone_id):
+
+    # Admin can update information phones from store page and database
 
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store admins can do that")
@@ -138,6 +144,8 @@ def edit_phone(request, phone_id):
 
 @login_required
 def delete_phone(request, phone_id):
+
+    # Admin can delete phones from store page and database
 
     if not request.user.is_superuser:
         messages.error(request, "Sorry, only store admins can do that")
