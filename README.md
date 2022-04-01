@@ -4,6 +4,8 @@ PrimeMobile is an online phone provider offering a wide range of mobiles from bu
 
 ## Table of contents
 
+<div id="toc"></div>
+
 - [PrimeMobile - Project 4](#primemobile---project-4)
     * [Table of contents](#table-of-contents)
     * [1.0 UX](#10-ux)
@@ -57,6 +59,8 @@ PrimeMobile is an online phone provider offering a wide range of mobiles from bu
 
 
 ## 1.0 UX
+
+[Go to Table Contents](#toc)
 
 ### 1.1 User goals
 
@@ -128,6 +132,8 @@ PrimeMobile’s target audience are those in need of accessibility to high speed
 
 ## 2.0 Design choices
 
+[Go to Table Contents](#toc)
+
 ### 2.1 Fonts
 
 Title / subtitles font is [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=Bebas+Neue):
@@ -162,9 +168,105 @@ Text font is [Ubuntu](https://fonts.google.com/specimen/Ubuntu?query=Ubuntu):
 
 ### 2.4 Wireframes
 
+[Go to Table Contents](#toc)
+
+[Wireframe pdf](static/wireframes/Prime_Mobile_Wireframe.pdf)
+
+Nav / Footer wireframes
+
+![Nav / Footer mobile](static/wireframes/template-desktop_page-0001.jpg)
+
+![Nav / Footer tablet](static/wireframes/template-tablet_page-0001.jpg)
+
+![Nav / Footer desktop](static/wireframes/template-mobile_page-0001.jpg)
+
+Home wireframes
+
+![Home mobile](static/wireframes/home-desktop_page-0001.jpg)
+
+![Home tablet](static/wireframes/home-tablet_page-0001.jpg)
+
+![Home desktop](static/wireframes/home-mobile_page-0001.jpg)
+
+Store wireframes 
+
+![Store mobile](static/wireframes/store-desktop_page-0001.jpg)
+
+![Store tablet](static/wireframes/store-tablet_page-0001.jpg)
+
+![Store desktop](static/wireframes/store-mobile_page-0001.jpg)
+
+Phone details wireframes
+
+![Phone details mobile](static/wireframes/phone-desktop_page-0001.jpg)
+
+![Phone details tablet](static/wireframes/phone-tablet_page-0001.jpg)
+
+![Phone details desktop](static/wireframes/phone-mobile_page-0001.jpg)
+
+Bag wireframes
+
+![Bag mobile](static/wireframes/bag-desktop_page-0001.jpg)
+
+![Bag tablet](static/wireframes/bag-tablet_page-0001.jpg)
+
+![Bag desktop](static/wireframes/bag-mobile_page-0001.jpg)
+
+Checkout wireframes
+
+![Checkout mobile](static/wireframes/checkout-desktop_page-0001.jpg)
+
+![Checkout tablet](static/wireframes/checkout-tablet_page-0001.jpg)
+
+![Checkout desktop](static/wireframes/checkout-mobile_page-0001.jpg)
+
+Profile wireframes
+
+![Profile mobile](static/wireframes/profile-desktop_page-0001.jpg)
+
+![Profile tablet](static/wireframes/profile-tablet_page-0001.jpg)
+
+![Profile desktop](static/wireframes/profile-mobile_page-0001.jpg)
+
+Review wireframes
+
+![Review mobile](static/wireframes/review-desktop_page-0001.jpg)
+
+![Review tablet](static/wireframes/review-tablet_page-0001.jpg)
+
+![Review desktop](static/wireframes/review-mobile_page-0001.jpg)
+
+Admin wireframes
+
+![Admin mobile](static/wireframes/admin-desktop_page-0001.jpg)
+
+![Admin tablet](static/wireframes/admin-tablet_page-0001.jpg)
+
+![Admin desktop](static/wireframes/admin-mobile_page-0001.jpg)
+
+Log in wireframes
+
+![Log in mobile](static/wireframes/login-desktop_page-0001.jpg)
+
+![Log in tablet](static/wireframes/login-tablet_page-0001.jpg)
+
+![Log in desktop](static/wireframes/login-mobile_page-0001.jpg)
+
+Sign up wireframes
+
+![Sign up mobile](static/wireframes/signup-desktop_page-0001.jpg)
+
+![Sign up tablet](static/wireframes/signup-tablet_page-0001.jpg)
+
+![Sign up desktop](static/wireframes/signup-mobile_page-0001.jpg)
+
 ### 2.5 Mockups
 
+[Go to Table Contents](#toc)
+
 ## 3.0 Features
+
+[Go to Table Contents](#toc)
 
 ### 3.1 Existing features
 
@@ -189,6 +291,8 @@ Text font is [Ubuntu](https://fonts.google.com/specimen/Ubuntu?query=Ubuntu):
 - Phone deals - Phone discounts on certain products
 
 ## 4.0 Technologies used
+
+[Go to Table Contents](#toc)
 
 ### 4.1 HTML
 
@@ -223,6 +327,8 @@ This project uses the Django framework
 This project uses stripe for secure checkout
 
 ## 5.0 Testing
+
+[Go to Table Contents](#toc)
 
 [Click here for Testing doc](testing.md)
 
@@ -392,6 +498,8 @@ Additions:
 
 ### 6.20 Updates to README 1.3 - 1.4
 
+[Go to Table Contents](#toc)
+
 Additions:
 
 - README Goals of the buisness
@@ -542,6 +650,8 @@ Additions:
 - Updates to fixtures price models
 
 ### 6.40 Phone selections store in bag_items
+
+[Go to Table Contents](#toc)
 
 Additions:
 
@@ -701,6 +811,8 @@ Additions:
 - Updated checkout models country and phone_size to phone_storage
 
 ### 6.60 Basic profiles app set up and small change to checkout models
+
+[Go to Table Contents](#toc)
 
 Additions:
 
@@ -864,6 +976,8 @@ Additions:
 
 ### 6.80 Reviews display on correct phone page
 
+[Go to Table Contents](#toc)
+
 Additions:
 
 - User's name, title and body display in review section (Added through admin)
@@ -1012,6 +1126,8 @@ Additions:
 
 ### 6.100 Store / phone detail page shows overall rating but score accounts for all reviews giving every phone the same score
 
+[Go to Table Contents](#toc)
+
 Additions:
 
 - Phone detail page shows overall phone rating
@@ -1072,19 +1188,32 @@ Additions:
 - Added testing.md links to README
 - Comments to all files
 
-### 6.107 README table of contents
+### 6.107 README Table of contents
 
 Additions:
 
 - README table of contents
 
+### 6.108 Updated README 2.4 wireframes, images and pdf
+
+Additions:
+
+- Go to table of contents README links
+- Wireframe images
+- Wireframe PDF
+- Updated 2.4 README Wireframes
+
 ## 7.0 Deployment
+
+[Go to Table Contents](#toc)
 
 ### 7.1 Local deployment
 
 ### 7.2 Heroku deployment
 
 ## 8.0 Credits
+
+[Go to Table Contents](#toc)
 
 ### 8.1 Content
 
@@ -1110,3 +1239,4 @@ Additions:
 - Bootstrap collapse - [Collapse](https://getbootstrap.com/docs/4.6/components/collapse/)
 - Django mini project - [Mini Project](https://github.com/luke2533/Django-mini-project)
 
+[Go to Table Contents](#toc)
