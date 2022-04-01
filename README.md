@@ -1317,6 +1317,15 @@ Additions:
 - Testing.md 5.10 filters added
 - Testing.md 5.11 search bar added
 
+### 6.112 Testing.md updated 5.12 to 5.16
+
+Additions:
+
+- Testing.md 5.12 store added
+- Testing.md 5.13 overall ratings store + detail page added
+- Testing.md 5.14 image slideshow added
+- Testing.md 5.15 spec overview added
+- Testing.md 5.16 Spec picker / Color / Storage / Price / Quantity added
 
 ## 7.0 Deployment
 

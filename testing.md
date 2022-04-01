@@ -35,7 +35,7 @@
 
 ## 5.4 Log in
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Log in button | When clicked with correct info signs user in | Pass |
 | Log in submit no username | Please fill in this field pop up | Pass |
@@ -51,7 +51,7 @@
 
 ## 5.5 Sign up
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Sign up button | Takes user to verifcation page | Pass |
 | Email fields empty | Please fill in this field pop up | Pass |
@@ -66,14 +66,14 @@
 
 ## 5.6 Sign out
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Sign out button | Signs user out of their account | Pass |
 | Sign out responsive on all devices | Sign out is responsive on all devices | Pass |
 
 ## 5.7 Verify account
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Sends verifcation email to user | Sends email to the users email to confirm its correct | Pass |
 <!-- ===================================================================== -->
@@ -83,7 +83,7 @@
 
 ## 5.8 Footer
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Facebook link | Links user to facebook in a new tab | Pass |
 | YouTube link | Links user to youtube in a new tab | Pass |
@@ -97,14 +97,14 @@
 
 ## 5.9 Home
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Shop now link | Links user to store page | Pass |
 | Home responsive on all devices | Home is responsive on all devices | Pass |
 
 ## 5.10 Filters
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | High / Low ratings navbar | Links to store page with ratings high to low | Pass |
 | Low / High ratings navbar | Links to store page with ratings low to high | Pass |
@@ -117,10 +117,74 @@
 
 ## 6.11 Search bar
 
-| Known bugs  | Issue | Pass/Fail |
+| Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Search for iPhone | Filters down to phones to iPhones | Pass |
 | Search galaxy | Filters phones that match galaxy keywords | Pass |
 | Search 5G | Filters phones that match 5G | Pass |
 | Search icon button | When clicked filter phones by the keywords | Pass |
 | Press enter to search | When clicked filter phones by the keywords | Pass |
+
+## 6.12 Store
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Product cards | Displays all prime mobiles phones | Pass |
+| More details links | Links user to phone detail page | Pass |
+| Phone name | Displays phones name | Pass |
+| Phone price | Displays phones lowest price | Pass |
+| Phone overall rating | Displays phones overall rating | Pass |
+| Phone image | Displays phones first image | Pass |
+| Store page on smaller devices | Shows less phones per row on smaller devices | Pass |
+| Store page responsive on all devices | Store page is responsive on all devices | Pass |
+
+## 6.13 Overall ratings store + detail page
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Phone name | Displays user's name | Pass |
+| Phone overall rating | Phone overall rating that updates when other reviews are submitted | Pass |
+| Phone details responsive on all devices | Phone detail page is responsive on all devices | Pass |
+
+## 6.14 Image slideshow
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Phone images | Displays 3 images specific to that phone | Pass |
+| Next button | When clicked it moves to the next slide | Pass |
+| Previous button | When clicked it moves to the previous slide | Pass |
+| Slide bars | Can click to any slide in one click | Pass |
+| Responsive on all devices | Images scale down on smaller devices | Pass |
+
+## 6.15 Spec overview
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Phone camera spec | Show phone specific camera spec | Pass |
+| Phone OS spec | Show phone specific OS spec | Pass |
+| Phone display spec | Show phone specific display spec | Pass |
+| Phone storage spec | Show phone specific storage spec | Pass |
+| Responsive on all devices | Spec overview scales down on smaller devices | Pass |
+
+## 6.16 Spec picker / Color / Storage / Price / Quantity
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| All phone colors display | Displays all phone specifc color options | Pass |
+| All phone storage display | Displays all phone specific storage options | Pass |
+| User can select a color | Users can choose their phone color | Pass |
+| User can select a storage | Users can choose their phone storage | Pass |
+| Users can select quantity 1 to 5 | User can charge phone quantity | Pass |
+| Total cost displays | Based on the selected storage the price will update | Pass |
+| Selected storage displays | Selected storage displays | Pass |
+| Add to basket button | Add's phone with selected options to bag | Pass |
+| Responsive on all devices | Spec picker scales down on smaller devices | Pass |
+
+## 6.17
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
