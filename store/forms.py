@@ -4,7 +4,7 @@ from .models import Phone, Category
 
 class StoreForm(forms.ModelForm):
 
-    class Meta: 
+    class Meta:
         model = Phone
         fields = "__all__"
 

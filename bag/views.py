@@ -1,11 +1,10 @@
-from decimal import Decimal
-from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, reverse
+from django.shortcuts import render, get_object_or_404, redirect, HttpResponse
 from django.contrib import messages
 from store.models import Phone
 
 
 def user_bag(request):
-    
+
     return render(request, "bag/bag.html")
 
 
@@ -27,17 +26,18 @@ def add_phone_bag(request, item_id):
         # If the item is already in the bag
 
     else:
-        bag[item_id] = {"color": color, "storage": storage, "price": price, "quantity": quantity}
+        bag[item_id] = {"color": color, "storage": storage, "price": price,
+                        "quantity": quantity}
         messages.success(request, f'{phone.name} added to your bag')
         # Adding a new phone
-            
+
     request.session["bag"] = bag
     return redirect(redirect_url)
 
 
 def edit_phone_bag(request, item_id):
 
-    # On phone detail page users can add more phone's that are already in their bag
+    # On phone detail page users can add more phone's to their quantity
 
     phone = get_object_or_404(Phone, pk=item_id)
     quantity = int(request.POST.get("quantity"))
@@ -45,19 +45,19 @@ def edit_phone_bag(request, item_id):
 
     if quantity > 0:
         bag[item_id]["quantity"] = quantity
-        messages.success(request, f"Updated {phone.name} quantity to {bag[item_id]}")
-        
+        messages.success(
+            request, f"Updated {phone.name}quantity to {bag[item_id]}")
+
     else:
         bag.pop(item_id)
         print(quantity)
         messages.success(request, f"Removed {phone.name} from your bag")
-    
+
     request.session["bag"] = bag
     return redirect("bag")
-    
+
 
 def delete_phone_bag(request, item_id):
-    
     # Delete's item from user bag
 
     phone = get_object_or_404(Phone, pk=item_id)

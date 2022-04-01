@@ -1,8 +1,7 @@
-from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, reverse
+from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
-from store.views import phone_detail
 from .models import PhoneReview
 from .forms import ReviewForm
 from store.models import Phone
@@ -13,7 +12,7 @@ from profiles.models import UserProfile
 def review(request, phone_id):
     phone = get_object_or_404(Phone, pk=phone_id)
     user = get_object_or_404(UserProfile, user=request.user)
-    
+
     template = "reviews/reviews.html"
     context = {
         "phone": phone,
@@ -40,7 +39,7 @@ def add_review(request, phone_id):
 
     if request.method == "POST":
         review_form = ReviewForm(review_data)
-        
+
         print(review_form.errors)
 
         if review_form.is_valid():

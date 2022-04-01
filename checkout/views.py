@@ -1,4 +1,5 @@
-from django.shortcuts import render, reverse, redirect, get_object_or_404, HttpResponse
+from django.shortcuts import (render, reverse, redirect,
+                              get_object_or_404, HttpResponse)
 from django.contrib import messages
 from django.conf import settings
 from django.views.decorators.http import require_POST
@@ -27,7 +28,8 @@ def cache_checkout_data(request):
         })
         return HttpResponse(status=200)
     except Exception as e:
-        messages.error(request, "Sorry your payment cannot be proccessed right now.")
+        messages.error(request,
+                       "Sorry your payment cannot be proccessed right now.")
         return HttpResponse(content=e, status=400)
 
 
@@ -37,7 +39,7 @@ def checkout(request):
 
     if request.method == "POST":
         bag = request.session.get("bag", {})
-        
+
         form_data = {
             "full_name": request.POST["full_name"],
             "email": request.POST["email"],
@@ -70,17 +72,19 @@ def checkout(request):
                     order_item.save()
                 except Phone.DoesNotExist:
                     messages.error(request, (
-                        "One of the phone's in your bag wasn't found in our database. "
+                        "One of the phone's in your bag wasn't "
+                        "found in our database. "
                         "Please contact customer support."
                     ))
                     order.delete()
                     return redirect(reverse(""))
 
             request.session["save_info"] = "save-info" in request.POST
-            return redirect(reverse("checkout_success", args=[order.order_number]))
+            return redirect(reverse("checkout_success",
+                            args=[order.order_number]))
 
             # Checkout form validation
-            
+
         else:
             messages.error(request, "There was an error with your form.")
     else:
@@ -97,7 +101,7 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
-    
+
         if request.user.is_authenticated:
             try:
                 profile = UserProfile.objects.get(user=request.user)
@@ -116,7 +120,8 @@ def checkout(request):
         else:
             order_form = OrderForm()
 
-            # Saves user's info if user is signed in and save info box is checked
+            # Saves user's info if user is signed in and
+            # save info box is checked
 
     if not stripe_public_key:
         messages.warning(request, "Stripe public key is missing.")
@@ -158,7 +163,7 @@ def checkout_success(request, order_number):
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
     # Django mini project
-    
+
     if "bag" in request.session:
         del request.session["bag"]
 

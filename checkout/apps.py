@@ -7,4 +7,5 @@ class CheckoutConfig(AppConfig):
 
     def ready(self):
         import checkout.signals
-        # Everytime order item is saved or deleted ready function imports signals.py
+        # Everytime order item is saved or
+        # deleted ready function imports signals.py

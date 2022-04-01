@@ -7,30 +7,29 @@ from .forms import UserProfileForm
 
 from checkout.models import Order
 
+
 @login_required
 def profile(request):
 
-    profile = get_object_or_404(UserProfile, user=request.user)
+    user_profile = get_object_or_404(UserProfile, user=request.user)
 
     if request.method == "POST":
-        form = UserProfileForm(request.POST, instance=profile)
+        form = UserProfileForm(request.POST, instance=user_profile)
         if form.is_valid():
             form.save()
             messages.success(request, "Delivery info updated.")
         else:
             messages.error(request, "Update failed")
     else:
-        form = UserProfileForm(instance=profile)
-    
-    orders = profile.orders.all()
+        form = UserProfileForm(instance=user_profile)
+
+    orders = user_profile.orders.all()
 
     template = "profiles/profile.html"
-    
-    context= {
+    context = {
         "form": form,
         "orders": orders,
     }
-
     # Profile page
 
     return render(request, template, context)

@@ -2,9 +2,9 @@
 
 ## 5.1 Known bugs
 
-| Known bugs  | Issue | Pass/Fail |
-| --------------- | ------------------------------------------------------------------------- | --------- |
-|  |  |  |
+| Known bugs  | Issue |
+| --------------- | ------------------------------------------------------------------------- |
+| Adding the same phone with diffrent specifcations | Causes it to default to first specs of the phone in bag |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -16,7 +16,13 @@
 | HTML W3C validator | All pages pass the validator |  |
 | CSS W3C validator | All pages pass the validator |  |
 | JS JSHint validator | All pages pass the validator |  | 
-| PEP8 | All files pass PEP8 | |
+| PEP8 | prime_mobile files pass PEP8 | Pass |
+| PEP8 | home files pass PEP8 | Pass |
+| PEP8 | bag files pass PEP8 | Pass |
+| PEP8 | store files pass PEP8 | Pass |
+| PEP8 | checkout files pass PEP8 | Pass |
+| PEP8 | reivews files pass PEP8 | Pass |
+| PEP8 | profiles files pass PEP8 | Pass |
 
 ## 5.3 Nav-bar
 

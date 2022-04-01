@@ -10,8 +10,10 @@ class PhoneReview(models.Model):
         verbose_name_plural = "Phone Reviews"
         ordering = ["rating"]
 
-    user_name = models.ForeignKey(UserProfile, on_delete=models.CASCADE, null=False, blank=False)
-    phone_name = models.ForeignKey(Phone, on_delete=models.CASCADE, null=True, blank=False)
+    user_name = models.ForeignKey(UserProfile, on_delete=models.CASCADE,
+                                  null=False, blank=False)
+    phone_name = models.ForeignKey(Phone, on_delete=models.CASCADE,
+                                   null=True, blank=False)
     review_title = models.CharField(max_length=64, null=False, blank=False)
     review_body = models.TextField()
     rating = models.IntegerField(default=1, blank=True, null=True)

@@ -1365,6 +1365,13 @@ Additions:
 - Testing.md 5.33 Admin remove phone added
 - Testing.md 5.34 Admin remove review added
 
+### 6.117 Testing.md 5.2 updated all python files up to PEP8 validation
+
+Additions:
+
+- Testing.md 5.2 Updated
+- All python files up to PEP8 validation
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
