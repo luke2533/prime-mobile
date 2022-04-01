@@ -1356,6 +1356,14 @@ Additions:
 - Testing.md 5.29 order number receipt page added
 - Testing.md 5.30 review page / form added
 
+### 6.116 Testing.md updated 5.31 to 5.34
+
+Additions:
+
+- Testing.md 5.31 Admin add phone added
+- Testing.md 5.32 Admin edit phone added
+- Testing.md 5.33 Admin remove phone added
+- Testing.md 5.34 Admin remove review added
 
 ## 7.0 Deployment
 

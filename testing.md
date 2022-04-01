@@ -317,13 +317,44 @@
 | Submit button | Submits review to django and appears on phone detail page | Pass |
 | Responsive on all devices | Review page scales down on smaller devices | Pass |
 
-## 6.31
+## 6.31 Admin add phone (S22)
 
 | Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
-|  |  | Pass |
-|  |  | Pass |
-|  |  | Pass |
-|  |  | Pass |
-|  |  | Pass |
-|  |  | Pass |
+| Admin only link | Only admins can access add link in navbar | Pass |
+| Add phone form | Admin can add a phone | Pass |
+| Add phone submit | Adds phone to store page | Pass |
+| User can buy phone | User can add to bag and checkout item | Pass |
+| Responsive on all devices | Admin add phone scales down on smaller devices | Pass |
+
+## 6.32 Admin edit phone
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Admin only link | Only admins can access edit link on phone deatail page | Pass |
+| Edit phone form | Admin can edit a phone | Pass |
+| Edit phone submit | Updates info phone to store page | Pass |
+| Responsive on all devices | Admin edit phone scales down on smaller devices | Pass |
+
+## 6.33 Admin remove phone
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Admin only link | Only admins can access remove link on phone deatail page | Pass |
+| Admin clicks remove link | Removes phone from the database and store page | Pass |
+
+## 6.34 Admin remove review
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Admin only link | Only admins can access remove link on phone deatail page | Pass |
+| Admin clicks remove link | Removes review from the database and page | Pass |
+
+## 6.35 Emails
+
+<!-- =========================== -->
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+|  |  |  |
+|  |  |  |
+<!-- =========================== -->
