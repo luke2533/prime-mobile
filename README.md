@@ -1294,11 +1294,18 @@ Additions:
 - Mockup PDF
 - Updated 2.5 README Mockups
 
-### 6.110
+### 6.110 Testing.md updated 5.1 to 5.6
 
 [Go to Table Contents](#toc)
 
 Additions:
+
+- Testing.md 5.1 known bugs added
+- Testing.md 5.2 code validation added
+- Testing.md 5.3 navbar added
+- Testing.md 5.4 log in added
+- Testing.md 5.5 sign up added
+- Testing.md 5.6 sign out added
 
 ## 7.0 Deployment
 
