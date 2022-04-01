@@ -1372,6 +1372,17 @@ Additions:
 - Testing.md 5.2 Updated
 - All python files up to PEP8 validation
 
+### 6.118 Code validation complete and ready for deployment
+
+Additions:
+
+- All HTML files clear of errors
+- All CSS files clear of errors
+- All JS files clear of errors
+- Testing.md 5.2 Updated
+- Installed dj_database_url
+- Installed psycopg2-binary
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)

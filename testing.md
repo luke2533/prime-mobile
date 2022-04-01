@@ -13,9 +13,9 @@
 
 | Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
-| HTML W3C validator | All pages pass the validator |  |
-| CSS W3C validator | All pages pass the validator |  |
-| JS JSHint validator | All pages pass the validator |  | 
+| HTML W3C validator | All pages pass the validator | Pass |
+| CSS W3C validator | All pages pass the validator | Pass |
+| JS JSHint validator | All pages pass the validator | Pass | 
 | PEP8 | prime_mobile files pass PEP8 | Pass |
 | PEP8 | home files pass PEP8 | Pass |
 | PEP8 | bag files pass PEP8 | Pass |

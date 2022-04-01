@@ -60,9 +60,8 @@
 
         $(".update-item").click(function(e){
             var form = $(this).prev(".update-form");
-            console.log(form)
             form.submit();
-        })
+        });
         // Updates phone quantity 
 
         $(".delete-item").click(function(e) {
@@ -75,7 +74,7 @@
                 .done(function() {
                     location.reload();
             });
-        })
+        });
         // Deletes phone from bag
         // Used form django mini project
     </script>

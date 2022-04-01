@@ -535,7 +535,6 @@ h1, h2 {
 
 .checkout-complete {
     display: flex;
-    justify-content: baseline;
     margin-top: 20px;
 }
 .total-charge {
@@ -606,7 +605,6 @@ h1, h2 {
     justify-content: center;
     background-color: #04162e;
     border-radius: 0px 0px 18px 18px;
-    border: black 1px 1px 0px 1px solid;
     padding: 15px;
 }
 .success-total-title {
@@ -695,7 +693,6 @@ h1, h2 {
     justify-content: center;
     background-color: #04162e;
     border-radius: 0px 0px 18px 18px;
-    border: black 1px 1px 0px 1px solid;
     padding: 15px;
 }
 
