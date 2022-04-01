@@ -264,6 +264,88 @@ Sign up wireframes
 
 [Go to Table Contents](#toc)
 
+[Mockups pdf](static/mockups/primemobile-mockups.pdf)
+
+Home mockups
+
+![Home mobile](static/mockups/home-desktop.png)
+
+![Home tablet](static/mockups/home-tablet.png)
+
+![Home desktop](static/mockups/home-mobile.png)
+
+Store mockups 
+
+![Store mobile](static/mockups/store-desktop.png)
+
+![Store tablet](static/mockups/store-tablet.png)
+
+![Store desktop](static/mockups/store-mobile.png)
+
+Phone details mockups
+
+![Phone details mobile](static/mockups/phone-desktop.png)
+
+![Phone details tablet](static/mockups/phone-tablet.jpg)
+
+![Phone details desktop](static/mockups/phone-mobile.jpg)
+
+Bag mockups
+
+![Bag mobile](static/mockups/bag-desktop.png)
+
+![Bag tablet](static/mockups/bag-tablet.png)
+
+![Bag desktop](static/mockups/bag-mobile.jpg)
+
+Checkout mockups
+
+![Checkout mobile](static/mockups/checkout-desktop.png)
+
+![Checkout tablet](static/mockups/checkout-tablet.png)
+
+![Checkout desktop](static/mockups/checkout-mobile.png)
+
+Profile mockups
+
+![Profile mobile](static/mockups/profile-desktop.jpg)
+
+![Profile tablet](static/mockups/profile-tablet.png)
+
+![Profile desktop](static/mockups/profile-mobile.png)
+
+Review mockups
+
+![Review mobile](static/mockups/review-desktop.png)
+
+![Review tablet](static/mockups/review-tablet.png)
+
+![Review desktop](static/mockups/review-mobile.png)
+
+Admin mockups
+
+![Admin mobile](static/mockups/admin-desktop.png)
+
+![Admin tablet](static/mockups/admin-tablet.png)
+
+![Admin desktop](static/mockups/admin-mobile.png)
+
+Log in mockups
+
+![Log in mobile](static/mockups/login-desktop.png)
+
+![Log in tablet](static/mockups/login-tablet.png)
+
+![Log in desktop](static/mockups/login-mobile.png)
+
+Sign up mockups
+
+![Sign up mobile](static/mockups/signup-desktop.png)
+
+![Sign up tablet](static/mockups/signup-tablet.png)
+
+![Sign up desktop](static/mockups/signup-mobile.png)
+
 ## 3.0 Features
 
 [Go to Table Contents](#toc)
@@ -1202,6 +1284,21 @@ Additions:
 - Wireframe images
 - Wireframe PDF
 - Updated 2.4 README Wireframes
+
+### 6.109 Updated 2.5 README Mockups, images and pdf
+
+Additions:
+
+- Mockup file
+- Mockup images
+- Mockup PDF
+- Updated 2.5 README Mockups
+
+### 6.110
+
+[Go to Table Contents](#toc)
+
+Additions:
 
 ## 7.0 Deployment
 
