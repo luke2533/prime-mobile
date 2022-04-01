@@ -226,7 +226,55 @@
 | Delivery total | If total cost is over £799.99 it will be free otherwise it is 2% of total | Pass |
 | Checkout button | Links user to checkout with bag items | Pass |
 
-## 6.22
+## 6.22 Checkout bag overview
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Phone image | Displays phone images in checkout bag | Pass |
+| Phone info | Displays phone infomation in checkout bag | Pass |
+| Responsive on all devices | Checkout info scales down on smaller devices | Pass |
+
+## 6.23 Checkout total
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Bag total | Total cost of all bag items dispalys | Pass |
+| Delivery total | If total cost is over £799.99 it will be free otherwise it is 2% of total | Pass |
+| Grand total | Total bag cost and delivery cost added together | Pass |
+| Responsive on all devices | Checkout total scales down on smaller devices | Pass |
+
+## 6.24 Checkout form
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Checkout form | Users can enter their checkout informtaion | Pass |
+| Checkout form emtpy field | Empty required fields please fill in this field pop up | Pass |
+| Save info | Users who are signed in can tick the box for pre-filled checkout next time | Pass |
+| Stripe input | Secure way for users to enter their card details | Pass |
+| Card declined error message | If the users card is inccorect or lacks funds an error informs user of issue | Pass |
+| Stripe verifcation | If card requries verification a stripe pop comes up asking for verification | Pass |
+| Total charge | Final total charge | Pass |
+| Complete order button | When click order is processed | Pass |
+| Responsive on all devices | Checkout form scales down on smaller devices | Pass |
+
+## 6.25 Checkout success
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Order information | Order number and order date | Pass |
+| Delivery details | Users delivery info | Pass |
+| Responsive on all devices | Checkout success scales down on smaller devices | Pass |
+
+## 6.26 Checkout success table
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Order items | Order items info name, color, sotrage, quantity and cost | Pass |
+| Order total | Total, delivery and grand total | Pass |
+| Scroll bar on smaller devices | Order number and table scroll bar on mobile phones | Pass |
+| Responsive on all devices | Checkout success table scales down on smaller devices | Pass |
+
+## 6.27
 
 | Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |

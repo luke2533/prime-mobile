@@ -1337,6 +1337,16 @@ Additions:
 - Testing.md 5.20 update phone from bag added
 - Testing.md 5.21 bag total added
 
+### 6.114 Testing.md updated 5.22 to 5.26
+
+Additions:
+
+- Testing.md 5.22 checkout bag overview added
+- Testing.md 5.23 checkout total added
+- Testing.md 5.24 checkout form added
+- Testing.md 5.25 checkout success added
+- Testing.md 5.26 checkout success table added
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
