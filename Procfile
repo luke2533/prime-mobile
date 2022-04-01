@@ -1,0 +1,1 @@
+web: gunicorn prime-mobile.wsgi:application

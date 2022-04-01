@@ -1382,6 +1382,15 @@ Additions:
 - Testing.md 5.2 Updated
 - Installed dj_database_url
 - Installed psycopg2-binary
+- Updated requirements file
+
+### 6.119 Deployment to heroku
+
+Additions:
+
+- Installed gunicorn
+- Updated requirements file
+- Created Procfile
 
 ## 7.0 Deployment
 
