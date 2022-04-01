@@ -180,11 +180,56 @@
 | Add to basket button | Add's phone with selected options to bag | Pass |
 | Responsive on all devices | Spec picker scales down on smaller devices | Pass |
 
-## 6.17
+## 6.17 Phone review section
 
 | Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
-|  |  |  |
+| Shows phone specific reviews | Displays phone specific reviews | Pass |
+| Rating and user | Displays user's name and number rating | Pass |
+| Review title | Displays review title | Pass |
+| Star rating | Displays star rating | Pass |
+| Review body | Displays review body if review to long scrollbar shows whole review | Pass |
+| Review link | Links user's to review page | Pass |
+| Scrollbar if reviews take to much space | If there are more then 6 reviews a scrollbar will allow user to see the rest | Pass |
+| Responsive on all devices | Review section scales down on smaller devices | Pass |
+
+## 6.18 Bag page + phone info
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Bag total link empty | Nav bag link has value of £0 and links to bag | Pass |
+| Bag total link full | Nav bag link has value fo more then £0 and links to bag | Pass |
+| Bag empty | If the user clicks the bag link with nothing in their bag a emtpy bag message appears | Pass |
+| Phone image | Bag items images appears | Pass |
+| Phone info | Bag items information name, storage, quantity and price displays  | Pass |
+| Delivery message | Informs user purchases over £799.99 have free delivery | Pass |
+| Responsive on all devices | Bag page scales down on smaller devices | Pass |
+
+## 6.19 Delete phone from bag
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Delete button | When clicked the bag item is removed | Pass |
+
+## 6.20 Update phone from bag
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Update button | When clicked the bag items quantity changes | Pass |
+| Change quantity input | The user can choose to change quantity from 1 to 5 | Pass |
+
+## 6.21 Bag total
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Bag total | Total cost of all bag items dispalys | Pass |
+| Delivery total | If total cost is over £799.99 it will be free otherwise it is 2% of total | Pass |
+| Checkout button | Links user to checkout with bag items | Pass |
+
+## 6.22
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
 |  |  |  |
 |  |  |  |
 |  |  |  |

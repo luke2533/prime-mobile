@@ -1327,6 +1327,16 @@ Additions:
 - Testing.md 5.15 spec overview added
 - Testing.md 5.16 Spec picker / Color / Storage / Price / Quantity added
 
+### 6.113 Testing.md updated 5.17 to 5.21
+
+Additions:
+
+- Testing.md 5.17 phone review section added
+- Testing.md 5.18 bag page + phone info added
+- Testing.md 5.19 delete phone from bag added
+- Testing.md 5.20 update phone from bag added
+- Testing.md 5.21 bag total added
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
