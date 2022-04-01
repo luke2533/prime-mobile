@@ -1347,6 +1347,16 @@ Additions:
 - Testing.md 5.25 checkout success added
 - Testing.md 5.26 checkout success table added
 
+### 6.115 Testing.md updated 5.29 to 5.30
+
+Additions:
+
+- Testing.md 5.27 profile page added
+- Testing.md 5.28 order history added
+- Testing.md 5.29 order number receipt page added
+- Testing.md 5.30 review page / form added
+
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)

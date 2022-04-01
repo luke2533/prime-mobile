@@ -274,10 +274,56 @@
 | Scroll bar on smaller devices | Order number and table scroll bar on mobile phones | Pass |
 | Responsive on all devices | Checkout success table scales down on smaller devices | Pass |
 
-## 6.27
+## 6.27 Profile page
 
 | Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Set default delivery info collapse button | When clicked the delivery info form opens | Pass |
+| Set default delivery info form | Users can enter their set their delivery info for faster checkout | Pass |
+| Empty required field | Please fill in this field pop up | Pass |
+| Set default delivery info submit | Submits user info to django | Pass |
+| Responsive on all devices | Profile delviery form scales down on smaller devices | Pass |
+
+## 6.28 Order history
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Order details | Order number and date | Pass |
+| Link to order receipt | Order number links user to order success page | Pass |
+| Order items | Order table with all items and specs | Pass |
+| Order total | Total, delivery and grand total cost | Pass |
+| Responsive on all devices | Profile order history scales down on smaller devices | Pass |
+
+## 6.29 Order number receipt page
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Order items | Order items info name, color, sotrage, quantity and cost | Pass |
+| Order total | Total, delivery and grand total | Pass |
+| Scroll bar on smaller devices | Order number and table scroll bar on mobile phones | Pass |
+| Back to profile link | Links user back to profile page | Pass |
+| Responsive on all devices | Order receipt page scales down on smaller devices | Pass |
+
+## 6.30 Review page / form
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Phone name | Correct phone name displays | Pass |
+| Phone overall rating | Phone's overall rating displays | Pass |
+| Phone image | Image of phone displays | Pass |
+| Star rating | User can pick from 5 stars affecting overall score | Pass |
+| Review title | User can enter a review title | Pass |
+| Review body | User can enter their review | Pass |
+| Submit button | Submits review to django and appears on phone detail page | Pass |
+| Responsive on all devices | Review page scales down on smaller devices | Pass |
+
+## 6.31
+
+| Test  | Expected result | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+|  |  | Pass |
+|  |  | Pass |
+|  |  | Pass |
+|  |  | Pass |
+|  |  | Pass |
+|  |  | Pass |
