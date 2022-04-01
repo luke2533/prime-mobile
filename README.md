@@ -1307,6 +1307,17 @@ Additions:
 - Testing.md 5.5 sign up added
 - Testing.md 5.6 sign out added
 
+### 6.111 Testing.md updated 5.7 to 5.11
+
+Additions:
+
+- Testing.md 5.7 verify account added
+- Testing.md 5.8 footer added
+- Testing.md 5.9 home added
+- Testing.md 5.10 filters added
+- Testing.md 5.11 search bar added
+
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)

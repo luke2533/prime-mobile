@@ -75,15 +75,52 @@
 
 | Known bugs  | Issue | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Sends verifcation email to user | Sends email to the users email to confirm its correct | Pass |
+<!-- ===================================================================== -->
+| Email has link which verifies account | Verifies account email | Fail |
+<!-- ===================================================================== -->
+| Verify responsive on all devices | Verify is responsive on all devices | Pass |
 
 ## 5.8 Footer
 
+| Known bugs  | Issue | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Facebook link | Links user to facebook in a new tab | Pass |
+| YouTube link | Links user to youtube in a new tab | Pass |
+| Twitter link | Links user to twitter in a new tab | Pass |
+| Instagram link | Links user to instagram in a new tab | Pass |
+| Home link | Links user to home in a new tab | Pass |
+| Profile link | Links user to profile in a new tab | Pass |
+| Shop link | Links user to shop in a new tab | Pass |
+| Bag link | Links user to bag in a new tab | Pass |
+| Footer responsive on all devices | Footer is responsive on all devices | Pass |
+
 ## 5.9 Home
+
+| Known bugs  | Issue | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Shop now link | Links user to store page | Pass |
+| Home responsive on all devices | Home is responsive on all devices | Pass |
 
 ## 5.10 Filters
 
-##
+| Known bugs  | Issue | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| High / Low ratings navbar | Links to store page with ratings high to low | Pass |
+| Low / High ratings navbar | Links to store page with ratings low to high | Pass |
+| High / Low price navbar | Links to store page with prices high to low | Pass |
+| Low / High price navbar | Links to store page with prices low to high | Pass |
+| High / Low ratings store dropdown | Reorders ratings high to low | Pass |
+| Low / High ratings store dropdown | Reorders ratings low to high | Pass |
+| High / Low price store dropdown | Reorders prices high to low | Pass |
+| Low / High price store dropdown | Reorders prices low to high | Pass |
+
+## 6.11 Search bar
+
+| Known bugs  | Issue | Pass/Fail |
+| --------------- | ------------------------------------------------------------------------- | --------- |
+| Search for iPhone | Filters down to phones to iPhones | Pass |
+| Search galaxy | Filters phones that match galaxy keywords | Pass |
+| Search 5G | Filters phones that match 5G | Pass |
+| Search icon button | When clicked filter phones by the keywords | Pass |
+| Press enter to search | When clicked filter phones by the keywords | Pass |
