@@ -5,9 +5,9 @@
 | Known bugs  | Issue |
 | --------------- | ------------------------------------------------------------------------- |
 | Adding the same phone with diffrent specifcations | Causes it to default to first specs of the phone in bag |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Show's same order twice | New accounts first order shows twice |
+|  |  |
+|  |  |
 
 ## 5.2 Code validation
 

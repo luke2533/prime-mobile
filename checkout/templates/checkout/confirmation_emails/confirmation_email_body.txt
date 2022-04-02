@@ -1,6 +1,6 @@
 Hello {{ order.full_name }}
 
-Thank you for choosing Prime Mobile,
+Thank you for choosing PrimeMobile,
 
 Here's a summary of your order.
 
@@ -19,4 +19,4 @@ If you need to contact us please feel free to contact us at {{ contact_email }}
 
 Thank you for your order!
 
-Prime Mobile.
+PrimeMobile.

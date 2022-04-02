@@ -1,1 +1,1 @@
-Prime Mobile Confirmation for Order Number {{ order.order_number }}
+PrimeMobile Confirmation for Order Number {{ order.order_number }}

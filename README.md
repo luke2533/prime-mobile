@@ -1394,6 +1394,8 @@ Additions:
 
 ### 6.120 Removed secret key and changed debug mode
 
+[Go to Table Contents](#toc)
+
 Additions:
 
 - Removed secret key
@@ -1426,6 +1428,14 @@ Additions:
 Additions:
 
 - Set up emails
+
+### 6.125 Emails working correctly and updates to allauth emails
+
+Additions:
+
+- Emails working correctly
+- Updates to allauth email subject
+- Updates to allauth email body
 
 ## 7.0 Deployment
 
