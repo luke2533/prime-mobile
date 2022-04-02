@@ -48,6 +48,8 @@ PrimeMobile is an online phone provider offering a wide range of mobiles from bu
         + [6.80 Reviews display on correct phone page](#680-reviews-display-on-correct-phone-page)
         + [6.90 Phone details page fully responsive on all devices and small changes to add to bag form design](#690-phone-details-page-fully-responsive-on-all-devices-and-small-changes-to-add-to-bag-form-design)
         + [6.100 Store / phone detail page shows overall rating but score accounts for all reviews giving every phone the same score](#6100-store---phone-detail-page-shows-overall-rating-but-score-accounts-for-all-reviews-giving-every-phone-the-same-score)
+        + [6.110 Testing.md updated 5.1 to 5.6](#6110-testingmd-updated-51-to-56)
+        + [6.120 Removed secret key and changed debug mode](#6120-removed-secret-key-and-changed-debug-mode)
     * [7.0 Deployment](#70-deployment)
         + [7.1 Local deployment](#71-local-deployment)
         + [7.2 Heroku deployment](#72-heroku-deployment)
@@ -1445,6 +1447,14 @@ Additions:
 - Added README 7.1 Local deployment
 - Added README 7.2 Heroku deployment
 
+### 1.27 Project submission and updated README
+
+Additions:
+
+- Updates to README 8.1 Content
+- Updated README TOC
+- Project submission
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
@@ -1483,15 +1493,15 @@ To devlop this project these steps where taken:
 ### 8.1 Content
 
 - Icons - [Font Awesome](https://fontawesome.com/)
-- Webhook handlers - Django mini project
-- Webhooks - Django mini project
-- Store page divisble rows - Django mini project
-- Save info - Django mini project
-- Order history - Django mini project
-- Set default information - Django mini project
-- Navbar tablet structure - Django mini project
-- Bag total nav - Django mini project
-- Search bar and results - Django mini project
+- Webhook handlers - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Webhooks - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Store page divisble rows - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Save info - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Order history - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Set default information - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Navbar tablet structure - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Bag total nav - [Django mini project](https://github.com/luke2533/Django-mini-project)
+- Search bar and results - [Django mini project](https://github.com/luke2533/Django-mini-project)
 
 ### 8.2 Code
 
