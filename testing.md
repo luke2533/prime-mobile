@@ -82,9 +82,7 @@
 | Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
 | Sends verifcation email to user | Sends email to the users email to confirm its correct | Pass |
-<!-- ===================================================================== -->
-| Email has link which verifies account | Verifies account email | Fail |
-<!-- ===================================================================== -->
+| Email has link which verifies account | Verifies account email | Pass |
 | Verify responsive on all devices | Verify is responsive on all devices | Pass |
 
 ## 5.8 Footer
@@ -358,9 +356,10 @@
 
 ## 6.35 Emails
 
-<!-- =========================== -->
 | Test  | Expected result | Pass/Fail |
 | --------------- | ------------------------------------------------------------------------- | --------- |
-|  |  |  |
-|  |  |  |
-<!-- =========================== -->
+| User signs up | Verification email sends to the email they entered | Pass |
+| Verfication link | Verifies user and takes them back to PrimeMobile | Pass |
+| Forgot password | Sends user change password email | Pass |
+| Forgot password link | Updates user's password | Pass |
+| User buys phone | Sends confirmation email | Pass |

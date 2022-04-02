@@ -1437,13 +1437,44 @@ Additions:
 - Updates to allauth email subject
 - Updates to allauth email body
 
+### 6.126 Updates to README 7.0 Deployment and testing.md 5.35
+
+Additions:
+
+- Testing.md 5.35 Emails added
+- Added README 7.1 Local deployment
+- Added README 7.2 Heroku deployment
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
 
 ### 7.1 Local deployment
 
+This project was developed on GitPod.
+
+To devlop this project these steps where taken:
+
+1. Create a new repository on GitHub
+2. Click "GitPod" button on GitHub to create the work enviroment
+3. Using GitPod's terminal entering "python3 manage.py runserver" for local host address
+4. Create and work on files on GitPod
+5. Create .gitignore file to add files that should't be commited to GitHub
+6. Using GitPod's terminal add, commit and push files to GitHub
+
 ### 7.2 Heroku deployment
+
+1. From Heroku's website sign in and click "New", "Create new app"
+2. Enter a app name "prime-mobile" and region then click "Create app"
+3. Go to the settings then scroll to "Reveal Config Vars" and enter the appropriate details (Stripe public, secret, webhook etc.)
+4. To deploy GitHub to Heroku first create a Procfile
+5. Then create a requirments file that contains all of the relevant packages using the command: pip3 freeze --local > requirements.txt
+6. Set up database url using dj_database_url
+7. Set debug to False in settings file
+8. Remove DISABLE_COLLECTSTATIC
+9. Go to the Deploy tab to search and connect the GitHub repository to Heroku
+10. Enable Automatic Deploys for automatic updates when code is commited to GitHub, select the branch and deploy to Heroku
+11. Set up AWS bucket for static files 
 
 ## 8.0 Credits
 
