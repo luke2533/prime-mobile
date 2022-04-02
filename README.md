@@ -1399,6 +1399,16 @@ Additions:
 - Removed secret key
 - Changed debug mode
 
+### 6.121 Setting up AWS static files to heroku and created custom_storages.py
+
+Additions:
+
+- Installed boto3
+- Installed django-storages
+- Updated requirements file
+- Created custom_storages.py
+- Setting up AWS static files to heroku
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
