@@ -1421,6 +1421,12 @@ Additions:
 
 - Changes to setting file
 
+### 6.124 Set up emails for verification and order confirmation
+
+Additions:
+
+- Set up emails
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
