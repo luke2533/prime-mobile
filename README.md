@@ -1392,6 +1392,13 @@ Additions:
 - Updated requirements file
 - Created Procfile
 
+### 6.120 Removed secret key and changed debug mode
+
+Additions:
+
+- Removed secret key
+- Changed debug mode
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
