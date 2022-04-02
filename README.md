@@ -1409,6 +1409,12 @@ Additions:
 - Created custom_storages.py
 - Setting up AWS static files to heroku
 
+### 6.122 Profile quick fix
+
+Additions:
+
+- Profile quick fix
+
 ## 7.0 Deployment
 
 [Go to Table Contents](#toc)
